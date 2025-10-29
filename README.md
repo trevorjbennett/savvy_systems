@@ -1,73 +1,107 @@
-# React + TypeScript + Vite
+# SAVVY
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern, governance-first package manager GUI for Windows that unifies Chocolatey and WinGet.
 
-Currently, two official plugins are available:
+## Editions
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+This repository maintains two editions of SAVVY:
 
-## React Compiler
+- **[Community Edition](../../tree/community)** - Free and open source
+- **[Enterprise Edition](../../tree/enterprise)** - Commercial version with governance features
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+See [BRANCHES.md](BRANCHES.md) for details on our branch strategy.
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+## Community Edition (FREE)
 
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+A beautiful, Swiss minimal design package manager for Windows.
 
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
+### Features
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+- 🔍 **Unified Package Management** - Browse and manage both Chocolatey and WinGet packages in one interface
+- 📦 **Collections** - Group your favorite packages into shareable collections
+- 👤 **Personas** - Switch between different user profiles (work, personal, client setups)
+- 🤝 **Sharing** - Share collections publicly or with specific users
+- ⚡ **Batch Operations** - Install, update, or remove multiple packages at once
+- 🔔 **Update Notifications** - Get notified when package updates are available
+- 🔗 **Dependencies** - View package dependencies and relationships
+- 💾 **Local Storage** - All data stored locally, no backend required
+- 🎨 **Swiss Minimal Design** - Clean, professional interface
+
+### Tech Stack
+
+- **Frontend:** React 19 + TypeScript + Vite
+- **Desktop:** Tauri v2 (Rust-based)
+- **Styling:** CSS with custom properties (dark mode support)
+- **Storage:** LocalStorage (no backend required)
+
+### Getting Started
+
+```bash
+# Install dependencies
+npm install
+
+# Run development server
+npm run dev
+
+# Build for production
+npm run build
+
+# Build desktop app
+npm run tauri build
 ```
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+### Development
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
-
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+```bash
+# Run both Vite dev server and Tauri in dev mode
+npm run tauri dev
 ```
+
+---
+
+## Enterprise Edition (PAID)
+
+All Community features plus governance, RBAC, and cloud sync.
+
+### Additional Features
+
+- ☁️ **Cloud Sync** - Firebase-powered real-time synchronization
+- 👥 **User Roles** - Owner, Admin, Operator, and Viewer roles
+- ✅ **Approval Workflows** - Request-to-install with admin approval
+- 📋 **Policy Engine** - Allow/deny lists and version constraints
+- ⚙️ **Admin Panel** - Centralized user, policy, and audit management
+- 📊 **Audit Logging** - Complete activity trails for compliance
+- 🏢 **Organization Management** - Multi-user team collaboration
+- 📈 **Compliance Reports** - Export audit logs and activity reports
+- 🎯 **Priority Support** - Email support with SLA
+
+### Pricing
+
+- **Team:** $50-100/user/year (5-50 users)
+- **Enterprise:** Custom pricing (50+ users)
+
+[Learn more about Enterprise →](https://savvy.app/enterprise)
+
+---
+
+## Documentation
+
+- [Branch Strategy](BRANCHES.md)
+- [Contributing](CONTRIBUTING.md) *(coming soon)*
+- [User Guide](docs/USER_GUIDE.md) *(coming soon)*
+
+## License
+
+- **Community Edition:** MIT License (Open Source)
+- **Enterprise Edition:** Proprietary
+
+## Support
+
+- **Community:** [GitHub Issues](../../issues)
+- **Enterprise:** Priority email support
+
+---
+
+**Built with ❤️ for the Windows developer community**
