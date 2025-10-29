@@ -1,6 +1,10 @@
 # Community Intelligence Engine (CIE)
 
+**Standalone Service for SAVVY Package Manager**
+
 A privacy-first, community-powered intelligence system that collects anonymous usage data and builds a centralized knowledge base for package errors, failures, and solutions.
+
+> **Note:** This branch contains ONLY the CIE service (backend + SDK). The SAVVY desktop app (Community & Enterprise editions) will integrate the SDK as a dependency.
 
 ## 🎯 Project Goal
 
@@ -44,27 +48,59 @@ Leverage collective, anonymous insights from the SAVVY user community to:
 ## 📁 Project Structure
 
 ```
-cie/
-├── docs/                   # Documentation
-│   ├── ROADMAP.md         # Development roadmap
-│   ├── ARCHITECTURE.md    # Technical architecture
-│   ├── PRIVACY.md         # Privacy policy
-│   └── API.md             # API documentation
-├── client/                # Client-side SDK (embedded in SAVVY)
-│   ├── src/
-│   │   ├── collector.ts   # Event collection
-│   │   ├── anonymizer.ts  # Data anonymization
-│   │   ├── batcher.ts     # Local batching
-│   │   └── api.ts         # API client
-│   ├── types/
-│   └── package.json
-└── server/                # Backend service
-    ├── api/               # REST API (FastAPI)
-    ├── processing/        # Data processing pipeline
-    ├── models/            # Database models
-    ├── ml/                # ML models (future)
-    └── requirements.txt
+feature/community-intelligence-engine/  (This Branch)
+│
+├── cie/
+│   ├── docs/                   # Documentation
+│   │   ├── ROADMAP.md         # Development roadmap
+│   │   ├── ARCHITECTURE.md    # Technical architecture
+│   │   ├── PRIVACY.md         # Privacy policy
+│   │   └── INTEGRATION.md     # How to integrate into SAVVY
+│   │
+│   ├── sdk/                   # Client SDK (npm package)
+│   │   ├── src/
+│   │   │   ├── collector.ts   # Event collection
+│   │   │   ├── anonymizer.ts  # Data anonymization
+│   │   │   ├── batcher.ts     # Local batching
+│   │   │   ├── api.ts         # API client
+│   │   │   └── index.ts       # Main export
+│   │   ├── types/
+│   │   ├── package.json       # @savvy/cie-sdk
+│   │   └── README.md
+│   │
+│   └── server/                # Backend service (Cloud deployment)
+│       ├── api/               # REST API (FastAPI)
+│       ├── processing/        # Data processing pipeline
+│       ├── models/            # Database models
+│       ├── ml/                # ML models (future)
+│       ├── Dockerfile
+│       ├── requirements.txt
+│       └── README.md
+│
+└── README.md (This file)
 ```
+
+## 🔗 How This Integrates with SAVVY
+
+### For Community Edition (`community` branch):
+```bash
+# In SAVVY Community edition
+cd savvy
+npm install @savvy/cie-sdk
+
+# Then in your code:
+import { CIEClient } from '@savvy/cie-sdk';
+```
+
+### For Enterprise Edition (`enterprise` branch):
+```bash
+# Same as Community - both use the same SDK
+npm install @savvy/cie-sdk
+```
+
+**Key Point:** Both editions install the same SDK. The only difference is:
+- **Community:** Telemetry opt-in (disabled by default)
+- **Enterprise:** Telemetry opt-out (enabled by default, can be disabled)
 
 ## 🔐 Privacy Principles
 
