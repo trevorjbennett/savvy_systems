@@ -158,7 +158,10 @@ function App() {
       <header className="app-header">
         <div className="header-content">
           <div className="logo-section" onClick={handleGoHome} style={{ cursor: 'pointer' }}>
-            <h1 className="app-title">SAVVY</h1>
+            <h1 className="app-title">
+              SAVVY
+              <span className="edition-badge">Community</span>
+            </h1>
             <span className="app-subtitle">Package Manager</span>
           </div>
           <div className="header-actions">
