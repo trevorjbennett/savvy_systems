@@ -1,0 +1,230 @@
+.package-list {
+  animation: fadeIn 0.5s ease-out;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.results-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 2rem;
+  padding-bottom: 1rem;
+  border-bottom: 1px solid #e0e0e0;
+}
+
+.results-count {
+  font-size: 0.75rem;
+  font-weight: 400;
+  color: #666666;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+}
+
+/* Batch Operations */
+.batch-controls {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+}
+
+.batch-toggle-btn {
+  font-family: 'Helvetica Neue', Arial, sans-serif;
+  font-size: 0.75rem;
+  font-weight: 400;
+  padding: 0.5rem 1rem;
+  background: transparent;
+  border: 1px solid #000000;
+  color: #000000;
+  cursor: pointer;
+  transition: all 0.2s;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.batch-toggle-btn svg {
+  width: 14px;
+  height: 14px;
+}
+
+.batch-toggle-btn:hover {
+  background: #000000;
+  color: #ffffff;
+}
+
+.batch-selection-count {
+  font-family: 'Helvetica Neue', Arial, sans-serif;
+  font-size: 0.75rem;
+  font-weight: 600;
+  color: #000000;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+.batch-action-btn {
+  font-family: 'Helvetica Neue', Arial, sans-serif;
+  font-size: 0.7rem;
+  font-weight: 400;
+  padding: 0.4rem 0.75rem;
+  background: transparent;
+  border: 1px solid #e0e0e0;
+  color: #666666;
+  cursor: pointer;
+  transition: all 0.2s;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  border-radius: 6px;
+}
+
+.batch-action-btn:hover {
+  border-color: #000000;
+  color: #000000;
+}
+
+.batch-action-btn.batch-install:hover {
+  background: #000000;
+  border-color: #000000;
+  color: #ffffff;
+}
+
+.batch-action-btn.batch-update:hover {
+  background: #000000;
+  border-color: #000000;
+  color: #ffffff;
+}
+
+.batch-action-btn.batch-uninstall:hover {
+  background: #e81123;
+  border-color: #e81123;
+  color: #ffffff;
+}
+
+.package-item-wrapper {
+  position: relative;
+}
+
+.package-grid.batch-mode .package-item-wrapper {
+  display: flex;
+  align-items: flex-start;
+  gap: 1rem;
+}
+
+.package-checkbox-wrapper {
+  padding-top: 1.5rem;
+}
+
+.package-checkbox {
+  width: 20px;
+  height: 20px;
+  cursor: pointer;
+  border: 2px solid #000000;
+}
+
+.package-grid {
+  display: grid;
+  gap: 0;
+}
+
+.no-results {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 6rem 2rem;
+  text-align: center;
+  animation: fadeIn 0.5s ease-out;
+}
+
+.no-results-icon {
+  width: 48px;
+  height: 48px;
+  color: #cccccc;
+  margin-bottom: 1.5rem;
+}
+
+.no-results-title {
+  font-size: 1rem;
+  font-weight: 400;
+  color: #000000;
+  margin-bottom: 0.5rem;
+  letter-spacing: 0.05em;
+}
+
+.no-results-text {
+  font-size: 0.75rem;
+  color: #999999;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+}
+
+/* Dark Mode */
+.dark-mode .results-header {
+  border-bottom-color: #333333;
+}
+
+.dark-mode .results-count {
+  color: #999999;
+}
+
+.dark-mode .no-results-icon {
+  color: #333333;
+}
+
+.dark-mode .no-results-title {
+  color: #ffffff;
+}
+
+.dark-mode .no-results-text {
+  color: #666666;
+}
+
+.dark-mode .batch-toggle-btn {
+  border-color: #ffffff;
+  color: #ffffff;
+}
+
+.dark-mode .batch-toggle-btn:hover {
+  background: #ffffff;
+  color: #000000;
+}
+
+.dark-mode .batch-selection-count {
+  color: #ffffff;
+}
+
+.dark-mode .batch-action-btn {
+  border-color: #333333;
+  color: #999999;
+}
+
+.dark-mode .batch-action-btn:hover {
+  border-color: #ffffff;
+  color: #ffffff;
+}
+
+.dark-mode .batch-action-btn.batch-install:hover {
+  background: #ffffff;
+  border-color: #ffffff;
+  color: #000000;
+}
+
+.dark-mode .batch-action-btn.batch-update:hover {
+  background: #ffffff;
+  border-color: #ffffff;
+  color: #000000;
+}
+
+.dark-mode .package-checkbox {
+  border-color: #ffffff;
+}

@@ -1,0 +1,71 @@
+.search-bar {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  background: #ffffff;
+  border-radius: 12px;
+  padding: 1.25rem 1.5rem;
+  border: 1px solid #e0e0e0;
+  transition: all 0.2s ease;
+  width: 100%;
+}
+
+.search-bar.focused {
+  border-color: #000000;
+}
+
+.search-icon {
+  width: 20px;
+  height: 20px;
+  color: #999999;
+  flex-shrink: 0;
+  transition: color 0.2s;
+}
+
+.search-bar.focused .search-icon {
+  color: #000000;
+}
+
+.search-input {
+  flex: 1;
+  border: none;
+  outline: none;
+  font-size: 1rem;
+  color: #000000;
+  background: transparent;
+  font-weight: 300;
+  letter-spacing: 0.02em;
+  font-family: -apple-system, BlinkMacSystemFont, 'Helvetica Neue', 'Arial', sans-serif;
+}
+
+.search-input::placeholder {
+  color: #b0b0b0;
+  font-weight: 300;
+  letter-spacing: 0.02em;
+}
+
+/* Dark Mode */
+.dark-mode .search-bar {
+  background: #000000;
+  border-color: #333333;
+}
+
+.dark-mode .search-bar.focused {
+  border-color: #ffffff;
+}
+
+.dark-mode .search-icon {
+  color: #666666;
+}
+
+.dark-mode .search-bar.focused .search-icon {
+  color: #ffffff;
+}
+
+.dark-mode .search-input {
+  color: #ffffff;
+}
+
+.dark-mode .search-input::placeholder {
+  color: #666666;
+}

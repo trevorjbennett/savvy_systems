@@ -1,0 +1,429 @@
+/* Share Collection Modal */
+.share-modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 2000;
+  animation: fadeIn 0.2s ease-out;
+}
+
+.share-modal {
+  background: #ffffff;
+  border-radius: 12px;
+  width: 90%;
+  max-width: 500px;
+  max-height: 80vh;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.2);
+  animation: slideUp 0.3s ease-out;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes slideUp {
+  from {
+    transform: translateY(20px);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+.share-modal-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1.5rem;
+  border-bottom: 1px solid #e0e0e0;
+}
+
+.share-modal-title {
+  font-family: 'Helvetica Neue', Arial, sans-serif;
+  font-size: 1rem;
+  font-weight: 600;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  color: #000000;
+  margin: 0;
+}
+
+.share-modal-close {
+  width: 32px;
+  height: 32px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: transparent;
+  border: 1px solid #e0e0e0;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: all 0.2s;
+  padding: 0;
+}
+
+.share-modal-close svg {
+  width: 16px;
+  height: 16px;
+  color: #666666;
+}
+
+.share-modal-close:hover {
+  border-color: #000000;
+  background: #000000;
+}
+
+.share-modal-close:hover svg {
+  color: #ffffff;
+}
+
+.share-modal-content {
+  flex: 1;
+  overflow-y: auto;
+  padding: 1.5rem;
+}
+
+.share-collection-info {
+  margin-bottom: 1.5rem;
+  padding: 1rem;
+  background: #f5f5f5;
+  border-radius: 8px;
+}
+
+.share-collection-name {
+  font-family: 'Helvetica Neue', Arial, sans-serif;
+  font-size: 0.875rem;
+  font-weight: 600;
+  color: #000000;
+  margin: 0 0 0.25rem 0;
+}
+
+.share-collection-meta {
+  font-family: 'Helvetica Neue', Arial, sans-serif;
+  font-size: 0.75rem;
+  color: #666666;
+  margin: 0;
+}
+
+.share-search-section {
+  margin-bottom: 1.5rem;
+}
+
+.share-search-label {
+  display: block;
+  font-family: 'Helvetica Neue', Arial, sans-serif;
+  font-size: 0.75rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: #000000;
+  margin-bottom: 0.5rem;
+}
+
+.share-search-input {
+  width: 100%;
+  padding: 0.75rem 1rem;
+  font-family: 'Helvetica Neue', Arial, sans-serif;
+  font-size: 0.875rem;
+  border: 1px solid #e0e0e0;
+  border-radius: 8px;
+  transition: border-color 0.2s;
+  outline: none;
+}
+
+.share-search-input:focus {
+  border-color: #000000;
+}
+
+.share-search-input::placeholder {
+  color: #999999;
+}
+
+.share-persona-list {
+  max-height: 300px;
+  overflow-y: auto;
+  border: 1px solid #e0e0e0;
+  border-radius: 8px;
+}
+
+.share-persona-item {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  padding: 1rem;
+  background: transparent;
+  border: none;
+  border-bottom: 1px solid #f0f0f0;
+  cursor: pointer;
+  transition: all 0.2s;
+  width: 100%;
+  text-align: left;
+}
+
+.share-persona-item:last-child {
+  border-bottom: none;
+}
+
+.share-persona-item:hover {
+  background: #f5f5f5;
+}
+
+.share-persona-item.selected {
+  background: #f5f5f5;
+  border-left: 3px solid #000000;
+}
+
+.share-persona-avatar {
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  overflow: hidden;
+  background: #000000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+}
+
+.share-persona-avatar img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.share-persona-initials {
+  font-family: 'Helvetica Neue', Arial, sans-serif;
+  font-size: 0.75rem;
+  font-weight: 600;
+  color: #ffffff;
+  letter-spacing: 0.05em;
+}
+
+.share-persona-info {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+}
+
+.share-persona-name {
+  font-family: 'Helvetica Neue', Arial, sans-serif;
+  font-size: 0.875rem;
+  font-weight: 600;
+  color: #000000;
+}
+
+.share-persona-email {
+  font-family: 'Helvetica Neue', Arial, sans-serif;
+  font-size: 0.75rem;
+  color: #666666;
+}
+
+.share-persona-check {
+  width: 20px;
+  height: 20px;
+  color: #000000;
+  flex-shrink: 0;
+}
+
+.share-no-results {
+  padding: 2rem;
+  text-align: center;
+}
+
+.share-no-results p {
+  font-family: 'Helvetica Neue', Arial, sans-serif;
+  font-size: 0.875rem;
+  color: #666666;
+  margin: 0;
+}
+
+.share-modal-footer {
+  display: flex;
+  gap: 0.75rem;
+  padding: 1.5rem;
+  border-top: 1px solid #e0e0e0;
+}
+
+.share-modal-btn {
+  flex: 1;
+  font-family: 'Helvetica Neue', Arial, sans-serif;
+  font-size: 0.75rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  padding: 0.75rem 1.5rem;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.2s;
+  border: 1px solid #e0e0e0;
+}
+
+.share-cancel-btn {
+  background: transparent;
+  color: #666666;
+}
+
+.share-cancel-btn:hover {
+  border-color: #000000;
+  color: #000000;
+}
+
+.share-confirm-btn {
+  background: #000000;
+  border-color: #000000;
+  color: #ffffff;
+}
+
+.share-confirm-btn:hover {
+  background: #333333;
+}
+
+.share-confirm-btn:disabled {
+  background: #e0e0e0;
+  border-color: #e0e0e0;
+  color: #999999;
+  cursor: not-allowed;
+}
+
+/* Dark Mode */
+.dark-mode .share-modal {
+  background: #000000;
+}
+
+.dark-mode .share-modal-header {
+  border-bottom-color: #333333;
+}
+
+.dark-mode .share-modal-title {
+  color: #ffffff;
+}
+
+.dark-mode .share-modal-close {
+  border-color: #333333;
+}
+
+.dark-mode .share-modal-close svg {
+  color: #999999;
+}
+
+.dark-mode .share-modal-close:hover {
+  border-color: #ffffff;
+  background: #ffffff;
+}
+
+.dark-mode .share-modal-close:hover svg {
+  color: #000000;
+}
+
+.dark-mode .share-collection-info {
+  background: #1a1a1a;
+}
+
+.dark-mode .share-collection-name {
+  color: #ffffff;
+}
+
+.dark-mode .share-collection-meta {
+  color: #999999;
+}
+
+.dark-mode .share-search-label {
+  color: #ffffff;
+}
+
+.dark-mode .share-search-input {
+  background: #1a1a1a;
+  border-color: #333333;
+  color: #ffffff;
+}
+
+.dark-mode .share-search-input:focus {
+  border-color: #ffffff;
+}
+
+.dark-mode .share-persona-list {
+  border-color: #333333;
+}
+
+.dark-mode .share-persona-item {
+  border-bottom-color: #1a1a1a;
+}
+
+.dark-mode .share-persona-item:hover,
+.dark-mode .share-persona-item.selected {
+  background: #1a1a1a;
+}
+
+.dark-mode .share-persona-item.selected {
+  border-left-color: #ffffff;
+}
+
+.dark-mode .share-persona-avatar {
+  background: #ffffff;
+}
+
+.dark-mode .share-persona-initials {
+  color: #000000;
+}
+
+.dark-mode .share-persona-name {
+  color: #ffffff;
+}
+
+.dark-mode .share-persona-email {
+  color: #999999;
+}
+
+.dark-mode .share-persona-check {
+  color: #ffffff;
+}
+
+.dark-mode .share-no-results p {
+  color: #999999;
+}
+
+.dark-mode .share-modal-footer {
+  border-top-color: #333333;
+}
+
+.dark-mode .share-cancel-btn {
+  border-color: #333333;
+  color: #999999;
+}
+
+.dark-mode .share-cancel-btn:hover {
+  border-color: #ffffff;
+  color: #ffffff;
+}
+
+.dark-mode .share-confirm-btn {
+  background: #ffffff;
+  border-color: #ffffff;
+  color: #000000;
+}
+
+.dark-mode .share-confirm-btn:hover {
+  background: #cccccc;
+}
+
+.dark-mode .share-confirm-btn:disabled {
+  background: #333333;
+  border-color: #333333;
+  color: #666666;
+}
