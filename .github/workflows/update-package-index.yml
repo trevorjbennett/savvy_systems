@@ -50,9 +50,13 @@ jobs:
           PACKAGE_COUNT=$(jq -r '.packageCount' metadata.json)
           COMPRESSED_SIZE=$(jq -r '.compressedSize' metadata.json)
 
+          # Calculate MB size
+          COMPRESSED_SIZE_MB=$(echo "scale=2; $COMPRESSED_SIZE / 1024 / 1024" | bc)
+
           echo "version=${NEW_VERSION}" >> $GITHUB_OUTPUT
           echo "package_count=${PACKAGE_COUNT}" >> $GITHUB_OUTPUT
           echo "compressed_size=${COMPRESSED_SIZE}" >> $GITHUB_OUTPUT
+          echo "compressed_size_mb=${COMPRESSED_SIZE_MB}" >> $GITHUB_OUTPUT
 
           # Check if we should create a release (always true for now)
           echo "should_release=true" >> $GITHUB_OUTPUT
@@ -68,7 +72,7 @@ jobs:
 
             **Generated:** ${{ steps.check-changes.outputs.version }}
             **Packages:** ${{ steps.check-changes.outputs.package_count }}
-            **Compressed Size:** ${{ steps.check-changes.outputs.compressed_size }} bytes (~${{ steps.check-changes.outputs.compressed_size | expr / 1024 / 1024 }} MB)
+            **Compressed Size:** ${{ steps.check-changes.outputs.compressed_size_mb }} MB
 
             ### Files
             - `choco-index.json.gz` - Compressed package index (use this in production)
