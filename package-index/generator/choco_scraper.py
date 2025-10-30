@@ -47,20 +47,23 @@ def get_all_choco_packages():
                 # Debug: print root tag to see what we got
                 if page_count == 1:
                     print(f"\nRoot tag: {root.tag}")
-                    print(f"Root attributes: {root.attrib}")
-                    # Print first few children
-                    for i, child in enumerate(list(root)[:3]):
-                        print(f"Child {i}: {child.tag}")
+                    print(f"Number of direct children: {len(list(root))}")
+                    # Count how many are entry elements
+                    entry_count = len([c for c in root if 'entry' in c.tag.lower()])
+                    print(f"Number of entry children: {entry_count}")
+                    # Print all unique child tags
+                    child_tags = set(child.tag for child in root)
+                    print(f"Unique child tags: {child_tags}")
 
-                # Find all entry elements (each is a package)
-                entries = root.findall('.//atom:entry', namespaces)
+                # Find all entry elements (each is a package) - they should be direct children
+                entries = root.findall('atom:entry', namespaces)
 
-                # Also try without namespace
+                # Also try without namespace prefix
                 if not entries:
-                    entries = root.findall('.//entry')
+                    entries = [child for child in root if 'entry' in child.tag.lower()]
 
                 if page_count == 1:
-                    print(f"Found {len(entries)} entries")
+                    print(f"Found {len(entries)} entries\n")
 
                 for entry in entries:
                     # Extract properties from each entry
