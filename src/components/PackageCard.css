@@ -676,3 +676,312 @@
 .dark-mode .dependency-check {
   color: #ffffff;
 }
+
+/* Theme System - Dark */
+.theme-dark .package-card {
+  background: var(--bg-primary);
+  border-bottom-color: var(--border-color);
+}
+
+.theme-dark .package-card:hover {
+  border-bottom-color: var(--text-primary);
+}
+
+.theme-dark .package-name,
+.theme-dark .modal-title,
+.theme-dark .modal-text,
+.theme-dark .dependency-name,
+.theme-dark .similar-app-name,
+.theme-dark .meta-link {
+  color: var(--text-primary);
+}
+
+.theme-dark .package-description,
+.theme-dark .source-badge,
+.theme-dark .package-meta,
+.theme-dark .similar-app-desc,
+.theme-dark .dependency-icon {
+  color: var(--text-tertiary);
+}
+
+.theme-dark .installed-badge,
+.theme-dark .btn,
+.theme-dark .modal-close {
+  border-color: var(--text-primary);
+  color: var(--text-primary);
+}
+
+.theme-dark .btn:hover,
+.theme-dark .modal-close:hover {
+  background: var(--text-primary);
+  color: var(--bg-primary);
+}
+
+.theme-dark .btn-success {
+  background: var(--text-primary);
+  color: var(--bg-primary);
+}
+
+.theme-dark .btn-success:hover {
+  background: transparent;
+  color: var(--text-primary);
+}
+
+.theme-dark .modal-content {
+  background: var(--bg-primary);
+  border-color: var(--text-primary);
+}
+
+.theme-dark .modal-header,
+.theme-dark .modal-footer {
+  border-color: var(--border-color);
+}
+
+.theme-dark .modal-code,
+.theme-dark .dependency-item {
+  background: var(--bg-secondary);
+  border-color: var(--border-color);
+}
+
+.theme-dark .similar-app-card {
+  border-color: var(--border-color);
+}
+
+.theme-dark .similar-app-card:hover {
+  background: var(--bg-secondary);
+  border-color: var(--text-primary);
+}
+
+/* Theme System - Solarized Light */
+.theme-solarized-light .package-card {
+  background: var(--bg-primary);
+  border-bottom-color: var(--border-color);
+}
+
+.theme-solarized-light .package-card:hover {
+  border-bottom-color: var(--accent);
+}
+
+.theme-solarized-light .package-name,
+.theme-solarized-light .modal-title,
+.theme-solarized-light .modal-text,
+.theme-solarized-light .dependency-name,
+.theme-solarized-light .similar-app-name,
+.theme-solarized-light .meta-link {
+  color: var(--text-primary);
+}
+
+.theme-solarized-light .package-description,
+.theme-solarized-light .source-badge,
+.theme-solarized-light .package-meta,
+.theme-solarized-light .similar-app-desc {
+  color: var(--text-secondary);
+}
+
+.theme-solarized-light .installed-badge,
+.theme-solarized-light .btn,
+.theme-solarized-light .modal-close {
+  border-color: var(--accent);
+  color: var(--accent);
+}
+
+.theme-solarized-light .btn:hover,
+.theme-solarized-light .modal-close:hover {
+  background: var(--accent);
+  color: var(--bg-primary);
+}
+
+.theme-solarized-light .btn-success {
+  background: var(--accent);
+  color: var(--bg-primary);
+}
+
+.theme-solarized-light .btn-success:hover {
+  background: transparent;
+  color: var(--accent);
+}
+
+.theme-solarized-light .modal-content {
+  background: var(--bg-primary);
+  border-color: var(--accent);
+}
+
+.theme-solarized-light .modal-header,
+.theme-solarized-light .modal-footer {
+  border-color: var(--border-color);
+}
+
+.theme-solarized-light .modal-code,
+.theme-solarized-light .dependency-item {
+  background: var(--bg-secondary);
+  border-color: var(--border-color);
+}
+
+.theme-solarized-light .similar-app-card {
+  border-color: var(--border-color);
+}
+
+.theme-solarized-light .similar-app-card:hover {
+  background: var(--bg-secondary);
+  border-color: var(--accent);
+}
+
+.theme-solarized-light .dependency-icon {
+  color: var(--text-tertiary);
+}
+
+/* Theme System - Solarized Dark */
+.theme-solarized-dark .package-card {
+  background: var(--bg-primary);
+  border-bottom-color: var(--border-color);
+}
+
+.theme-solarized-dark .package-card:hover {
+  border-bottom-color: var(--accent);
+}
+
+.theme-solarized-dark .package-name,
+.theme-solarized-dark .modal-title,
+.theme-solarized-dark .modal-text,
+.theme-solarized-dark .dependency-name,
+.theme-solarized-dark .similar-app-name,
+.theme-solarized-dark .meta-link {
+  color: var(--text-primary);
+}
+
+.theme-solarized-dark .package-description,
+.theme-solarized-dark .source-badge,
+.theme-solarized-dark .package-meta,
+.theme-solarized-dark .similar-app-desc {
+  color: var(--text-secondary);
+}
+
+.theme-solarized-dark .installed-badge,
+.theme-solarized-dark .btn,
+.theme-solarized-dark .modal-close {
+  border-color: var(--accent);
+  color: var(--accent);
+}
+
+.theme-solarized-dark .btn:hover,
+.theme-solarized-dark .modal-close:hover {
+  background: var(--accent);
+  color: var(--bg-primary);
+}
+
+.theme-solarized-dark .btn-success {
+  background: var(--accent);
+  color: var(--bg-primary);
+}
+
+.theme-solarized-dark .btn-success:hover {
+  background: transparent;
+  color: var(--accent);
+}
+
+.theme-solarized-dark .modal-content {
+  background: var(--bg-primary);
+  border-color: var(--accent);
+}
+
+.theme-solarized-dark .modal-header,
+.theme-solarized-dark .modal-footer {
+  border-color: var(--border-color);
+}
+
+.theme-solarized-dark .modal-code,
+.theme-solarized-dark .dependency-item {
+  background: var(--bg-secondary);
+  border-color: var(--border-color);
+}
+
+.theme-solarized-dark .similar-app-card {
+  border-color: var(--border-color);
+}
+
+.theme-solarized-dark .similar-app-card:hover {
+  background: var(--bg-secondary);
+  border-color: var(--accent);
+}
+
+.theme-solarized-dark .dependency-icon {
+  color: var(--text-tertiary);
+}
+
+/* Theme System - Warm */
+.theme-warm .package-card {
+  background: var(--bg-primary);
+  border-bottom-color: var(--border-color);
+}
+
+.theme-warm .package-card:hover {
+  border-bottom-color: var(--accent);
+}
+
+.theme-warm .package-name,
+.theme-warm .modal-title,
+.theme-warm .modal-text,
+.theme-warm .dependency-name,
+.theme-warm .similar-app-name,
+.theme-warm .meta-link {
+  color: var(--text-primary);
+}
+
+.theme-warm .package-description,
+.theme-warm .source-badge,
+.theme-warm .package-meta,
+.theme-warm .similar-app-desc {
+  color: var(--text-secondary);
+}
+
+.theme-warm .installed-badge,
+.theme-warm .btn,
+.theme-warm .modal-close {
+  border-color: var(--accent);
+  color: var(--accent);
+}
+
+.theme-warm .btn:hover,
+.theme-warm .modal-close:hover {
+  background: var(--accent);
+  color: var(--bg-primary);
+}
+
+.theme-warm .btn-success {
+  background: var(--accent);
+  color: var(--bg-primary);
+}
+
+.theme-warm .btn-success:hover {
+  background: transparent;
+  color: var(--accent);
+}
+
+.theme-warm .modal-content {
+  background: var(--bg-primary);
+  border-color: var(--accent);
+}
+
+.theme-warm .modal-header,
+.theme-warm .modal-footer {
+  border-color: var(--border-color);
+}
+
+.theme-warm .modal-code,
+.theme-warm .dependency-item {
+  background: var(--bg-secondary);
+  border-color: var(--border-color);
+}
+
+.theme-warm .similar-app-card {
+  border-color: var(--border-color);
+}
+
+.theme-warm .similar-app-card:hover {
+  background: var(--bg-secondary);
+  border-color: var(--accent);
+}
+
+.theme-warm .dependency-icon {
+  color: var(--text-tertiary);
+}

@@ -13,13 +13,17 @@ import { MOCK_PERSONAS } from './data/mockPersonas';
 type FilterStatus = 'all' | 'installed' | 'not-installed';
 type FilterSource = 'all' | 'chocolatey' | 'winget';
 type SortBy = 'name' | 'category' | 'status';
+type Theme = 'default' | 'dark' | 'solarized-light' | 'solarized-dark' | 'warm';
 
 function App() {
   const [searchQuery, setSearchQuery] = useState('');
   const [filteredPackages, setFilteredPackages] = useState<Package[]>([]);
   const [isSearchActive, setIsSearchActive] = useState(false);
   const [showSettings, setShowSettings] = useState(false);
-  const [darkMode, setDarkMode] = useState(false);
+  const [theme, setTheme] = useState<Theme>(() => {
+    const saved = localStorage.getItem('savvy-theme');
+    return (saved as Theme) || 'default';
+  });
   const [browseAll, setBrowseAll] = useState(false);
   const [showCollections, setShowCollections] = useState(false);
 
@@ -49,13 +53,17 @@ function App() {
   };
 
   useEffect(() => {
-    // Apply dark mode class to document
-    if (darkMode) {
-      document.documentElement.classList.add('dark-mode');
-    } else {
-      document.documentElement.classList.remove('dark-mode');
+    // Apply theme class to document
+    document.documentElement.className = ''; // Clear all theme classes
+    if (theme !== 'default') {
+      document.documentElement.classList.add(`theme-${theme}`);
     }
-  }, [darkMode]);
+    localStorage.setItem('savvy-theme', theme);
+  }, [theme]);
+
+  const handleThemeChange = (newTheme: Theme) => {
+    setTheme(newTheme);
+  };
 
   const applyFiltersAndSort = (packages: Package[]) => {
     let result = [...packages];
@@ -223,13 +231,39 @@ function App() {
       {showSettings && (
         <div className="settings-dropdown">
           <div className="settings-item">
-            <span className="settings-label">Dark Mode</span>
-            <button
-              className={`toggle-switch ${darkMode ? 'active' : ''}`}
-              onClick={() => setDarkMode(!darkMode)}
-            >
-              <span className="toggle-slider"></span>
-            </button>
+            <span className="settings-label">Theme</span>
+            <div className="theme-selector">
+              <button
+                className={`theme-chip ${theme === 'default' ? 'active' : ''}`}
+                onClick={() => handleThemeChange('default')}
+              >
+                Default
+              </button>
+              <button
+                className={`theme-chip ${theme === 'dark' ? 'active' : ''}`}
+                onClick={() => handleThemeChange('dark')}
+              >
+                Dark
+              </button>
+              <button
+                className={`theme-chip ${theme === 'solarized-light' ? 'active' : ''}`}
+                onClick={() => handleThemeChange('solarized-light')}
+              >
+                Solarized Light
+              </button>
+              <button
+                className={`theme-chip ${theme === 'solarized-dark' ? 'active' : ''}`}
+                onClick={() => handleThemeChange('solarized-dark')}
+              >
+                Solarized Dark
+              </button>
+              <button
+                className={`theme-chip ${theme === 'warm' ? 'active' : ''}`}
+                onClick={() => handleThemeChange('warm')}
+              >
+                Warm
+              </button>
+            </div>
           </div>
         </div>
       )}
