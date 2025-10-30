@@ -7,23 +7,21 @@ from packaging import version
 
 def get_all_choco_packages():
     """
-    Fetches all packages from Chocolatey community feed, keeping only the latest version.
+    Fetches all packages from Chocolatey community feed.
+    Based on the working approach from the original script.
 
     Returns:
-        dict: Dictionary of packages with their latest version info
+        list: List of all package version dictionaries
     """
     base_url = "https://community.chocolatey.org/api/v2/Packages"
 
+    # Use the exact parameters that work in the original script
     params = {
-        "$select": "Id,Version,Title,Summary,Description,DownloadCount,Tags,LastUpdated,Authors,ProjectUrl,IconUrl",
-        "$orderby": "Id,Version desc",
-        "$format": "json"
+        "$select": "Id,Version,Title,Summary,DownloadCount,Tags,LastUpdated",
+        "$orderby": "Id,Version"
     }
 
-    headers = {
-        "Accept": "application/json;odata=verbose",
-        "User-Agent": "SAVVY-Package-Indexer/1.0"
-    }
+    headers = {"Accept": "application/json"}
 
     all_package_versions = []
     page_count = 0
@@ -36,27 +34,31 @@ def get_all_choco_packages():
             page_count += 1
             print(f"Fetching page {page_count}...", end='\r')
 
+            # Make the HTTP GET request
             response = requests.get(next_page_url, headers=headers, params=params, timeout=60)
 
+            # Params are only needed for the first request
             if params:
                 params = None
 
             response.raise_for_status()
             data = response.json()
 
+            # The package list is in the 'd.results' key
             results = data.get('d', {}).get('results', [])
             all_package_versions.extend(results)
 
+            # The link to the next page of results
             next_page_url = data.get('d', {}).get('__next', None)
 
             time.sleep(0.1)
 
     except requests.exceptions.RequestException as e:
         print(f"\nError fetching data: {e}")
-        return {}
+        return []
     except json.JSONDecodeError as e:
         print(f"\nError parsing JSON: {e}")
-        return {}
+        return []
 
     print(f"\nFetched {len(all_package_versions)} total package versions.")
     return all_package_versions
@@ -89,13 +91,9 @@ def get_latest_versions(flat_list):
                 "title": pkg.get('Title') or pkg_id,
                 "version": pkg_version,
                 "summary": pkg.get('Summary', ''),
-                "description": pkg.get('Description', ''),
                 "downloads": pkg.get('DownloadCount', 0),
                 "tags": pkg.get('Tags', ''),
                 "lastUpdated": pkg.get('LastUpdated', ''),
-                "authors": pkg.get('Authors', ''),
-                "projectUrl": pkg.get('ProjectUrl', ''),
-                "iconUrl": pkg.get('IconUrl', ''),
                 "source": "chocolatey"
             }
         else:
@@ -105,6 +103,10 @@ def get_latest_versions(flat_list):
                 new_ver = version.parse(pkg_version)
                 if new_ver > current_ver:
                     latest_packages[pkg_id]['version'] = pkg_version
+                    latest_packages[pkg_id]['title'] = pkg.get('Title') or pkg_id
+                    latest_packages[pkg_id]['summary'] = pkg.get('Summary', '')
+                    latest_packages[pkg_id]['downloads'] = pkg.get('DownloadCount', 0)
+                    latest_packages[pkg_id]['tags'] = pkg.get('Tags', '')
                     latest_packages[pkg_id]['lastUpdated'] = pkg.get('LastUpdated', '')
             except:
                 # If version parsing fails, keep the first one we found
