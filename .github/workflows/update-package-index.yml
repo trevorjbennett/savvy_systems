@@ -40,6 +40,14 @@ jobs:
           cd package-index/generator
           python choco_scraper.py
 
+      - name: Upload debug XML
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: debug-xml
+          path: package-index/generator/debug.xml
+          if-no-files-found: ignore
+
       - name: Check if index changed
         id: check-changes
         run: |

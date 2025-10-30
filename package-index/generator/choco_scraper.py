@@ -55,6 +55,18 @@ def get_all_choco_packages():
                     child_tags = set(child.tag for child in root)
                     print(f"Unique child tags: {child_tags}")
 
+                    # Print all link elements to see pagination
+                    links = root.findall('atom:link', namespaces)
+                    print(f"\nLinks found: {len(links)}")
+                    for link in links:
+                        print(f"  - rel={link.get('rel')} href={link.get('href')}")
+
+                    # Save first response to file for inspection
+                    print("\nSaving first response to debug.xml...")
+                    with open('debug.xml', 'wb') as f:
+                        f.write(response.content)
+                    print("Check debug.xml for full response")
+
                 # Find all entry elements (each is a package) - they should be direct children
                 entries = root.findall('atom:entry', namespaces)
 
