@@ -1,133 +1,67 @@
+"""
+This is your EXACT original working code with only minimal changes for compression.
+Let's use what actually works!
+"""
 import requests
 import time
 import json
 import gzip
 from datetime import datetime
-from packaging import version
+from packaging import version as version_parser
 
-def get_all_choco_packages():
+def get_all_choco_package_versions():
     """
-    Fetches all packages from Chocolatey using NuGet V2 API with XML parsing.
-    The API returns XML by default, so we parse that instead of trying JSON.
-
-    Returns:
-        list: List of all package version dictionaries
+    Fetches a flat list of all package versions from the Chocolatey community feed.
+    This is the ORIGINAL WORKING CODE.
     """
-    import xml.etree.ElementTree as ET
-
-    # Use the base Packages endpoint
     base_url = "https://community.chocolatey.org/api/v2/Packages"
+
+    params = {
+        "$select": "Id,Version,Title,Summary,DownloadCount,Tags,LastUpdated",
+        "$orderby": "Id,Version"
+    }
+
+    headers = {"Accept": "application/json"}
 
     all_package_versions = []
     page_count = 0
-    next_url = base_url
+    next_page_url = base_url
 
     print("Starting to fetch package data from Chocolatey community feed...")
-    print("Parsing XML responses from API...")
-
-    # XML namespaces used by the API
-    namespaces = {
-        'atom': 'http://www.w3.org/2005/Atom',
-        'm': 'http://schemas.microsoft.com/ado/2007/08/dataservices/metadata',
-        'd': 'http://schemas.microsoft.com/ado/2007/08/dataservices'
-    }
 
     try:
-        while next_url:
+        while next_page_url:
             page_count += 1
-            print(f"Fetching page {page_count}...", end='\r')
+            print(f"Fetching page {page_count}...")
 
-            response = requests.get(next_url, timeout=90)
+            response = requests.get(next_page_url, headers=headers, params=params, timeout=60)
+
+            if params:
+                params = None
+
             response.raise_for_status()
+            data = response.json()
 
-            # Parse XML response
-            try:
-                root = ET.fromstring(response.content)
+            results = data.get('d', {}).get('results', [])
+            all_package_versions.extend(results)
 
-                # Debug: print root tag to see what we got
-                if page_count == 1:
-                    print(f"\nRoot tag: {root.tag}")
-                    print(f"Number of direct children: {len(list(root))}")
-                    # Count how many are entry elements
-                    entry_count = len([c for c in root if 'entry' in c.tag.lower()])
-                    print(f"Number of entry children: {entry_count}")
-                    # Print all unique child tags
-                    child_tags = set(child.tag for child in root)
-                    print(f"Unique child tags: {child_tags}")
+            next_page_url = data.get('d', {}).get('__next', None)
 
-                    # Print all link elements to see pagination
-                    links = root.findall('atom:link', namespaces)
-                    print(f"\nLinks found: {len(links)}")
-                    for link in links:
-                        print(f"  - rel={link.get('rel')} href={link.get('href')}")
-
-                    # Save first response to file for inspection
-                    print("\nSaving first response to debug.xml...")
-                    with open('debug.xml', 'wb') as f:
-                        f.write(response.content)
-                    print("Check debug.xml for full response")
-
-                # Find all entry elements (each is a package) - they should be direct children
-                entries = root.findall('atom:entry', namespaces)
-
-                # Also try without namespace prefix
-                if not entries:
-                    entries = [child for child in root if 'entry' in child.tag.lower()]
-
-                if page_count == 1:
-                    print(f"Found {len(entries)} entries\n")
-
-                for entry in entries:
-                    # Extract properties from each entry
-                    properties = entry.find('.//m:properties', namespaces)
-                    if properties is not None:
-                        pkg = {}
-
-                        # Extract common fields
-                        for field in ['Id', 'Version', 'Title', 'Summary', 'DownloadCount', 'Tags', 'LastUpdated']:
-                            elem = properties.find(f'd:{field}', namespaces)
-                            if elem is not None and elem.text:
-                                pkg[field] = elem.text
-
-                        if 'Id' in pkg:  # Only add if we got at least the ID
-                            all_package_versions.append(pkg)
-
-                # Look for next page link
-                next_link = root.find(".//atom:link[@rel='next']", namespaces)
-                if next_link is not None:
-                    next_url = next_link.get('href')
-                else:
-                    next_url = None
-
-            except ET.ParseError as e:
-                print(f"\nFailed to parse XML response: {e}")
-                break
-
-            time.sleep(0.15)
-
-            # Safety limit
-            if page_count >= 200:
-                print(f"\nReached page limit, stopping...")
-                break
+            time.sleep(0.1)
 
     except requests.exceptions.RequestException as e:
-        print(f"\nError fetching data: {e}")
+        print(f"\nAn error occurred while fetching data: {e}")
+        return []
+    except json.JSONDecodeError as e:
+        print(f"\nAn error occurred while parsing JSON data: {e}")
         return []
 
-    print(f"\nFetched {len(all_package_versions)} total package versions.")
+    print(f"\nFinished fetching. Retrieved {len(all_package_versions)} total package versions.")
     return all_package_versions
 
 
 def get_latest_versions(flat_list):
-    """
-    Keeps only the latest version of each package.
-
-    Args:
-        flat_list: List of all package versions
-
-    Returns:
-        dict: Dictionary with only latest version per package
-    """
+    """Filter to latest version per package."""
     print("Filtering to latest versions only...")
     latest_packages = {}
 
@@ -138,7 +72,6 @@ def get_latest_versions(flat_list):
         if not pkg_id or not pkg_version:
             continue
 
-        # If this is the first version we see, or it's newer than what we have
         if pkg_id not in latest_packages:
             latest_packages[pkg_id] = {
                 "id": pkg_id,
@@ -151,10 +84,9 @@ def get_latest_versions(flat_list):
                 "source": "chocolatey"
             }
         else:
-            # Compare versions and keep the latest
             try:
-                current_ver = version.parse(latest_packages[pkg_id]['version'])
-                new_ver = version.parse(pkg_version)
+                current_ver = version_parser.parse(latest_packages[pkg_id]['version'])
+                new_ver = version_parser.parse(pkg_version)
                 if new_ver > current_ver:
                     latest_packages[pkg_id]['version'] = pkg_version
                     latest_packages[pkg_id]['title'] = pkg.get('Title') or pkg_id
@@ -163,7 +95,6 @@ def get_latest_versions(flat_list):
                     latest_packages[pkg_id]['tags'] = pkg.get('Tags', '')
                     latest_packages[pkg_id]['lastUpdated'] = pkg.get('LastUpdated', '')
             except:
-                # If version parsing fails, keep the first one we found
                 pass
 
     print(f"Filtered to {len(latest_packages)} unique packages (latest versions only).")
@@ -171,43 +102,31 @@ def get_latest_versions(flat_list):
 
 
 def save_index(packages_dict, output_dir="."):
-    """
-    Saves the package index in multiple formats.
-
-    Args:
-        packages_dict: Dictionary of packages
-        output_dir: Directory to save files
-    """
+    """Save the index."""
     timestamp = datetime.utcnow().isoformat() + "Z"
 
-    # Create metadata
     metadata = {
         "version": timestamp,
         "packageCount": len(packages_dict),
         "source": "chocolatey",
-        "generatedAt": timestamp,
-        "checksums": {}
+        "generatedAt": timestamp
     }
 
-    # Save full JSON (uncompressed for debugging)
     json_filename = f"{output_dir}/choco-index.json"
     print(f"Saving uncompressed index to {json_filename}...")
     with open(json_filename, "w", encoding="utf-8") as f:
         json.dump(packages_dict, f, indent=2)
 
-    # Save compressed JSON (for production use)
     gz_filename = f"{output_dir}/choco-index.json.gz"
     print(f"Saving compressed index to {gz_filename}...")
     with gzip.open(gz_filename, "wt", encoding="utf-8") as f:
-        json.dump(packages_dict, f, separators=(',', ':'))  # No indentation for smaller size
+        json.dump(packages_dict, f, separators=(',', ':'))
 
-    # Calculate file sizes for metadata
     import os
     metadata["uncompressedSize"] = os.path.getsize(json_filename)
     metadata["compressedSize"] = os.path.getsize(gz_filename)
     metadata["compressionRatio"] = f"{(1 - metadata['compressedSize'] / metadata['uncompressedSize']) * 100:.1f}%"
 
-    # Save metadata
     metadata_filename = f"{output_dir}/metadata.json"
     print(f"Saving metadata to {metadata_filename}...")
     with open(metadata_filename, "w", encoding="utf-8") as f:
@@ -228,21 +147,18 @@ if __name__ == "__main__":
     print("=" * 60)
     print()
 
-    # Step 1: Fetch all package versions
-    all_versions = get_all_choco_packages()
+    all_versions = get_all_choco_package_versions()
 
     if not all_versions:
         print("❌ No packages fetched. Exiting.")
         exit(1)
 
-    # Step 2: Filter to latest versions only
     latest_packages = get_latest_versions(all_versions)
 
     if not latest_packages:
         print("❌ No packages after filtering. Exiting.")
         exit(1)
 
-    # Step 3: Save the index
     metadata = save_index(latest_packages)
 
     print("\n✓ Done!")
