@@ -1,0 +1,106 @@
+name: Update Package Index
+
+on:
+  # Run daily at 2 AM UTC
+  schedule:
+    - cron: '0 2 * * *'
+
+  # Allow manual trigger
+  workflow_dispatch:
+
+  # Run on push to test (remove this later)
+  push:
+    paths:
+      - 'package-index/generator/**'
+      - '.github/workflows/update-package-index.yml'
+
+jobs:
+  update-index:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write  # Need this to create releases
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+          cache: 'pip'
+
+      - name: Install dependencies
+        run: |
+          cd package-index/generator
+          pip install -r requirements.txt
+
+      - name: Run Chocolatey scraper
+        run: |
+          cd package-index/generator
+          python choco_scraper.py
+
+      - name: Check if index changed
+        id: check-changes
+        run: |
+          cd package-index/generator
+
+          # Get the new metadata
+          NEW_VERSION=$(jq -r '.version' metadata.json)
+          PACKAGE_COUNT=$(jq -r '.packageCount' metadata.json)
+          COMPRESSED_SIZE=$(jq -r '.compressedSize' metadata.json)
+
+          echo "version=${NEW_VERSION}" >> $GITHUB_OUTPUT
+          echo "package_count=${PACKAGE_COUNT}" >> $GITHUB_OUTPUT
+          echo "compressed_size=${COMPRESSED_SIZE}" >> $GITHUB_OUTPUT
+
+          # Check if we should create a release (always true for now)
+          echo "should_release=true" >> $GITHUB_OUTPUT
+
+      - name: Create Release
+        if: steps.check-changes.outputs.should_release == 'true'
+        uses: softprops/action-gh-release@v1
+        with:
+          tag_name: choco-index-${{ steps.check-changes.outputs.version }}
+          name: Chocolatey Package Index - ${{ steps.check-changes.outputs.version }}
+          body: |
+            ## Chocolatey Package Index
+
+            **Generated:** ${{ steps.check-changes.outputs.version }}
+            **Packages:** ${{ steps.check-changes.outputs.package_count }}
+            **Compressed Size:** ${{ steps.check-changes.outputs.compressed_size }} bytes (~${{ steps.check-changes.outputs.compressed_size | expr / 1024 / 1024 }} MB)
+
+            ### Files
+            - `choco-index.json.gz` - Compressed package index (use this in production)
+            - `choco-index.json` - Uncompressed package index (for debugging)
+            - `metadata.json` - Index metadata and checksums
+
+            ### Usage
+            Download `choco-index.json.gz` in your SAVVY app and decompress it for lightning-fast local package search.
+
+            ```bash
+            # Download compressed index
+            curl -L -o choco-index.json.gz https://github.com/trevorjbennett/savvy_systems/releases/download/choco-index-${{ steps.check-changes.outputs.version }}/choco-index.json.gz
+
+            # Decompress
+            gunzip choco-index.json.gz
+            ```
+          files: |
+            package-index/generator/choco-index.json.gz
+            package-index/generator/choco-index.json
+            package-index/generator/metadata.json
+          draft: false
+          prerelease: false
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Summary
+        if: steps.check-changes.outputs.should_release == 'true'
+        run: |
+          echo "## 📦 Package Index Updated!" >> $GITHUB_STEP_SUMMARY
+          echo "" >> $GITHUB_STEP_SUMMARY
+          echo "- **Version:** ${{ steps.check-changes.outputs.version }}" >> $GITHUB_STEP_SUMMARY
+          echo "- **Packages:** ${{ steps.check-changes.outputs.package_count }}" >> $GITHUB_STEP_SUMMARY
+          echo "- **Size:** ~$((${{ steps.check-changes.outputs.compressed_size }} / 1024 / 1024)) MB (compressed)" >> $GITHUB_STEP_SUMMARY
+          echo "" >> $GITHUB_STEP_SUMMARY
+          echo "🎉 Release created successfully!" >> $GITHUB_STEP_SUMMARY
