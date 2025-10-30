@@ -7,51 +7,62 @@ from packaging import version
 
 def get_all_choco_packages():
     """
-    Fetches all packages from Chocolatey community feed.
-    Uses the Search endpoint which is more reliable.
+    Fetches all packages from Chocolatey using NuGet V2 API.
+    This uses the simplest possible approach without any special headers or params.
 
     Returns:
         list: List of all package version dictionaries
     """
-    base_url = "https://community.chocolatey.org/api/v2/Search()"
+    # Use the base Packages endpoint with no special parameters
+    base_url = "https://community.chocolatey.org/api/v2/Packages"
 
     all_package_versions = []
     page_count = 0
-    skip = 0
-    page_size = 100
+    next_url = base_url
 
     print("Starting to fetch package data from Chocolatey community feed...")
-    print("Using Search endpoint for better compatibility...")
+    print("Using simple pagination approach...")
 
     try:
-        while True:
+        while next_url:
             page_count += 1
-            print(f"Fetching page {page_count} (packages {skip} to {skip + page_size})...", end='\r')
+            print(f"Fetching page {page_count}...", end='\r')
 
-            # Build URL with pagination
-            url = f"{base_url}?$skip={skip}&$top={page_size}"
-
-            response = requests.get(url, timeout=60)
+            # Simple GET request with no headers or params
+            response = requests.get(next_url, timeout=90)
             response.raise_for_status()
 
-            data = response.json()
+            # Try to parse as JSON
+            try:
+                data = response.json()
 
-            # The package list is in the 'd.results' key
-            results = data.get('d', {}).get('results', [])
+                # Check if it's the OData format
+                if 'd' in data and 'results' in data['d']:
+                    results = data['d']['results']
+                    all_package_versions.extend(results)
 
-            if not results:
+                    # Get next page URL
+                    next_url = data.get('d', {}).get('__next', None)
+                else:
+                    # If not OData format, might be V3 API
+                    if isinstance(data, list):
+                        all_package_versions.extend(data)
+                    next_url = None
+
+            except json.JSONDecodeError:
+                print(f"\nFailed to parse JSON response")
                 break
 
-            all_package_versions.extend(results)
-            skip += page_size
+            time.sleep(0.15)
 
-            time.sleep(0.1)
+            # Safety limit - stop after 200 pages (~2M packages, way more than Choco has)
+            if page_count >= 200:
+                print(f"\nReached page limit, stopping...")
+                break
 
     except requests.exceptions.RequestException as e:
         print(f"\nError fetching data: {e}")
-        return []
-    except json.JSONDecodeError as e:
-        print(f"\nError parsing JSON: {e}")
+        print(f"Last URL attempted: {next_url if next_url else 'N/A'}")
         return []
 
     print(f"\nFetched {len(all_package_versions)} total package versions.")
