@@ -16,10 +16,14 @@ def get_all_choco_packages():
 
     params = {
         "$select": "Id,Version,Title,Summary,Description,DownloadCount,Tags,LastUpdated,Authors,ProjectUrl,IconUrl",
-        "$orderby": "Id,Version desc"
+        "$orderby": "Id,Version desc",
+        "$format": "json"
     }
 
-    headers = {"Accept": "application/json"}
+    headers = {
+        "Accept": "application/json;odata=verbose",
+        "User-Agent": "SAVVY-Package-Indexer/1.0"
+    }
 
     all_package_versions = []
     page_count = 0
