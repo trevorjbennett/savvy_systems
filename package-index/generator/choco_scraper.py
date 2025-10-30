@@ -8,48 +8,42 @@ from packaging import version
 def get_all_choco_packages():
     """
     Fetches all packages from Chocolatey community feed.
-    Based on the working approach from the original script.
+    Uses the Search endpoint which is more reliable.
 
     Returns:
         list: List of all package version dictionaries
     """
-    base_url = "https://community.chocolatey.org/api/v2/Packages"
-
-    # Use the exact parameters that work in the original script
-    params = {
-        "$select": "Id,Version,Title,Summary,DownloadCount,Tags,LastUpdated",
-        "$orderby": "Id,Version"
-    }
-
-    headers = {"Accept": "application/json"}
+    base_url = "https://community.chocolatey.org/api/v2/Search()"
 
     all_package_versions = []
     page_count = 0
-    next_page_url = base_url
+    skip = 0
+    page_size = 100
 
     print("Starting to fetch package data from Chocolatey community feed...")
+    print("Using Search endpoint for better compatibility...")
 
     try:
-        while next_page_url:
+        while True:
             page_count += 1
-            print(f"Fetching page {page_count}...", end='\r')
+            print(f"Fetching page {page_count} (packages {skip} to {skip + page_size})...", end='\r')
 
-            # Make the HTTP GET request
-            response = requests.get(next_page_url, headers=headers, params=params, timeout=60)
+            # Build URL with pagination
+            url = f"{base_url}?$skip={skip}&$top={page_size}"
 
-            # Params are only needed for the first request
-            if params:
-                params = None
-
+            response = requests.get(url, timeout=60)
             response.raise_for_status()
+
             data = response.json()
 
             # The package list is in the 'd.results' key
             results = data.get('d', {}).get('results', [])
-            all_package_versions.extend(results)
 
-            # The link to the next page of results
-            next_page_url = data.get('d', {}).get('__next', None)
+            if not results:
+                break
+
+            all_package_versions.extend(results)
+            skip += page_size
 
             time.sleep(0.1)
 
