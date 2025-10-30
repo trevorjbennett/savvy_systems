@@ -7,13 +7,15 @@ from packaging import version
 
 def get_all_choco_packages():
     """
-    Fetches all packages from Chocolatey using NuGet V2 API.
-    This uses the simplest possible approach without any special headers or params.
+    Fetches all packages from Chocolatey using NuGet V2 API with XML parsing.
+    The API returns XML by default, so we parse that instead of trying JSON.
 
     Returns:
         list: List of all package version dictionaries
     """
-    # Use the base Packages endpoint with no special parameters
+    import xml.etree.ElementTree as ET
+
+    # Use the base Packages endpoint
     base_url = "https://community.chocolatey.org/api/v2/Packages"
 
     all_package_versions = []
@@ -21,48 +23,65 @@ def get_all_choco_packages():
     next_url = base_url
 
     print("Starting to fetch package data from Chocolatey community feed...")
-    print("Using simple pagination approach...")
+    print("Parsing XML responses from API...")
+
+    # XML namespaces used by the API
+    namespaces = {
+        'atom': 'http://www.w3.org/2005/Atom',
+        'm': 'http://schemas.microsoft.com/ado/2007/08/dataservices/metadata',
+        'd': 'http://schemas.microsoft.com/ado/2007/08/dataservices'
+    }
 
     try:
         while next_url:
             page_count += 1
             print(f"Fetching page {page_count}...", end='\r')
 
-            # Simple GET request with no headers or params
             response = requests.get(next_url, timeout=90)
             response.raise_for_status()
 
-            # Try to parse as JSON
+            # Parse XML response
             try:
-                data = response.json()
+                root = ET.fromstring(response.content)
 
-                # Check if it's the OData format
-                if 'd' in data and 'results' in data['d']:
-                    results = data['d']['results']
-                    all_package_versions.extend(results)
+                # Find all entry elements (each is a package)
+                entries = root.findall('.//atom:entry', namespaces)
 
-                    # Get next page URL
-                    next_url = data.get('d', {}).get('__next', None)
+                for entry in entries:
+                    # Extract properties from each entry
+                    properties = entry.find('.//m:properties', namespaces)
+                    if properties is not None:
+                        pkg = {}
+
+                        # Extract common fields
+                        for field in ['Id', 'Version', 'Title', 'Summary', 'DownloadCount', 'Tags', 'LastUpdated']:
+                            elem = properties.find(f'd:{field}', namespaces)
+                            if elem is not None and elem.text:
+                                pkg[field] = elem.text
+
+                        if 'Id' in pkg:  # Only add if we got at least the ID
+                            all_package_versions.append(pkg)
+
+                # Look for next page link
+                next_link = root.find(".//atom:link[@rel='next']", namespaces)
+                if next_link is not None:
+                    next_url = next_link.get('href')
                 else:
-                    # If not OData format, might be V3 API
-                    if isinstance(data, list):
-                        all_package_versions.extend(data)
                     next_url = None
 
-            except json.JSONDecodeError:
-                print(f"\nFailed to parse JSON response")
+            except ET.ParseError as e:
+                print(f"\nFailed to parse XML response: {e}")
                 break
 
             time.sleep(0.15)
 
-            # Safety limit - stop after 200 pages (~2M packages, way more than Choco has)
+            # Safety limit
             if page_count >= 200:
                 print(f"\nReached page limit, stopping...")
                 break
 
     except requests.exceptions.RequestException as e:
         print(f"\nError fetching data: {e}")
-        print(f"Last URL attempted: {next_url if next_url else 'N/A'}")
         return []
 
     print(f"\nFetched {len(all_package_versions)} total package versions.")
