@@ -44,8 +44,23 @@ def get_all_choco_packages():
             try:
                 root = ET.fromstring(response.content)
 
+                # Debug: print root tag to see what we got
+                if page_count == 1:
+                    print(f"\nRoot tag: {root.tag}")
+                    print(f"Root attributes: {root.attrib}")
+                    # Print first few children
+                    for i, child in enumerate(list(root)[:3]):
+                        print(f"Child {i}: {child.tag}")
+
                 # Find all entry elements (each is a package)
                 entries = root.findall('.//atom:entry', namespaces)
+
+                # Also try without namespace
+                if not entries:
+                    entries = root.findall('.//entry')
+
+                if page_count == 1:
+                    print(f"Found {len(entries)} entries")
 
                 for entry in entries:
                     # Extract properties from each entry
