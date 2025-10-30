@@ -114,3 +114,84 @@
 .dark-mode .meta-separator {
   color: #333333;
 }
+
+/* Theme System */
+.theme-dark .welcome-brand {
+  color: var(--text-primary);
+}
+
+.theme-dark .welcome-line {
+  background: var(--text-primary);
+}
+
+.theme-dark .welcome-tagline {
+  color: var(--text-tertiary);
+}
+
+.theme-dark .welcome-meta {
+  color: var(--text-tertiary);
+}
+
+.theme-dark .meta-separator {
+  color: var(--border-color);
+}
+
+.theme-solarized-light .welcome-brand {
+  color: var(--text-primary);
+}
+
+.theme-solarized-light .welcome-line {
+  background: var(--accent);
+}
+
+.theme-solarized-light .welcome-tagline {
+  color: var(--text-secondary);
+}
+
+.theme-solarized-light .welcome-meta {
+  color: var(--text-tertiary);
+}
+
+.theme-solarized-light .meta-separator {
+  color: var(--border-color);
+}
+
+.theme-solarized-dark .welcome-brand {
+  color: var(--text-primary);
+}
+
+.theme-solarized-dark .welcome-line {
+  background: var(--accent);
+}
+
+.theme-solarized-dark .welcome-tagline {
+  color: var(--text-secondary);
+}
+
+.theme-solarized-dark .welcome-meta {
+  color: var(--text-tertiary);
+}
+
+.theme-solarized-dark .meta-separator {
+  color: var(--border-color);
+}
+
+.theme-warm .welcome-brand {
+  color: var(--text-primary);
+}
+
+.theme-warm .welcome-line {
+  background: var(--accent);
+}
+
+.theme-warm .welcome-tagline {
+  color: var(--text-secondary);
+}
+
+.theme-warm .welcome-meta {
+  color: var(--text-tertiary);
+}
+
+.theme-warm .meta-separator {
+  color: var(--border-color);
+}

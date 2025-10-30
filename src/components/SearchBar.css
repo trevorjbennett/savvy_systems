@@ -69,3 +69,104 @@
 .dark-mode .search-input::placeholder {
   color: #666666;
 }
+
+/* Theme System */
+.theme-dark .search-bar {
+  background: var(--bg-secondary);
+  border-color: var(--border-color);
+}
+
+.theme-dark .search-bar.focused {
+  border-color: var(--text-primary);
+}
+
+.theme-dark .search-icon {
+  color: var(--text-tertiary);
+}
+
+.theme-dark .search-bar.focused .search-icon {
+  color: var(--text-primary);
+}
+
+.theme-dark .search-input {
+  color: var(--text-primary);
+}
+
+.theme-dark .search-input::placeholder {
+  color: var(--text-tertiary);
+}
+
+.theme-solarized-light .search-bar {
+  background: var(--bg-secondary);
+  border-color: var(--border-color);
+}
+
+.theme-solarized-light .search-bar.focused {
+  border-color: var(--accent);
+}
+
+.theme-solarized-light .search-icon {
+  color: var(--text-tertiary);
+}
+
+.theme-solarized-light .search-bar.focused .search-icon {
+  color: var(--accent);
+}
+
+.theme-solarized-light .search-input {
+  color: var(--text-primary);
+}
+
+.theme-solarized-light .search-input::placeholder {
+  color: var(--text-tertiary);
+}
+
+.theme-solarized-dark .search-bar {
+  background: var(--bg-secondary);
+  border-color: var(--border-color);
+}
+
+.theme-solarized-dark .search-bar.focused {
+  border-color: var(--accent);
+}
+
+.theme-solarized-dark .search-icon {
+  color: var(--text-tertiary);
+}
+
+.theme-solarized-dark .search-bar.focused .search-icon {
+  color: var(--accent);
+}
+
+.theme-solarized-dark .search-input {
+  color: var(--text-primary);
+}
+
+.theme-solarized-dark .search-input::placeholder {
+  color: var(--text-tertiary);
+}
+
+.theme-warm .search-bar {
+  background: var(--bg-secondary);
+  border-color: var(--border-color);
+}
+
+.theme-warm .search-bar.focused {
+  border-color: var(--accent);
+}
+
+.theme-warm .search-icon {
+  color: var(--text-tertiary);
+}
+
+.theme-warm .search-bar.focused .search-icon {
+  color: var(--accent);
+}
+
+.theme-warm .search-input {
+  color: var(--text-primary);
+}
+
+.theme-warm .search-input::placeholder {
+  color: var(--text-tertiary);
+}
