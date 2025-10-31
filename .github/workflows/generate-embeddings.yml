@@ -81,34 +81,26 @@ jobs:
             "https://api.github.com/repos/${{ github.repository }}/releases/tags/${{ github.event.release.tag_name }}" \
             | jq -r '.body')
 
-          # Append embeddings info
-          NEW_BODY="$CURRENT_BODY
+          # Create embeddings section
+          EMBEDDINGS_SECTION="
 
----
+          -------
 
-### 🤖 Embeddings Index (AI-Powered Search)
+          ### Embeddings Index (AI-Powered Search)
 
-**Model**: Gemma (MiniLM-L6-v2)
-**Embedding Dimensions**: 384
+          **Model**: Gemma (MiniLM-L6-v2)
+          **Embedding Dimensions**: 384
 
-The embeddings enable offline semantic search within SAVVY. Download the embedding files below to use AI-powered package discovery.
+          The embeddings enable offline semantic search within SAVVY.
 
-**Chocolatey Embeddings:**
-- [choco-embeddings.json.gz](https://github.com/${{ github.repository }}/releases/download/${{ github.event.release.tag_name }}/choco-embeddings.json.gz) (recommended)
-- [choco-embeddings.npy](https://github.com/${{ github.repository }}/releases/download/${{ github.event.release.tag_name }}/choco-embeddings.npy) (NumPy array)
-- [choco-embeddings.pkl](https://github.com/${{ github.repository }}/releases/download/${{ github.event.release.tag_name }}/choco-embeddings.pkl) (Python pickle)
-- [choco-embeddings-metadata.json.gz](https://github.com/${{ github.repository }}/releases/download/${{ github.event.release.tag_name }}/choco-embeddings-metadata.json.gz) (metadata only)
+          **Chocolatey**: [json.gz](https://github.com/${{ github.repository }}/releases/download/${{ github.event.release.tag_name }}/choco-embeddings.json.gz) | [npy](https://github.com/${{ github.repository }}/releases/download/${{ github.event.release.tag_name }}/choco-embeddings.npy) | [pkl](https://github.com/${{ github.repository }}/releases/download/${{ github.event.release.tag_name }}/choco-embeddings.pkl)
 
-**Winget Embeddings:**
-- [winget-embeddings.json.gz](https://github.com/${{ github.repository }}/releases/download/${{ github.event.release.tag_name }}/winget-embeddings.json.gz) (recommended)
-- [winget-embeddings.npy](https://github.com/${{ github.repository }}/releases/download/${{ github.event.release.tag_name }}/winget-embeddings.npy) (NumPy array)
-- [winget-embeddings.pkl](https://github.com/${{ github.repository }}/releases/download/${{ github.event.release.tag_name }}/winget-embeddings.pkl) (Python pickle)
-- [winget-embeddings-metadata.json.gz](https://github.com/${{ github.repository }}/releases/download/${{ github.event.release.tag_name }}/winget-embeddings-metadata.json.gz) (metadata only)
+          **Winget**: [json.gz](https://github.com/${{ github.repository }}/releases/download/${{ github.event.release.tag_name }}/winget-embeddings.json.gz) | [npy](https://github.com/${{ github.repository }}/releases/download/${{ github.event.release.tag_name }}/winget-embeddings.npy) | [pkl](https://github.com/${{ github.repository }}/releases/download/${{ github.event.release.tag_name }}/winget-embeddings.pkl)
 
-**Combined Metadata:**
-- [embeddings-metadata.json](https://github.com/${{ github.repository }}/releases/download/${{ github.event.release.tag_name }}/embeddings-metadata.json)
+          Generated automatically by GitHub Actions"
 
-Generated automatically by GitHub Actions 🚀"
+          # Combine bodies
+          NEW_BODY="${CURRENT_BODY}${EMBEDDINGS_SECTION}"
 
           # Update release
           curl -X PATCH \
