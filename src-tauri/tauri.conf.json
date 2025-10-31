@@ -22,7 +22,31 @@
       }
     ],
     "security": {
-      "csp": null
+      "csp": null,
+      "capabilities": [
+        {
+          "identifier": "main-capability",
+          "description": "Main app capabilities",
+          "windows": ["main"],
+          "permissions": [
+            "http:default",
+            {
+              "identifier": "http:allow-fetch",
+              "allow": [
+                {
+                  "url": "https://api.github.com/repos/trevorjbennett/savvy_systems/**"
+                },
+                {
+                  "url": "https://github.com/trevorjbennett/savvy_systems/**"
+                }
+              ]
+            },
+            "http:allow-fetch-cancel",
+            "http:allow-fetch-read-body",
+            "http:allow-fetch-send"
+          ]
+        }
+      ]
     }
   },
   "bundle": {

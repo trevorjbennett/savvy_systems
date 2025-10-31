@@ -1,0 +1,6444 @@
+{
+  "metadata": {
+    "source": "winget",
+    "packageCount": 1072,
+    "embeddingDimensions": 384,
+    "model": "gemma",
+    "generated": "2025-10-31T21:51:36.459270Z",
+    "version": "2025.10.31"
+  },
+  "packages": [
+    {
+      "id": "0x192.UniversalAndroidDebloaterGUI",
+      "title": "UniversalAndroidDebloaterGUI",
+      "publisher": "0x192",
+      "versionCount": 1
+    },
+    {
+      "id": "0xGingi.Browser",
+      "title": "Browser",
+      "publisher": "0xGingi",
+      "versionCount": 6
+    },
+    {
+      "id": "0xJacky.nginx-ui",
+      "title": "nginx-ui",
+      "publisher": "0xJacky",
+      "versionCount": 2
+    },
+    {
+      "id": "108thecitizen.DesktopTileLauncher",
+      "title": "DesktopTileLauncher",
+      "publisher": "108thecitizen",
+      "versionCount": 1
+    },
+    {
+      "id": "115.115Chrome",
+      "title": "115Chrome",
+      "publisher": "115",
+      "versionCount": 44
+    },
+    {
+      "id": "123.123pan",
+      "title": "123pan",
+      "publisher": "123",
+      "versionCount": 48
+    },
+    {
+      "id": "1357310795.JboxTransfer",
+      "title": "JboxTransfer",
+      "publisher": "1357310795",
+      "versionCount": 5
+    },
+    {
+      "id": "1357310795.TboxWebdav",
+      "title": "TboxWebdav",
+      "publisher": "1357310795",
+      "versionCount": 2
+    },
+    {
+      "id": "15722UsefulApp.WorkspaceLauncherForVSCode",
+      "title": "WorkspaceLauncherForVSCode",
+      "publisher": "15722UsefulApp",
+      "versionCount": 8
+    },
+    {
+      "id": "1History.1History",
+      "title": "1History",
+      "publisher": "1History",
+      "versionCount": 3
+    },
+    {
+      "id": "1IC.BPMN-RPAStudio",
+      "title": "BPMN-RPAStudio",
+      "publisher": "1IC",
+      "versionCount": 5
+    },
+    {
+      "id": "1zilc.FishingFunds",
+      "title": "FishingFunds",
+      "publisher": "1zilc",
+      "versionCount": 30
+    },
+    {
+      "id": "2BrightSparks.SyncBackFree",
+      "title": "SyncBackFree",
+      "publisher": "2BrightSparks",
+      "versionCount": 25
+    },
+    {
+      "id": "2BrightSparks.SyncBackPro",
+      "title": "SyncBackPro",
+      "publisher": "2BrightSparks",
+      "versionCount": 26
+    },
+    {
+      "id": "2BrightSparks.SyncBackSE",
+      "title": "SyncBackSE",
+      "publisher": "2BrightSparks",
+      "versionCount": 26
+    },
+    {
+      "id": "2dust.v2rayN",
+      "title": "v2rayN",
+      "publisher": "2dust",
+      "versionCount": 44
+    },
+    {
+      "id": "34u.MultiBaseCSBirdBase",
+      "title": "MultiBaseCSBirdBase",
+      "publisher": "34u",
+      "versionCount": 24
+    },
+    {
+      "id": "34u.MultiBaseCSHome",
+      "title": "MultiBaseCSHome",
+      "publisher": "34u",
+      "versionCount": 33
+    },
+    {
+      "id": "34u.MultiBaseCSProfessional",
+      "title": "MultiBaseCSProfessional",
+      "publisher": "34u",
+      "versionCount": 31
+    },
+    {
+      "id": "34u.MultiBaseCSServer",
+      "title": "MultiBaseCSServer",
+      "publisher": "34u",
+      "versionCount": 31
+    },
+    {
+      "id": "360.360AlbumViewer",
+      "title": "360AlbumViewer",
+      "publisher": "360",
+      "versionCount": 1
+    },
+    {
+      "id": "360.360Chrome",
+      "title": "360Chrome",
+      "publisher": "360",
+      "versionCount": 12
+    },
+    {
+      "id": "360.360CleanMaster",
+      "title": "360CleanMaster",
+      "publisher": "360",
+      "versionCount": 1
+    },
+    {
+      "id": "360.360DesktopLite",
+      "title": "360DesktopLite",
+      "publisher": "360",
+      "versionCount": 1
+    },
+    {
+      "id": "360.360DocProtect",
+      "title": "360DocProtect",
+      "publisher": "360",
+      "versionCount": 1
+    },
+    {
+      "id": "360.360Ent",
+      "title": "360Ent",
+      "publisher": "360",
+      "versionCount": 12
+    },
+    {
+      "id": "360.360File",
+      "title": "360File",
+      "publisher": "360",
+      "versionCount": 1
+    },
+    {
+      "id": "360.360GT",
+      "title": "360GT",
+      "publisher": "360",
+      "versionCount": 1
+    },
+    {
+      "id": "360.360SE",
+      "title": "360SE",
+      "publisher": "360",
+      "versionCount": 120
+    },
+    {
+      "id": "360.360VirtualVault",
+      "title": "360VirtualVault",
+      "publisher": "360",
+      "versionCount": 1
+    },
+    {
+      "id": "360.360Zip",
+      "title": "360Zip",
+      "publisher": "360",
+      "versionCount": 1
+    },
+    {
+      "id": "360.NamiAI",
+      "title": "NamiAI",
+      "publisher": "360",
+      "versionCount": 10
+    },
+    {
+      "id": "360.PalmInput",
+      "title": "PalmInput",
+      "publisher": "360",
+      "versionCount": 4
+    },
+    {
+      "id": "3CX.CallFlowDesigner",
+      "title": "CallFlowDesigner",
+      "publisher": "3CX",
+      "versionCount": 1
+    },
+    {
+      "id": "3CX.MultilineTAPI",
+      "title": "MultilineTAPI",
+      "publisher": "3CX",
+      "versionCount": 1
+    },
+    {
+      "id": "3CX.PhoneSystem",
+      "title": "PhoneSystem",
+      "publisher": "3CX",
+      "versionCount": 1
+    },
+    {
+      "id": "3CX.Softphone",
+      "title": "Softphone",
+      "publisher": "3CX",
+      "versionCount": 4
+    },
+    {
+      "id": "3DVista.VirtualTour",
+      "title": "VirtualTour",
+      "publisher": "3DVista",
+      "versionCount": 1
+    },
+    {
+      "id": "3Dconnexion.3DxWare",
+      "title": "3DxWare",
+      "publisher": "3Dconnexion",
+      "versionCount": 1
+    },
+    {
+      "id": "3Dflow.3DFZephyr",
+      "title": "3DFZephyr",
+      "publisher": "3Dflow",
+      "versionCount": 1
+    },
+    {
+      "id": "3TSoftwareLabs.Robo3T",
+      "title": "Robo3T",
+      "publisher": "3TSoftwareLabs",
+      "versionCount": 8
+    },
+    {
+      "id": "3TSoftwareLabs.Studio3T",
+      "title": "Studio3T",
+      "publisher": "3TSoftwareLabs",
+      "versionCount": 30
+    },
+    {
+      "id": "3d-io.Exr-IO",
+      "title": "Exr-IO",
+      "publisher": "3d-io",
+      "versionCount": 1
+    },
+    {
+      "id": "3ll3d00d.beqdesigner",
+      "title": "beqdesigner",
+      "publisher": "3ll3d00d",
+      "versionCount": 6
+    },
+    {
+      "id": "4gray.iptvnator",
+      "title": "iptvnator",
+      "publisher": "4gray",
+      "versionCount": 16
+    },
+    {
+      "id": "4ngel2769.MessyOrganizer",
+      "title": "MessyOrganizer",
+      "publisher": "4ngel2769",
+      "versionCount": 1
+    },
+    {
+      "id": "4tNiagaraSoftware.4tTrayMinimizer",
+      "title": "4tTrayMinimizer",
+      "publisher": "4tNiagaraSoftware",
+      "versionCount": 1
+    },
+    {
+      "id": "5E.5EClient",
+      "title": "5EClient",
+      "publisher": "5E",
+      "versionCount": 5
+    },
+    {
+      "id": "5mdt.WinGoDarkTray",
+      "title": "WinGoDarkTray",
+      "publisher": "5mdt",
+      "versionCount": 3
+    },
+    {
+      "id": "5rahim.Seanime",
+      "title": "Seanime",
+      "publisher": "5rahim",
+      "versionCount": 16
+    },
+    {
+      "id": "64Gram.64Gram",
+      "title": "64Gram",
+      "publisher": "64Gram",
+      "versionCount": 80
+    },
+    {
+      "id": "720kb.ndm",
+      "title": "ndm",
+      "publisher": "720kb",
+      "versionCount": 1
+    },
+    {
+      "id": "7S2P.Effie",
+      "title": "Effie",
+      "publisher": "7S2P",
+      "versionCount": 4
+    },
+    {
+      "id": "7gxycn08.WinGetCreateGui",
+      "title": "WinGetCreateGui",
+      "publisher": "7gxycn08",
+      "versionCount": 1
+    },
+    {
+      "id": "7room.Aya",
+      "title": "Aya",
+      "publisher": "7room",
+      "versionCount": 2
+    },
+    {
+      "id": "7zip.7zip",
+      "title": "7zip",
+      "publisher": "7zip",
+      "versionCount": 15
+    },
+    {
+      "id": "8051Enthusiast.biodiff",
+      "title": "biodiff",
+      "publisher": "8051Enthusiast",
+      "versionCount": 1
+    },
+    {
+      "id": "86Box.86Box",
+      "title": "86Box",
+      "publisher": "86Box",
+      "versionCount": 2
+    },
+    {
+      "id": "86Box.86BoxManager",
+      "title": "86BoxManager",
+      "publisher": "86Box",
+      "versionCount": 1
+    },
+    {
+      "id": "8x8.QualityManagement",
+      "title": "QualityManagement",
+      "publisher": "8x8",
+      "versionCount": 1
+    },
+    {
+      "id": "8x8.Work",
+      "title": "Work",
+      "publisher": "8x8",
+      "versionCount": 46
+    },
+    {
+      "id": "9001.copyparty",
+      "title": "copyparty",
+      "publisher": "9001",
+      "versionCount": 1
+    },
+    {
+      "id": "99designs.aws-vault",
+      "title": "aws-vault",
+      "publisher": "99designs",
+      "versionCount": 2
+    },
+    {
+      "id": "99natmar99.Windows11Fixer",
+      "title": "Windows11Fixer",
+      "publisher": "99natmar99",
+      "versionCount": 1
+    },
+    {
+      "id": "A-SIT.PDF-Over",
+      "title": "PDF-Over",
+      "publisher": "A-SIT",
+      "versionCount": 8
+    },
+    {
+      "id": "A2-Ai.rv",
+      "title": "rv",
+      "publisher": "A2-Ai",
+      "versionCount": 15
+    },
+    {
+      "id": "AAAInternetPublishing.WTFast",
+      "title": "WTFast",
+      "publisher": "AAAInternetPublishing",
+      "versionCount": 4
+    },
+    {
+      "id": "AAS.WorldWideTelescope",
+      "title": "WorldWideTelescope",
+      "publisher": "AAS",
+      "versionCount": 3
+    },
+    {
+      "id": "AB0WV.PinPoint",
+      "title": "PinPoint",
+      "publisher": "AB0WV",
+      "versionCount": 1
+    },
+    {
+      "id": "ABB.RobotStudio",
+      "title": "RobotStudio",
+      "publisher": "ABB",
+      "versionCount": 1
+    },
+    {
+      "id": "ABB.e-Design",
+      "title": "e-Design",
+      "publisher": "ABB",
+      "versionCount": 2
+    },
+    {
+      "id": "ABB.i-busTool",
+      "title": "i-busTool",
+      "publisher": "ABB",
+      "versionCount": 1
+    },
+    {
+      "id": "ABC.ABCEBankAssistant",
+      "title": "ABCEBankAssistant",
+      "publisher": "ABC",
+      "versionCount": 1
+    },
+    {
+      "id": "ABC.PowerExtension",
+      "title": "PowerExtension",
+      "publisher": "ABC",
+      "versionCount": 1
+    },
+    {
+      "id": "ACDSystems.ACDSee",
+      "title": "ACDSee",
+      "publisher": "ACDSystems",
+      "versionCount": 1
+    },
+    {
+      "id": "ACDSystems.ACDSeeGemstone",
+      "title": "ACDSeeGemstone",
+      "publisher": "ACDSystems",
+      "versionCount": 1
+    },
+    {
+      "id": "ACDSystems.ACDSeePhotoStudio",
+      "title": "ACDSeePhotoStudio",
+      "publisher": "ACDSystems",
+      "versionCount": 3
+    },
+    {
+      "id": "ACEStudio.ACEStudio",
+      "title": "ACEStudio",
+      "publisher": "ACEStudio",
+      "versionCount": 4
+    },
+    {
+      "id": "ACLAP.DownloadHelperCoApp",
+      "title": "DownloadHelperCoApp",
+      "publisher": "ACLAP",
+      "versionCount": 3
+    },
+    {
+      "id": "ACROSSecurity.0patch",
+      "title": "0patch",
+      "publisher": "ACROSSecurity",
+      "versionCount": 1
+    },
+    {
+      "id": "ACS.CCIDPCSCDriver",
+      "title": "CCIDPCSCDriver",
+      "publisher": "ACS",
+      "versionCount": 1
+    },
+    {
+      "id": "ACS.UnifiedPCSCDriver",
+      "title": "UnifiedPCSCDriver",
+      "publisher": "ACS",
+      "versionCount": 1
+    },
+    {
+      "id": "ADInstruments.ConfigSoft",
+      "title": "ConfigSoft",
+      "publisher": "ADInstruments",
+      "versionCount": 1
+    },
+    {
+      "id": "ADInstruments.GLPClient",
+      "title": "GLPClient",
+      "publisher": "ADInstruments",
+      "versionCount": 1
+    },
+    {
+      "id": "ADInstruments.LabChart",
+      "title": "LabChart",
+      "publisher": "ADInstruments",
+      "versionCount": 4
+    },
+    {
+      "id": "ADInstruments.LabChartLightning",
+      "title": "LabChartLightning",
+      "publisher": "ADInstruments",
+      "versionCount": 1
+    },
+    {
+      "id": "ADInstruments.LabChartReader",
+      "title": "LabChartReader",
+      "publisher": "ADInstruments",
+      "versionCount": 1
+    },
+    {
+      "id": "ADInstruments.LtSampling",
+      "title": "LtSampling",
+      "publisher": "ADInstruments",
+      "versionCount": 1
+    },
+    {
+      "id": "ADInstruments.kuraCloudDesktop",
+      "title": "kuraCloudDesktop",
+      "publisher": "ADInstruments",
+      "versionCount": 4
+    },
+    {
+      "id": "AETEurope.SafeSignICMiniDriver",
+      "title": "SafeSignICMiniDriver",
+      "publisher": "AETEurope",
+      "versionCount": 1
+    },
+    {
+      "id": "AETEurope.SafeSignICStandard",
+      "title": "SafeSignICStandard",
+      "publisher": "AETEurope",
+      "versionCount": 1
+    },
+    {
+      "id": "AETMobile.ZORG-IDDesktopApp",
+      "title": "ZORG-IDDesktopApp",
+      "publisher": "AETMobile",
+      "versionCount": 1
+    },
+    {
+      "id": "AFAS.ProfitCommunicationCenter",
+      "title": "ProfitCommunicationCenter",
+      "publisher": "AFAS",
+      "versionCount": 2
+    },
+    {
+      "id": "AGFEO.AGFEODashboard",
+      "title": "AGFEODashboard",
+      "publisher": "AGFEO",
+      "versionCount": 13
+    },
+    {
+      "id": "AGILELEAP.SlideBrowser",
+      "title": "SlideBrowser",
+      "publisher": "AGILELEAP",
+      "versionCount": 7
+    },
+    {
+      "id": "AGProjects.Blink",
+      "title": "Blink",
+      "publisher": "AGProjects",
+      "versionCount": 1
+    },
+    {
+      "id": "AGSProjectTeam.AdventureGameStudio",
+      "title": "AdventureGameStudio",
+      "publisher": "AGSProjectTeam",
+      "versionCount": 44
+    },
+    {
+      "id": "AGTEK.Gradework",
+      "title": "Gradework",
+      "publisher": "AGTEK",
+      "versionCount": 6
+    },
+    {
+      "id": "AGTEK.MaterialsSA",
+      "title": "MaterialsSA",
+      "publisher": "AGTEK",
+      "versionCount": 7
+    },
+    {
+      "id": "AGTEK.Reveal",
+      "title": "Reveal",
+      "publisher": "AGTEK",
+      "versionCount": 2
+    },
+    {
+      "id": "AGTEK.RevealClassify",
+      "title": "RevealClassify",
+      "publisher": "AGTEK",
+      "versionCount": 2
+    },
+    {
+      "id": "AGTEK.Trackwork",
+      "title": "Trackwork",
+      "publisher": "AGTEK",
+      "versionCount": 7
+    },
+    {
+      "id": "AGTEK.UndergroundSA",
+      "title": "UndergroundSA",
+      "publisher": "AGTEK",
+      "versionCount": 7
+    },
+    {
+      "id": "AHS.HanakumaChifuyu",
+      "title": "HanakumaChifuyu",
+      "publisher": "AHS",
+      "versionCount": 1
+    },
+    {
+      "id": "AHS.KoharuRikka",
+      "title": "KoharuRikka",
+      "publisher": "AHS",
+      "versionCount": 1
+    },
+    {
+      "id": "AHS.NatsukiKarin",
+      "title": "NatsukiKarin",
+      "publisher": "AHS",
+      "versionCount": 1
+    },
+    {
+      "id": "AHS.TohokuItako",
+      "title": "TohokuItako",
+      "publisher": "AHS",
+      "versionCount": 1
+    },
+    {
+      "id": "AHS.TohokuKiritan",
+      "title": "TohokuKiritan",
+      "publisher": "AHS",
+      "versionCount": 1
+    },
+    {
+      "id": "AHS.TohokuZunko",
+      "title": "TohokuZunko",
+      "publisher": "AHS",
+      "versionCount": 1
+    },
+    {
+      "id": "AHS.TsurumakiMaki",
+      "title": "TsurumakiMaki",
+      "publisher": "AHS",
+      "versionCount": 1
+    },
+    {
+      "id": "AHS.TsurumakiMakiJPN",
+      "title": "TsurumakiMakiJPN",
+      "publisher": "AHS",
+      "versionCount": 1
+    },
+    {
+      "id": "AI-Shifu.ChatALL",
+      "title": "ChatALL",
+      "publisher": "AI-Shifu",
+      "versionCount": 3
+    },
+    {
+      "id": "AILight.AILZ80ASM",
+      "title": "AILZ80ASM",
+      "publisher": "AILight",
+      "versionCount": 16
+    },
+    {
+      "id": "AIMP.AIMP",
+      "title": "AIMP",
+      "publisher": "AIMP",
+      "versionCount": 3
+    },
+    {
+      "id": "AIVOICE.BENISHOGA",
+      "title": "BENISHOGA",
+      "publisher": "AIVOICE",
+      "versionCount": 1
+    },
+    {
+      "id": "AIVOICE.KURITA",
+      "title": "KURITA",
+      "publisher": "AIVOICE",
+      "versionCount": 1
+    },
+    {
+      "id": "ALCPU.CoreTemp",
+      "title": "CoreTemp",
+      "publisher": "ALCPU",
+      "versionCount": 2
+    },
+    {
+      "id": "ALE.Rainbow",
+      "title": "Rainbow",
+      "publisher": "ALE",
+      "versionCount": 2
+    },
+    {
+      "id": "ALTEC.AltecDataPrint",
+      "title": "AltecDataPrint",
+      "publisher": "ALTEC",
+      "versionCount": 1
+    },
+    {
+      "id": "ALTEC.QlickPrint",
+      "title": "QlickPrint",
+      "publisher": "ALTEC",
+      "versionCount": 1
+    },
+    {
+      "id": "AList.AList",
+      "title": "AList",
+      "publisher": "AList",
+      "versionCount": 64
+    },
+    {
+      "id": "AList.AListDesktop",
+      "title": "AListDesktop",
+      "publisher": "AList",
+      "versionCount": 18
+    },
+    {
+      "id": "AMD.AMDSoftwareCloudEdition",
+      "title": "AMDSoftwareCloudEdition",
+      "publisher": "AMD",
+      "versionCount": 1
+    },
+    {
+      "id": "AMD.OCAT",
+      "title": "OCAT",
+      "publisher": "AMD",
+      "versionCount": 4
+    },
+    {
+      "id": "AMSSoftware.BusinessCardMaker",
+      "title": "BusinessCardMaker",
+      "publisher": "AMSSoftware",
+      "versionCount": 1
+    },
+    {
+      "id": "AMSSoftware.Clipify",
+      "title": "Clipify",
+      "publisher": "AMSSoftware",
+      "versionCount": 1
+    },
+    {
+      "id": "AMSSoftware.InteriorDesign3D",
+      "title": "InteriorDesign3D",
+      "publisher": "AMSSoftware",
+      "versionCount": 1
+    },
+    {
+      "id": "AMSSoftware.PassportPhotoMaker",
+      "title": "PassportPhotoMaker",
+      "publisher": "AMSSoftware",
+      "versionCount": 1
+    },
+    {
+      "id": "AMSSoftware.PhoenixFileRescue",
+      "title": "PhoenixFileRescue",
+      "publisher": "AMSSoftware",
+      "versionCount": 1
+    },
+    {
+      "id": "AMSSoftware.PhotoCalendarCreator",
+      "title": "PhotoCalendarCreator",
+      "publisher": "AMSSoftware",
+      "versionCount": 1
+    },
+    {
+      "id": "AMSSoftware.PhotoDiva",
+      "title": "PhotoDiva",
+      "publisher": "AMSSoftware",
+      "versionCount": 1
+    },
+    {
+      "id": "AMSSoftware.PhotoWorks",
+      "title": "PhotoWorks",
+      "publisher": "AMSSoftware",
+      "versionCount": 1
+    },
+    {
+      "id": "AMustInEveryOffice.ASAPUtilities",
+      "title": "ASAPUtilities",
+      "publisher": "AMustInEveryOffice",
+      "versionCount": 2
+    },
+    {
+      "id": "ANTOrg-Inc.ASCIIEngine",
+      "title": "ASCIIEngine",
+      "publisher": "ANTOrg-Inc",
+      "versionCount": 2
+    },
+    {
+      "id": "AOMEI.Backupper",
+      "title": "Backupper",
+      "publisher": "AOMEI",
+      "versionCount": 1
+    },
+    {
+      "id": "AOMEI.PartitionAssistant",
+      "title": "PartitionAssistant",
+      "publisher": "AOMEI",
+      "versionCount": 1
+    },
+    {
+      "id": "APIDocumentation.Scalar",
+      "title": "Scalar",
+      "publisher": "APIDocumentation",
+      "versionCount": 27
+    },
+    {
+      "id": "ART.ART",
+      "title": "ART",
+      "publisher": "ART",
+      "versionCount": 8
+    },
+    {
+      "id": "ASGARDEXMaintainers.ASGARDEX",
+      "title": "ASGARDEX",
+      "publisher": "ASGARDEXMaintainers",
+      "versionCount": 21
+    },
+    {
+      "id": "ASIX.AX88179DriverSetup",
+      "title": "AX88179DriverSetup",
+      "publisher": "ASIX",
+      "versionCount": 1
+    },
+    {
+      "id": "ATLauncher.ATLauncher",
+      "title": "ATLauncher",
+      "publisher": "ATLauncher",
+      "versionCount": 2
+    },
+    {
+      "id": "ATNSOFT.KeyManager",
+      "title": "KeyManager",
+      "publisher": "ATNSOFT",
+      "versionCount": 1
+    },
+    {
+      "id": "ATNSOFT.KeyRemapper",
+      "title": "KeyRemapper",
+      "publisher": "ATNSOFT",
+      "versionCount": 1
+    },
+    {
+      "id": "ATNSOFT.TextPaster",
+      "title": "TextPaster",
+      "publisher": "ATNSOFT",
+      "versionCount": 1
+    },
+    {
+      "id": "AVRDudes.AVRDUDE",
+      "title": "AVRDUDE",
+      "publisher": "AVRDudes",
+      "versionCount": 5
+    },
+    {
+      "id": "AVer.AVerTouch",
+      "title": "AVerTouch",
+      "publisher": "AVer",
+      "versionCount": 3
+    },
+    {
+      "id": "AWP.AtlantisWordProcessor",
+      "title": "AtlantisWordProcessor",
+      "publisher": "AWP",
+      "versionCount": 1
+    },
+    {
+      "id": "AWP.AtlantisWordProcessorLite",
+      "title": "AtlantisWordProcessorLite",
+      "publisher": "AWP",
+      "versionCount": 1
+    },
+    {
+      "id": "AXIS.AXISDeviceManager",
+      "title": "AXISDeviceManager",
+      "publisher": "AXIS",
+      "versionCount": 1
+    },
+    {
+      "id": "AXIS.AxisDeviceCompatibilityTool",
+      "title": "AxisDeviceCompatibilityTool",
+      "publisher": "AXIS",
+      "versionCount": 1
+    },
+    {
+      "id": "AXIS.AxisIPUtility",
+      "title": "AxisIPUtility",
+      "publisher": "AXIS",
+      "versionCount": 1
+    },
+    {
+      "id": "AXIS.AxisStreamingAssistant",
+      "title": "AxisStreamingAssistant",
+      "publisher": "AXIS",
+      "versionCount": 2
+    },
+    {
+      "id": "Aakash.Swiss",
+      "title": "Swiss",
+      "publisher": "Aakash",
+      "versionCount": 1
+    },
+    {
+      "id": "Aardappel.Cube",
+      "title": "Cube",
+      "publisher": "Aardappel",
+      "versionCount": 1
+    },
+    {
+      "id": "Aardappel.lobster",
+      "title": "lobster",
+      "publisher": "Aardappel",
+      "versionCount": 4
+    },
+    {
+      "id": "Abacus.AbaClient",
+      "title": "AbaClient",
+      "publisher": "Abacus",
+      "versionCount": 5
+    },
+    {
+      "id": "Abbott.LibreViewDeviceDrivers",
+      "title": "LibreViewDeviceDrivers",
+      "publisher": "Abbott",
+      "versionCount": 1
+    },
+    {
+      "id": "AbdelrahmanBayoumi.Azkar",
+      "title": "Azkar",
+      "publisher": "AbdelrahmanBayoumi",
+      "versionCount": 8
+    },
+    {
+      "id": "Abdelrhman-AK.WinPaletter",
+      "title": "WinPaletter",
+      "publisher": "Abdelrhman-AK",
+      "versionCount": 18
+    },
+    {
+      "id": "Abelfubu.WindowsConfigBuilder",
+      "title": "WindowsConfigBuilder",
+      "publisher": "Abelfubu",
+      "versionCount": 2
+    },
+    {
+      "id": "Abelssoft.SSDFresh",
+      "title": "SSDFresh",
+      "publisher": "Abelssoft",
+      "versionCount": 1
+    },
+    {
+      "id": "Abelssoft.YouTubeSongDownloader",
+      "title": "YouTubeSongDownloader",
+      "publisher": "Abelssoft",
+      "versionCount": 1
+    },
+    {
+      "id": "Ability.AbilityOffice",
+      "title": "AbilityOffice",
+      "publisher": "Ability",
+      "versionCount": 2
+    },
+    {
+      "id": "Ablaze.Floorp",
+      "title": "Floorp",
+      "publisher": "Ablaze",
+      "versionCount": 82
+    },
+    {
+      "id": "AbleWord.AbleWord",
+      "title": "AbleWord",
+      "publisher": "AbleWord",
+      "versionCount": 1
+    },
+    {
+      "id": "Ableton.AbletonLive10Suite",
+      "title": "AbletonLive10Suite",
+      "publisher": "Ableton",
+      "versionCount": 1
+    },
+    {
+      "id": "AbstractSpoon.ToDoList",
+      "title": "ToDoList",
+      "publisher": "AbstractSpoon",
+      "versionCount": 1
+    },
+    {
+      "id": "Abyss.AbyssOverlay",
+      "title": "AbyssOverlay",
+      "publisher": "Abyss",
+      "versionCount": 10
+    },
+    {
+      "id": "AcFun.ARLiveForAcfunLive",
+      "title": "ARLiveForAcfunLive",
+      "publisher": "AcFun",
+      "versionCount": 1
+    },
+    {
+      "id": "AcFun.AcFunVirtualTool",
+      "title": "AcFunVirtualTool",
+      "publisher": "AcFun",
+      "versionCount": 19
+    },
+    {
+      "id": "AceBIT.PasswordDepot",
+      "title": "PasswordDepot",
+      "publisher": "AceBIT",
+      "versionCount": 1
+    },
+    {
+      "id": "AceBIT.PasswordDepotEnterpriseServer",
+      "title": "PasswordDepotEnterpriseServer",
+      "publisher": "AceBIT",
+      "versionCount": 1
+    },
+    {
+      "id": "Acer.AutoDetectSerialNumber",
+      "title": "AutoDetectSerialNumber",
+      "publisher": "Acer",
+      "versionCount": 1
+    },
+    {
+      "id": "AcornLabs.Acorn",
+      "title": "Acorn",
+      "publisher": "AcornLabs",
+      "versionCount": 1
+    },
+    {
+      "id": "AcoustID.Chromaprint",
+      "title": "Chromaprint",
+      "publisher": "AcoustID",
+      "versionCount": 1
+    },
+    {
+      "id": "AcroSoftware.CutePDFWriter",
+      "title": "CutePDFWriter",
+      "publisher": "AcroSoftware",
+      "versionCount": 1
+    },
+    {
+      "id": "Acronis.CyberProtectHomeOffice",
+      "title": "CyberProtectHomeOffice",
+      "publisher": "Acronis",
+      "versionCount": 1
+    },
+    {
+      "id": "Actifile.ActifileAgent",
+      "title": "ActifileAgent",
+      "publisher": "Actifile",
+      "versionCount": 1
+    },
+    {
+      "id": "ActiveDatabaseSoftware.FlySpeedSQLQuery",
+      "title": "FlySpeedSQLQuery",
+      "publisher": "ActiveDatabaseSoftware",
+      "versionCount": 1
+    },
+    {
+      "id": "ActiveDirectoryPro.365ProToolkit",
+      "title": "365ProToolkit",
+      "publisher": "ActiveDirectoryPro",
+      "versionCount": 1
+    },
+    {
+      "id": "ActiveDirectoryPro.ADProToolkit",
+      "title": "ADProToolkit",
+      "publisher": "ActiveDirectoryPro",
+      "versionCount": 1
+    },
+    {
+      "id": "ActiveState.KomodoEdit",
+      "title": "KomodoEdit",
+      "publisher": "ActiveState",
+      "versionCount": 1
+    },
+    {
+      "id": "ActiveState.KomodoIDE",
+      "title": "KomodoIDE",
+      "publisher": "ActiveState",
+      "versionCount": 1
+    },
+    {
+      "id": "ActivityWatch.ActivityWatch",
+      "title": "ActivityWatch",
+      "publisher": "ActivityWatch",
+      "versionCount": 6
+    },
+    {
+      "id": "AdGuard.AdGuard",
+      "title": "AdGuard",
+      "publisher": "AdGuard",
+      "versionCount": 28
+    },
+    {
+      "id": "AdGuard.AdGuardHome",
+      "title": "AdGuardHome",
+      "publisher": "AdGuard",
+      "versionCount": 21
+    },
+    {
+      "id": "AdGuard.AdGuardVPN",
+      "title": "AdGuardVPN",
+      "publisher": "AdGuard",
+      "versionCount": 3
+    },
+    {
+      "id": "AdGuard.dnsproxy",
+      "title": "dnsproxy",
+      "publisher": "AdGuard",
+      "versionCount": 41
+    },
+    {
+      "id": "AdLock.AdLock",
+      "title": "AdLock",
+      "publisher": "AdLock",
+      "versionCount": 1
+    },
+    {
+      "id": "AdaLang.Alire",
+      "title": "Alire",
+      "publisher": "AdaLang",
+      "versionCount": 4
+    },
+    {
+      "id": "AdamMiskiewicz.GraphiQL",
+      "title": "GraphiQL",
+      "publisher": "AdamMiskiewicz",
+      "versionCount": 1
+    },
+    {
+      "id": "Adamant.Messenger",
+      "title": "Messenger",
+      "publisher": "Adamant",
+      "versionCount": 22
+    },
+    {
+      "id": "AderitoNeto.AfterLife",
+      "title": "AfterLife",
+      "publisher": "AderitoNeto",
+      "versionCount": 1
+    },
+    {
+      "id": "Admobilize.AdMobilize",
+      "title": "AdMobilize",
+      "publisher": "Admobilize",
+      "versionCount": 3
+    },
+    {
+      "id": "Admobilize.admprovider",
+      "title": "admprovider",
+      "publisher": "Admobilize",
+      "versionCount": 2
+    },
+    {
+      "id": "Adobe.Acrobat",
+      "title": "Acrobat",
+      "publisher": "Adobe",
+      "versionCount": 2
+    },
+    {
+      "id": "Adobe.AdobeConnect",
+      "title": "AdobeConnect",
+      "publisher": "Adobe",
+      "versionCount": 1
+    },
+    {
+      "id": "Adobe.Brackets",
+      "title": "Brackets",
+      "publisher": "Adobe",
+      "versionCount": 21
+    },
+    {
+      "id": "Adobe.Connect",
+      "title": "Connect",
+      "publisher": "Adobe",
+      "versionCount": 7
+    },
+    {
+      "id": "Adobe.CreativeCloud",
+      "title": "CreativeCloud",
+      "publisher": "Adobe",
+      "versionCount": 1
+    },
+    {
+      "id": "Adobe.Cryptr",
+      "title": "Cryptr",
+      "publisher": "Adobe",
+      "versionCount": 3
+    },
+    {
+      "id": "Adobe.DNGConverter",
+      "title": "DNGConverter",
+      "publisher": "Adobe",
+      "versionCount": 10
+    },
+    {
+      "id": "Adobe.WorkfrontProof",
+      "title": "WorkfrontProof",
+      "publisher": "Adobe",
+      "versionCount": 4
+    },
+    {
+      "id": "AdoptOpenJDK.IcedTea-Web",
+      "title": "IcedTea-Web",
+      "publisher": "AdoptOpenJDK",
+      "versionCount": 1
+    },
+    {
+      "id": "AdoptOpenJDK.OpenJDK",
+      "title": "OpenJDK",
+      "publisher": "AdoptOpenJDK",
+      "versionCount": 6
+    },
+    {
+      "id": "AdrienAllard.FileConverter",
+      "title": "FileConverter",
+      "publisher": "AdrienAllard",
+      "versionCount": 3
+    },
+    {
+      "id": "AdsPower.AdsPower",
+      "title": "AdsPower",
+      "publisher": "AdsPower",
+      "versionCount": 4
+    },
+    {
+      "id": "Advice.myADVICE",
+      "title": "myADVICE",
+      "publisher": "Advice",
+      "versionCount": 1
+    },
+    {
+      "id": "Aegisub.Aegisub",
+      "title": "Aegisub",
+      "publisher": "Aegisub",
+      "versionCount": 4
+    },
+    {
+      "id": "Aerosoft.One",
+      "title": "One",
+      "publisher": "Aerosoft",
+      "versionCount": 1
+    },
+    {
+      "id": "AfreetSoftware.HamVNA",
+      "title": "HamVNA",
+      "publisher": "AfreetSoftware",
+      "versionCount": 1
+    },
+    {
+      "id": "AfreetSoftware.OmniRig",
+      "title": "OmniRig",
+      "publisher": "AfreetSoftware",
+      "versionCount": 1
+    },
+    {
+      "id": "AgileBits.1Password",
+      "title": "1Password",
+      "publisher": "AgileBits",
+      "versionCount": 69
+    },
+    {
+      "id": "Agilent.LabAdvisor",
+      "title": "LabAdvisor",
+      "publisher": "Agilent",
+      "versionCount": 6
+    },
+    {
+      "id": "Agisoft.Metashape",
+      "title": "Metashape",
+      "publisher": "Agisoft",
+      "versionCount": 2
+    },
+    {
+      "id": "Ahlyab.PasswordChecker",
+      "title": "PasswordChecker",
+      "publisher": "Ahlyab",
+      "versionCount": 1
+    },
+    {
+      "id": "Ahlyab.UdemyCouponFetcher",
+      "title": "UdemyCouponFetcher",
+      "publisher": "Ahlyab",
+      "versionCount": 1
+    },
+    {
+      "id": "Ahoy.Ahoy",
+      "title": "Ahoy",
+      "publisher": "Ahoy",
+      "versionCount": 3
+    },
+    {
+      "id": "AhoyLabs.BackyardAI",
+      "title": "BackyardAI",
+      "publisher": "AhoyLabs",
+      "versionCount": 1
+    },
+    {
+      "id": "Aidex.AntiTwin",
+      "title": "AntiTwin",
+      "publisher": "Aidex",
+      "versionCount": 1
+    },
+    {
+      "id": "Aignesberger.WebSiteWatcher",
+      "title": "WebSiteWatcher",
+      "publisher": "Aignesberger",
+      "versionCount": 24
+    },
+    {
+      "id": "Aignesberger.WebSiteWatcherFree",
+      "title": "WebSiteWatcherFree",
+      "publisher": "Aignesberger",
+      "versionCount": 1
+    },
+    {
+      "id": "AirDroid.AirDroid",
+      "title": "AirDroid",
+      "publisher": "AirDroid",
+      "versionCount": 5
+    },
+    {
+      "id": "AirDroid.AirDroidBusinessDesktopClient",
+      "title": "AirDroidBusinessDesktopClient",
+      "publisher": "AirDroid",
+      "versionCount": 1
+    },
+    {
+      "id": "AirExplorer.AirExplorer",
+      "title": "AirExplorer",
+      "publisher": "AirExplorer",
+      "versionCount": 1
+    },
+    {
+      "id": "AirMyPC.AirMyPC",
+      "title": "AirMyPC",
+      "publisher": "AirMyPC",
+      "versionCount": 1
+    },
+    {
+      "id": "AirVPN.Eddie",
+      "title": "Eddie",
+      "publisher": "AirVPN",
+      "versionCount": 3
+    },
+    {
+      "id": "Aircall.Aircall",
+      "title": "Aircall",
+      "publisher": "Aircall",
+      "versionCount": 6
+    },
+    {
+      "id": "Aircall.AircallWorkspace",
+      "title": "AircallWorkspace",
+      "publisher": "Aircall",
+      "versionCount": 17
+    },
+    {
+      "id": "Airspy.AdsbSpy",
+      "title": "AdsbSpy",
+      "publisher": "Airspy",
+      "versionCount": 1
+    },
+    {
+      "id": "Airspy.SDRSharp",
+      "title": "SDRSharp",
+      "publisher": "Airspy",
+      "versionCount": 1
+    },
+    {
+      "id": "Airspy.SpyServer",
+      "title": "SpyServer",
+      "publisher": "Airspy",
+      "versionCount": 1
+    },
+    {
+      "id": "Airsquared.Blobsaver",
+      "title": "Blobsaver",
+      "publisher": "Airsquared",
+      "versionCount": 28
+    },
+    {
+      "id": "Airtame.Airtame",
+      "title": "Airtame",
+      "publisher": "Airtame",
+      "versionCount": 12
+    },
+    {
+      "id": "Airwindows.AirwindowsConsolidated",
+      "title": "AirwindowsConsolidated",
+      "publisher": "Airwindows",
+      "versionCount": 1
+    },
+    {
+      "id": "Airytec.SwitchOff",
+      "title": "SwitchOff",
+      "publisher": "Airytec",
+      "versionCount": 1
+    },
+    {
+      "id": "Airzone.Ductzone",
+      "title": "Ductzone",
+      "publisher": "Airzone",
+      "versionCount": 1
+    },
+    {
+      "id": "Aiursoft.Kahla",
+      "title": "Kahla",
+      "publisher": "Aiursoft",
+      "versionCount": 49
+    },
+    {
+      "id": "AivarAnnamaa.Thonny",
+      "title": "Thonny",
+      "publisher": "AivarAnnamaa",
+      "versionCount": 33
+    },
+    {
+      "id": "Akaere.whois",
+      "title": "whois",
+      "publisher": "Akaere",
+      "versionCount": 4
+    },
+    {
+      "id": "AkelPad.AkelPad",
+      "title": "AkelPad",
+      "publisher": "AkelPad",
+      "versionCount": 2
+    },
+    {
+      "id": "Akiflow.Akiflow",
+      "title": "Akiflow",
+      "publisher": "Akiflow",
+      "versionCount": 18
+    },
+    {
+      "id": "Akko.CloudDriver",
+      "title": "CloudDriver",
+      "publisher": "Akko",
+      "versionCount": 1
+    },
+    {
+      "id": "AlDanial.Cloc",
+      "title": "Cloc",
+      "publisher": "AlDanial",
+      "versionCount": 5
+    },
+    {
+      "id": "Alacritty.Alacritty",
+      "title": "Alacritty",
+      "publisher": "Alacritty",
+      "versionCount": 18
+    },
+    {
+      "id": "Aladin.eBook",
+      "title": "eBook",
+      "publisher": "Aladin",
+      "versionCount": 4
+    },
+    {
+      "id": "AlanJhu.OXWUEEW",
+      "title": "OXWUEEW",
+      "publisher": "AlanJhu",
+      "versionCount": 1
+    },
+    {
+      "id": "Albion.Online",
+      "title": "Online",
+      "publisher": "Albion",
+      "versionCount": 1
+    },
+    {
+      "id": "AlbrechtL.WelleIO",
+      "title": "WelleIO",
+      "publisher": "AlbrechtL",
+      "versionCount": 3
+    },
+    {
+      "id": "Aleab.Toastify",
+      "title": "Toastify",
+      "publisher": "Aleab",
+      "versionCount": 1
+    },
+    {
+      "id": "AlekseyHoffman.Sigma-File-Manager",
+      "title": "Sigma-File-Manager",
+      "publisher": "AlekseyHoffman",
+      "versionCount": 8
+    },
+    {
+      "id": "Alex313031.Codium",
+      "title": "Codium",
+      "publisher": "Alex313031",
+      "versionCount": 4
+    },
+    {
+      "id": "Alex313031.Mercury",
+      "title": "Mercury",
+      "publisher": "Alex313031",
+      "versionCount": 5
+    },
+    {
+      "id": "Alex313031.Thorium",
+      "title": "Thorium",
+      "publisher": "Alex313031",
+      "versionCount": 11
+    },
+    {
+      "id": "AlexKaul.Freeter",
+      "title": "Freeter",
+      "publisher": "AlexKaul",
+      "versionCount": 1
+    },
+    {
+      "id": "AlexRedden.G14ControlV2",
+      "title": "G14ControlV2",
+      "publisher": "AlexRedden",
+      "versionCount": 1
+    },
+    {
+      "id": "AlexShovkoplyas.SkyRoof",
+      "title": "SkyRoof",
+      "publisher": "AlexShovkoplyas",
+      "versionCount": 1
+    },
+    {
+      "id": "AlexThuering.DVDStyler",
+      "title": "DVDStyler",
+      "publisher": "AlexThuering",
+      "versionCount": 3
+    },
+    {
+      "id": "AlexanderGorishnyak.APKEditorStudio",
+      "title": "APKEditorStudio",
+      "publisher": "AlexanderGorishnyak",
+      "versionCount": 1
+    },
+    {
+      "id": "AlexanderGorishnyak.APKIconEditor",
+      "title": "APKIconEditor",
+      "publisher": "AlexanderGorishnyak",
+      "versionCount": 1
+    },
+    {
+      "id": "AlexanderKojevnikov.Spek",
+      "title": "Spek",
+      "publisher": "AlexanderKojevnikov",
+      "versionCount": 2
+    },
+    {
+      "id": "AlexanderLitvinov.AutoText",
+      "title": "AutoText",
+      "publisher": "AlexanderLitvinov",
+      "versionCount": 1
+    },
+    {
+      "id": "AlexanderPershin.lsdeer",
+      "title": "lsdeer",
+      "publisher": "AlexanderPershin",
+      "versionCount": 1
+    },
+    {
+      "id": "AlexanderPro.SmartSystemMenu",
+      "title": "SmartSystemMenu",
+      "publisher": "AlexanderPro",
+      "versionCount": 7
+    },
+    {
+      "id": "AlexanderShaduri.GSmartControl",
+      "title": "GSmartControl",
+      "publisher": "AlexanderShaduri",
+      "versionCount": 4
+    },
+    {
+      "id": "AlexanderSpiess.Ultramarinviewer",
+      "title": "Ultramarinviewer",
+      "publisher": "AlexanderSpiess",
+      "versionCount": 1
+    },
+    {
+      "id": "AlexandrSubbotin.Cerebro",
+      "title": "Cerebro",
+      "publisher": "AlexandrSubbotin",
+      "versionCount": 14
+    },
+    {
+      "id": "AlexandreRouma.SDRPlusPlus",
+      "title": "SDRPlusPlus",
+      "publisher": "AlexandreRouma",
+      "versionCount": 1
+    },
+    {
+      "id": "AlexandruCsete.Gpredict",
+      "title": "Gpredict",
+      "publisher": "AlexandruCsete",
+      "versionCount": 1
+    },
+    {
+      "id": "Algento.Botim",
+      "title": "Botim",
+      "publisher": "Algento",
+      "versionCount": 1
+    },
+    {
+      "id": "AlgorandFoundation.AlgoKit",
+      "title": "AlgoKit",
+      "publisher": "AlgorandFoundation",
+      "versionCount": 18
+    },
+    {
+      "id": "Algoryx.Algodoo",
+      "title": "Algodoo",
+      "publisher": "Algoryx",
+      "versionCount": 2
+    },
+    {
+      "id": "Alibaba.AliIM",
+      "title": "AliIM",
+      "publisher": "Alibaba",
+      "versionCount": 1
+    },
+    {
+      "id": "Alibaba.AliMail",
+      "title": "AliMail",
+      "publisher": "Alibaba",
+      "versionCount": 10
+    },
+    {
+      "id": "Alibaba.AliWorkbench",
+      "title": "AliWorkbench",
+      "publisher": "Alibaba",
+      "versionCount": 19
+    },
+    {
+      "id": "Alibaba.AlibabaCloudCLI",
+      "title": "AlibabaCloudCLI",
+      "publisher": "Alibaba",
+      "versionCount": 165
+    },
+    {
+      "id": "Alibaba.AlipayKeyTool",
+      "title": "AlipayKeyTool",
+      "publisher": "Alibaba",
+      "versionCount": 8
+    },
+    {
+      "id": "Alibaba.DingTalk",
+      "title": "DingTalk",
+      "publisher": "Alibaba",
+      "versionCount": 4
+    },
+    {
+      "id": "Alibaba.LightProxy",
+      "title": "LightProxy",
+      "publisher": "Alibaba",
+      "versionCount": 2
+    },
+    {
+      "id": "Alibaba.Lingma",
+      "title": "Lingma",
+      "publisher": "Alibaba",
+      "versionCount": 2
+    },
+    {
+      "id": "Alibaba.MiniProgramStudio",
+      "title": "MiniProgramStudio",
+      "publisher": "Alibaba",
+      "versionCount": 28
+    },
+    {
+      "id": "Alibaba.Qoder",
+      "title": "Qoder",
+      "publisher": "Alibaba",
+      "versionCount": 1
+    },
+    {
+      "id": "Alibaba.Quark",
+      "title": "Quark",
+      "publisher": "Alibaba",
+      "versionCount": 19
+    },
+    {
+      "id": "Alibaba.QuarkCloudDrive",
+      "title": "QuarkCloudDrive",
+      "publisher": "Alibaba",
+      "versionCount": 80
+    },
+    {
+      "id": "Alibaba.Qwen",
+      "title": "Qwen",
+      "publisher": "Alibaba",
+      "versionCount": 1
+    },
+    {
+      "id": "Alibaba.Taobao",
+      "title": "Taobao",
+      "publisher": "Alibaba",
+      "versionCount": 1
+    },
+    {
+      "id": "Alibaba.Teambition",
+      "title": "Teambition",
+      "publisher": "Alibaba",
+      "versionCount": 4
+    },
+    {
+      "id": "Alibaba.UC",
+      "title": "UC",
+      "publisher": "Alibaba",
+      "versionCount": 7
+    },
+    {
+      "id": "Alibaba.UCCloudDrive",
+      "title": "UCCloudDrive",
+      "publisher": "Alibaba",
+      "versionCount": 25
+    },
+    {
+      "id": "Alibaba.Yuque",
+      "title": "Yuque",
+      "publisher": "Alibaba",
+      "versionCount": 19
+    },
+    {
+      "id": "Alibaba.aDrive",
+      "title": "aDrive",
+      "publisher": "Alibaba",
+      "versionCount": 15
+    },
+    {
+      "id": "AlisterT.openjazz",
+      "title": "openjazz",
+      "publisher": "AlisterT",
+      "versionCount": 1
+    },
+    {
+      "id": "AllanBoll.FilesRemote",
+      "title": "FilesRemote",
+      "publisher": "AllanBoll",
+      "versionCount": 2
+    },
+    {
+      "id": "Allen&Heath.AvantisDirector",
+      "title": "AvantisDirector",
+      "publisher": "Allen&Heath",
+      "versionCount": 1
+    },
+    {
+      "id": "Allen&Heath.SQMixPad",
+      "title": "SQMixPad",
+      "publisher": "Allen&Heath",
+      "versionCount": 1
+    },
+    {
+      "id": "Allen&Heath.dLiveDirector",
+      "title": "dLiveDirector",
+      "publisher": "Allen&Heath",
+      "versionCount": 1
+    },
+    {
+      "id": "AllroundAutomations.PLSQLDeveloper",
+      "title": "PLSQLDeveloper",
+      "publisher": "AllroundAutomations",
+      "versionCount": 7
+    },
+    {
+      "id": "Allusion.Allusion",
+      "title": "Allusion",
+      "publisher": "Allusion",
+      "versionCount": 1
+    },
+    {
+      "id": "Almico.SpeedFan",
+      "title": "SpeedFan",
+      "publisher": "Almico",
+      "versionCount": 1
+    },
+    {
+      "id": "AlperAkca79.SkyNotepad",
+      "title": "SkyNotepad",
+      "publisher": "AlperAkca79",
+      "versionCount": 1
+    },
+    {
+      "id": "AltDrag.AltDrag",
+      "title": "AltDrag",
+      "publisher": "AltDrag",
+      "versionCount": 1
+    },
+    {
+      "id": "AltSnap.AltSnap",
+      "title": "AltSnap",
+      "publisher": "AltSnap",
+      "versionCount": 17
+    },
+    {
+      "id": "Altap.Salamander",
+      "title": "Salamander",
+      "publisher": "Altap",
+      "versionCount": 1
+    },
+    {
+      "id": "AltekaSolutions.Kards",
+      "title": "Kards",
+      "publisher": "AltekaSolutions",
+      "versionCount": 1
+    },
+    {
+      "id": "AlterPhoto.AlterPhoto",
+      "title": "AlterPhoto",
+      "publisher": "AlterPhoto",
+      "versionCount": 1
+    },
+    {
+      "id": "Altova.Authentic",
+      "title": "Authentic",
+      "publisher": "Altova",
+      "versionCount": 5
+    },
+    {
+      "id": "Altova.DatabaseSpy",
+      "title": "DatabaseSpy",
+      "publisher": "Altova",
+      "versionCount": 4
+    },
+    {
+      "id": "Altova.DiffDog",
+      "title": "DiffDog",
+      "publisher": "Altova",
+      "versionCount": 4
+    },
+    {
+      "id": "Altova.DiffDogServer",
+      "title": "DiffDogServer",
+      "publisher": "Altova",
+      "versionCount": 2
+    },
+    {
+      "id": "Altova.FlowForceServer",
+      "title": "FlowForceServer",
+      "publisher": "Altova",
+      "versionCount": 2
+    },
+    {
+      "id": "Altova.LicenseServer",
+      "title": "LicenseServer",
+      "publisher": "Altova",
+      "versionCount": 2
+    },
+    {
+      "id": "Altova.MapForce",
+      "title": "MapForce",
+      "publisher": "Altova",
+      "versionCount": 4
+    },
+    {
+      "id": "Altova.MapForceServer",
+      "title": "MapForceServer",
+      "publisher": "Altova",
+      "versionCount": 2
+    },
+    {
+      "id": "Altova.MissionKit",
+      "title": "MissionKit",
+      "publisher": "Altova",
+      "versionCount": 4
+    },
+    {
+      "id": "Altova.MobileTogetherDesigner",
+      "title": "MobileTogetherDesigner",
+      "publisher": "Altova",
+      "versionCount": 2
+    },
+    {
+      "id": "Altova.MobileTogetherServer",
+      "title": "MobileTogetherServer",
+      "publisher": "Altova",
+      "versionCount": 3
+    },
+    {
+      "id": "Altova.RaptorXMLServer",
+      "title": "RaptorXMLServer",
+      "publisher": "Altova",
+      "versionCount": 2
+    },
+    {
+      "id": "Altova.SchemaAgent",
+      "title": "SchemaAgent",
+      "publisher": "Altova",
+      "versionCount": 4
+    },
+    {
+      "id": "Altova.SchemaAgentServer",
+      "title": "SchemaAgentServer",
+      "publisher": "Altova",
+      "versionCount": 4
+    },
+    {
+      "id": "Altova.StyleVision",
+      "title": "StyleVision",
+      "publisher": "Altova",
+      "versionCount": 4
+    },
+    {
+      "id": "Altova.StyleVisionServer",
+      "title": "StyleVisionServer",
+      "publisher": "Altova",
+      "versionCount": 2
+    },
+    {
+      "id": "Altova.UModel",
+      "title": "UModel",
+      "publisher": "Altova",
+      "versionCount": 4
+    },
+    {
+      "id": "Altova.XMLSpy",
+      "title": "XMLSpy",
+      "publisher": "Altova",
+      "versionCount": 4
+    },
+    {
+      "id": "AlveSvaren.Resizer2",
+      "title": "Resizer2",
+      "publisher": "AlveSvaren",
+      "versionCount": 2
+    },
+    {
+      "id": "AmN.IconExtractor",
+      "title": "IconExtractor",
+      "publisher": "AmN",
+      "versionCount": 4
+    },
+    {
+      "id": "AmN.KomoGUI",
+      "title": "KomoGUI",
+      "publisher": "AmN",
+      "versionCount": 3
+    },
+    {
+      "id": "AmN.yasb",
+      "title": "yasb",
+      "publisher": "AmN",
+      "versionCount": 43
+    },
+    {
+      "id": "AmanHarwara.Altus",
+      "title": "Altus",
+      "publisher": "AmanHarwara",
+      "versionCount": 91
+    },
+    {
+      "id": "AmarBego.Rscoop",
+      "title": "Rscoop",
+      "publisher": "AmarBego",
+      "versionCount": 6
+    },
+    {
+      "id": "Amazon.AWSCLI",
+      "title": "AWSCLI",
+      "publisher": "Amazon",
+      "versionCount": 582
+    },
+    {
+      "id": "Amazon.AWSVPNClient",
+      "title": "AWSVPNClient",
+      "publisher": "Amazon",
+      "versionCount": 22
+    },
+    {
+      "id": "Amazon.AppStream",
+      "title": "AppStream",
+      "publisher": "Amazon",
+      "versionCount": 3
+    },
+    {
+      "id": "Amazon.AthenaODBCDriver",
+      "title": "AthenaODBCDriver",
+      "publisher": "Amazon",
+      "versionCount": 2
+    },
+    {
+      "id": "Amazon.Chime",
+      "title": "Chime",
+      "publisher": "Amazon",
+      "versionCount": 6
+    },
+    {
+      "id": "Amazon.CloudWatchAgent",
+      "title": "CloudWatchAgent",
+      "publisher": "Amazon",
+      "versionCount": 8
+    },
+    {
+      "id": "Amazon.CopilotCLI",
+      "title": "CopilotCLI",
+      "publisher": "Amazon",
+      "versionCount": 5
+    },
+    {
+      "id": "Amazon.Corretto",
+      "title": "Corretto",
+      "publisher": "Amazon",
+      "versionCount": 11
+    },
+    {
+      "id": "Amazon.EC2Launch",
+      "title": "EC2Launch",
+      "publisher": "Amazon",
+      "versionCount": 6
+    },
+    {
+      "id": "Amazon.Games",
+      "title": "Games",
+      "publisher": "Amazon",
+      "versionCount": 1
+    },
+    {
+      "id": "Amazon.Kindle",
+      "title": "Kindle",
+      "publisher": "Amazon",
+      "versionCount": 14
+    },
+    {
+      "id": "Amazon.KindlePreviewer",
+      "title": "KindlePreviewer",
+      "publisher": "Amazon",
+      "versionCount": 1
+    },
+    {
+      "id": "Amazon.Kiro",
+      "title": "Kiro",
+      "publisher": "Amazon",
+      "versionCount": 15
+    },
+    {
+      "id": "Amazon.Music",
+      "title": "Music",
+      "publisher": "Amazon",
+      "versionCount": 3
+    },
+    {
+      "id": "Amazon.NoSQLWorkbench",
+      "title": "NoSQLWorkbench",
+      "publisher": "Amazon",
+      "versionCount": 3
+    },
+    {
+      "id": "Amazon.OpenSearch",
+      "title": "OpenSearch",
+      "publisher": "Amazon",
+      "versionCount": 1
+    },
+    {
+      "id": "Amazon.Redshift",
+      "title": "Redshift",
+      "publisher": "Amazon",
+      "versionCount": 1
+    },
+    {
+      "id": "Amazon.SAM-CLI",
+      "title": "SAM-CLI",
+      "publisher": "Amazon",
+      "versionCount": 121
+    },
+    {
+      "id": "Amazon.SSMAgent",
+      "title": "SSMAgent",
+      "publisher": "Amazon",
+      "versionCount": 5
+    },
+    {
+      "id": "Amazon.SendToKindle",
+      "title": "SendToKindle",
+      "publisher": "Amazon",
+      "versionCount": 1
+    },
+    {
+      "id": "Amazon.SessionManagerPlugin",
+      "title": "SessionManagerPlugin",
+      "publisher": "Amazon",
+      "versionCount": 12
+    },
+    {
+      "id": "Amazon.WorkspacesClient",
+      "title": "WorkspacesClient",
+      "publisher": "Amazon",
+      "versionCount": 2
+    },
+    {
+      "id": "Amebis.ALicPos",
+      "title": "ALicPos",
+      "publisher": "Amebis",
+      "versionCount": 1
+    },
+    {
+      "id": "Amebis.Besana",
+      "title": "Besana",
+      "publisher": "Amebis",
+      "versionCount": 1
+    },
+    {
+      "id": "Amebis.Hipsis",
+      "title": "Hipsis",
+      "publisher": "Amebis",
+      "versionCount": 1
+    },
+    {
+      "id": "AmericanRadioRelayLeague.TrustedQSL",
+      "title": "TrustedQSL",
+      "publisher": "AmericanRadioRelayLeague",
+      "versionCount": 9
+    },
+    {
+      "id": "AmneziaVPN.AmneziaVPN",
+      "title": "AmneziaVPN",
+      "publisher": "AmneziaVPN",
+      "versionCount": 1
+    },
+    {
+      "id": "AmrakSoftware.DMGExtractor",
+      "title": "DMGExtractor",
+      "publisher": "AmrakSoftware",
+      "versionCount": 1
+    },
+    {
+      "id": "Amulet.Amulet",
+      "title": "Amulet",
+      "publisher": "Amulet",
+      "versionCount": 1
+    },
+    {
+      "id": "AmyXun.AxGlyph",
+      "title": "AxGlyph",
+      "publisher": "AmyXun",
+      "versionCount": 1
+    },
+    {
+      "id": "AmyXun.AxMath",
+      "title": "AxMath",
+      "publisher": "AmyXun",
+      "versionCount": 1
+    },
+    {
+      "id": "Anaconda.Anaconda3",
+      "title": "Anaconda3",
+      "publisher": "Anaconda",
+      "versionCount": 13
+    },
+    {
+      "id": "Anaconda.Miniconda3",
+      "title": "Miniconda3",
+      "publisher": "Anaconda",
+      "versionCount": 18
+    },
+    {
+      "id": "Anakin-bb8.NPTE",
+      "title": "NPTE",
+      "publisher": "Anakin-bb8",
+      "versionCount": 2
+    },
+    {
+      "id": "AnalogDevices.LTspice",
+      "title": "LTspice",
+      "publisher": "AnalogDevices",
+      "versionCount": 2
+    },
+    {
+      "id": "Anchor.cli",
+      "title": "cli",
+      "publisher": "Anchor",
+      "versionCount": 19
+    },
+    {
+      "id": "AnchorFree.TouchVPN",
+      "title": "TouchVPN",
+      "publisher": "AnchorFree",
+      "versionCount": 1
+    },
+    {
+      "id": "Anchore.Grype",
+      "title": "Grype",
+      "publisher": "Anchore",
+      "versionCount": 31
+    },
+    {
+      "id": "Anchore.Quill",
+      "title": "Quill",
+      "publisher": "Anchore",
+      "versionCount": 2
+    },
+    {
+      "id": "Anchore.Syft",
+      "title": "Syft",
+      "publisher": "Anchore",
+      "versionCount": 25
+    },
+    {
+      "id": "Andekan.Kinship",
+      "title": "Kinship",
+      "publisher": "Andekan",
+      "versionCount": 6
+    },
+    {
+      "id": "Andersama.obs-asio",
+      "title": "obs-asio",
+      "publisher": "Andersama",
+      "versionCount": 3
+    },
+    {
+      "id": "AndreWiethoff.ExactAudioCopy",
+      "title": "ExactAudioCopy",
+      "publisher": "AndreWiethoff",
+      "versionCount": 2
+    },
+    {
+      "id": "AndreaMarucci.HD2Arsenal",
+      "title": "HD2Arsenal",
+      "publisher": "AndreaMarucci",
+      "versionCount": 1
+    },
+    {
+      "id": "AndreasWascher.RepoZ",
+      "title": "RepoZ",
+      "publisher": "AndreasWascher",
+      "versionCount": 8
+    },
+    {
+      "id": "Andrelouis.NokiaSPMIDIPlayer",
+      "title": "NokiaSPMIDIPlayer",
+      "publisher": "Andrelouis",
+      "versionCount": 1
+    },
+    {
+      "id": "AndresMorelos.Invoncify",
+      "title": "Invoncify",
+      "publisher": "AndresMorelos",
+      "versionCount": 33
+    },
+    {
+      "id": "AndrewCalcutt.Vistumbler",
+      "title": "Vistumbler",
+      "publisher": "AndrewCalcutt",
+      "versionCount": 1
+    },
+    {
+      "id": "AndrewCantino.McFly",
+      "title": "McFly",
+      "publisher": "AndrewCantino",
+      "versionCount": 3
+    },
+    {
+      "id": "AndrewWhewell.VirtualRadarServer",
+      "title": "VirtualRadarServer",
+      "publisher": "AndrewWhewell",
+      "versionCount": 1
+    },
+    {
+      "id": "Andromeda.Andromeda",
+      "title": "Andromeda",
+      "publisher": "Andromeda",
+      "versionCount": 16
+    },
+    {
+      "id": "AndyFul.ConfigureDefender",
+      "title": "ConfigureDefender",
+      "publisher": "AndyFul",
+      "versionCount": 1
+    },
+    {
+      "id": "AngeloConvento.OverKeys",
+      "title": "OverKeys",
+      "publisher": "AngeloConvento",
+      "versionCount": 16
+    },
+    {
+      "id": "AngryMiao.AMMaster",
+      "title": "AMMaster",
+      "publisher": "AngryMiao",
+      "versionCount": 10
+    },
+    {
+      "id": "AngusJohnson.PDFTKBuilder",
+      "title": "PDFTKBuilder",
+      "publisher": "AngusJohnson",
+      "versionCount": 1
+    },
+    {
+      "id": "AngusJohnson.ResourceHacker",
+      "title": "ResourceHacker",
+      "publisher": "AngusJohnson",
+      "versionCount": 1
+    },
+    {
+      "id": "Anim8or.Anim8or",
+      "title": "Anim8or",
+      "publisher": "Anim8or",
+      "versionCount": 1
+    },
+    {
+      "id": "Anjok07.UltimateVocalRemover",
+      "title": "UltimateVocalRemover",
+      "publisher": "Anjok07",
+      "versionCount": 2
+    },
+    {
+      "id": "Ankama.AnkamaLauncher",
+      "title": "AnkamaLauncher",
+      "publisher": "Ankama",
+      "versionCount": 1
+    },
+    {
+      "id": "Anker.AnkerMake",
+      "title": "AnkerMake",
+      "publisher": "Anker",
+      "versionCount": 4
+    },
+    {
+      "id": "Anki.Anki",
+      "title": "Anki",
+      "publisher": "Anki",
+      "versionCount": 41
+    },
+    {
+      "id": "AnnyStudio.JPEGLosslessRotator",
+      "title": "JPEGLosslessRotator",
+      "publisher": "AnnyStudio",
+      "versionCount": 1
+    },
+    {
+      "id": "AntLab.AntConc",
+      "title": "AntConc",
+      "publisher": "AntLab",
+      "versionCount": 1
+    },
+    {
+      "id": "AntSoftware.AntRenamer",
+      "title": "AntRenamer",
+      "publisher": "AntSoftware",
+      "versionCount": 2
+    },
+    {
+      "id": "AnthonyBeaumont.AchievementWatcher",
+      "title": "AchievementWatcher",
+      "publisher": "AnthonyBeaumont",
+      "versionCount": 4
+    },
+    {
+      "id": "Anthropic.Claude",
+      "title": "Claude",
+      "publisher": "Anthropic",
+      "versionCount": 2
+    },
+    {
+      "id": "Anthropic.ClaudeCode",
+      "title": "ClaudeCode",
+      "publisher": "Anthropic",
+      "versionCount": 59
+    },
+    {
+      "id": "AntiMicro.AntiMicro",
+      "title": "AntiMicro",
+      "publisher": "AntiMicro",
+      "versionCount": 1
+    },
+    {
+      "id": "AntiMicroX.antimicrox",
+      "title": "antimicrox",
+      "publisher": "AntiMicroX",
+      "versionCount": 4
+    },
+    {
+      "id": "AntiMicroX.antimicroxPortable",
+      "title": "antimicroxPortable",
+      "publisher": "AntiMicroX",
+      "versionCount": 2
+    },
+    {
+      "id": "AntibodySoftware.WizFile",
+      "title": "WizFile",
+      "publisher": "AntibodySoftware",
+      "versionCount": 3
+    },
+    {
+      "id": "AntibodySoftware.WizKey",
+      "title": "WizKey",
+      "publisher": "AntibodySoftware",
+      "versionCount": 1
+    },
+    {
+      "id": "AntibodySoftware.WizMouse",
+      "title": "WizMouse",
+      "publisher": "AntibodySoftware",
+      "versionCount": 1
+    },
+    {
+      "id": "AntibodySoftware.WizTree",
+      "title": "WizTree",
+      "publisher": "AntibodySoftware",
+      "versionCount": 11
+    },
+    {
+      "id": "AntoineAflalo.SoundSwitch",
+      "title": "SoundSwitch",
+      "publisher": "AntoineAflalo",
+      "versionCount": 29
+    },
+    {
+      "id": "AntoniKepinski.ParsifyDesktop",
+      "title": "ParsifyDesktop",
+      "publisher": "AntoniKepinski",
+      "versionCount": 7
+    },
+    {
+      "id": "AntonyCourtney.Tad",
+      "title": "Tad",
+      "publisher": "AntonyCourtney",
+      "versionCount": 5
+    },
+    {
+      "id": "AntstreamLtd.Antstream",
+      "title": "Antstream",
+      "publisher": "AntstreamLtd",
+      "versionCount": 1
+    },
+    {
+      "id": "Antutu.AntutuBenchmark",
+      "title": "AntutuBenchmark",
+      "publisher": "Antutu",
+      "versionCount": 1
+    },
+    {
+      "id": "Antutu.AntutuLLMBenchmark",
+      "title": "AntutuLLMBenchmark",
+      "publisher": "Antutu",
+      "versionCount": 1
+    },
+    {
+      "id": "Anxcye.AnxReader",
+      "title": "AnxReader",
+      "publisher": "Anxcye",
+      "versionCount": 19
+    },
+    {
+      "id": "AnyAssociation.Anytype",
+      "title": "Anytype",
+      "publisher": "AnyAssociation",
+      "versionCount": 45
+    },
+    {
+      "id": "AnyDesk.AnyDesk",
+      "title": "AnyDesk",
+      "publisher": "AnyDesk",
+      "versionCount": 1
+    },
+    {
+      "id": "AnyLogic.AnyLogic",
+      "title": "AnyLogic",
+      "publisher": "AnyLogic",
+      "versionCount": 3
+    },
+    {
+      "id": "AnyTXT.AnyTXTSearcher",
+      "title": "AnyTXTSearcher",
+      "publisher": "AnyTXT",
+      "versionCount": 2
+    },
+    {
+      "id": "Anydo.Anydo",
+      "title": "Anydo",
+      "publisher": "Anydo",
+      "versionCount": 21
+    },
+    {
+      "id": "Anysphere.Cursor",
+      "title": "Cursor",
+      "publisher": "Anysphere",
+      "versionCount": 132
+    },
+    {
+      "id": "ApSIC.Xbench",
+      "title": "Xbench",
+      "publisher": "ApSIC",
+      "versionCount": 3
+    },
+    {
+      "id": "Apache.DirectoryStudio",
+      "title": "DirectoryStudio",
+      "publisher": "Apache",
+      "versionCount": 1
+    },
+    {
+      "id": "Apache.Groovy",
+      "title": "Groovy",
+      "publisher": "Apache",
+      "versionCount": 3
+    },
+    {
+      "id": "Apache.NetBeans",
+      "title": "NetBeans",
+      "publisher": "Apache",
+      "versionCount": 9
+    },
+    {
+      "id": "Apache.OpenOffice",
+      "title": "OpenOffice",
+      "publisher": "Apache",
+      "versionCount": 7
+    },
+    {
+      "id": "ApacheFriends.Xampp",
+      "title": "Xampp",
+      "publisher": "ApacheFriends",
+      "versionCount": 1
+    },
+    {
+      "id": "ApacheLounge.httpd",
+      "title": "httpd",
+      "publisher": "ApacheLounge",
+      "versionCount": 2
+    },
+    {
+      "id": "ApeCloud.kbcli",
+      "title": "kbcli",
+      "publisher": "ApeCloud",
+      "versionCount": 4
+    },
+    {
+      "id": "Apipost.ApiPost",
+      "title": "ApiPost",
+      "publisher": "Apipost",
+      "versionCount": 7
+    },
+    {
+      "id": "AppByTroye.KoodoReader",
+      "title": "KoodoReader",
+      "publisher": "AppByTroye",
+      "versionCount": 5
+    },
+    {
+      "id": "AppDeployNews.SilentSwitchFinder",
+      "title": "SilentSwitchFinder",
+      "publisher": "AppDeployNews",
+      "versionCount": 1
+    },
+    {
+      "id": "AppDynamic.AirServer",
+      "title": "AirServer",
+      "publisher": "AppDynamic",
+      "versionCount": 2
+    },
+    {
+      "id": "AppFlowy.AppFlowy",
+      "title": "AppFlowy",
+      "publisher": "AppFlowy",
+      "versionCount": 70
+    },
+    {
+      "id": "AppSolves.TikTok-LIVE-Automation",
+      "title": "TikTok-LIVE-Automation",
+      "publisher": "AppSolves",
+      "versionCount": 2
+    },
+    {
+      "id": "AppWork.JDownloader",
+      "title": "JDownloader",
+      "publisher": "AppWork",
+      "versionCount": 1
+    },
+    {
+      "id": "Appeon.PowerBuilder-2025-3683-EN-GA",
+      "title": "PowerBuilder-2025-3683-EN-GA",
+      "publisher": "Appeon",
+      "versionCount": 1
+    },
+    {
+      "id": "Appeon.PowerBuilderRuntime2022R3",
+      "title": "PowerBuilderRuntime2022R3",
+      "publisher": "Appeon",
+      "versionCount": 1
+    },
+    {
+      "id": "Appeon.PowerServerToolkit2022R3-MR03",
+      "title": "PowerServerToolkit2022R3-MR03",
+      "publisher": "Appeon",
+      "versionCount": 1
+    },
+    {
+      "id": "Appest.Dida",
+      "title": "Dida",
+      "publisher": "Appest",
+      "versionCount": 43
+    },
+    {
+      "id": "Appest.TickTick",
+      "title": "TickTick",
+      "publisher": "Appest",
+      "versionCount": 54
+    },
+    {
+      "id": "AppiumDevelopers.AppiumInspector",
+      "title": "AppiumInspector",
+      "publisher": "AppiumDevelopers",
+      "versionCount": 7
+    },
+    {
+      "id": "Apple.AirPort",
+      "title": "AirPort",
+      "publisher": "Apple",
+      "versionCount": 4
+    },
+    {
+      "id": "Apple.AppleApplicationSupport",
+      "title": "AppleApplicationSupport",
+      "publisher": "Apple",
+      "versionCount": 2
+    },
+    {
+      "id": "Apple.AppleMobileDeviceSupport",
+      "title": "AppleMobileDeviceSupport",
+      "publisher": "Apple",
+      "versionCount": 6
+    },
+    {
+      "id": "Apple.AppleSoftwareUpdate",
+      "title": "AppleSoftwareUpdate",
+      "publisher": "Apple",
+      "versionCount": 1
+    },
+    {
+      "id": "Apple.Bonjour",
+      "title": "Bonjour",
+      "publisher": "Apple",
+      "versionCount": 1
+    },
+    {
+      "id": "Apple.BonjourPrintServices",
+      "title": "BonjourPrintServices",
+      "publisher": "Apple",
+      "versionCount": 1
+    },
+    {
+      "id": "Apple.DVDorCDSharing",
+      "title": "DVDorCDSharing",
+      "publisher": "Apple",
+      "versionCount": 1
+    },
+    {
+      "id": "Apple.Pkl",
+      "title": "Pkl",
+      "publisher": "Apple",
+      "versionCount": 9
+    },
+    {
+      "id": "Apple.ProResRAWforWindows",
+      "title": "ProResRAWforWindows",
+      "publisher": "Apple",
+      "versionCount": 1
+    },
+    {
+      "id": "Apple.QuickTime",
+      "title": "QuickTime",
+      "publisher": "Apple",
+      "versionCount": 1
+    },
+    {
+      "id": "Apple.Safari",
+      "title": "Safari",
+      "publisher": "Apple",
+      "versionCount": 1
+    },
+    {
+      "id": "Apple.WindowsMigrationAssistant",
+      "title": "WindowsMigrationAssistant",
+      "publisher": "Apple",
+      "versionCount": 3
+    },
+    {
+      "id": "Apple.iCloud",
+      "title": "iCloud",
+      "publisher": "Apple",
+      "versionCount": 1
+    },
+    {
+      "id": "Apple.iTunes",
+      "title": "iTunes",
+      "publisher": "Apple",
+      "versionCount": 23
+    },
+    {
+      "id": "AppleWin.AppleWin",
+      "title": "AppleWin",
+      "publisher": "AppleWin",
+      "versionCount": 6
+    },
+    {
+      "id": "Approximatrix.SimplyFortran",
+      "title": "SimplyFortran",
+      "publisher": "Approximatrix",
+      "versionCount": 6
+    },
+    {
+      "id": "Approximatrix.WebFortran",
+      "title": "WebFortran",
+      "publisher": "Approximatrix",
+      "versionCount": 1
+    },
+    {
+      "id": "AprelTech.HVManager",
+      "title": "HVManager",
+      "publisher": "AprelTech",
+      "versionCount": 1
+    },
+    {
+      "id": "AprelTech.PowerManager",
+      "title": "PowerManager",
+      "publisher": "AprelTech",
+      "versionCount": 1
+    },
+    {
+      "id": "AprelTech.SilentInstallBuilder",
+      "title": "SilentInstallBuilder",
+      "publisher": "AprelTech",
+      "versionCount": 2
+    },
+    {
+      "id": "Apryse.Able2Extract",
+      "title": "Able2Extract",
+      "publisher": "Apryse",
+      "versionCount": 1
+    },
+    {
+      "id": "Apryse.XodoPDFReader",
+      "title": "XodoPDFReader",
+      "publisher": "Apryse",
+      "versionCount": 1
+    },
+    {
+      "id": "AptosCore.aptos",
+      "title": "aptos",
+      "publisher": "AptosCore",
+      "versionCount": 14
+    },
+    {
+      "id": "AquaSecurity.Trivy",
+      "title": "Trivy",
+      "publisher": "AquaSecurity",
+      "versionCount": 43
+    },
+    {
+      "id": "ArashiVisionInc.Insta360Studio",
+      "title": "Insta360Studio",
+      "publisher": "ArashiVisionInc",
+      "versionCount": 2
+    },
+    {
+      "id": "Araxis.Merge",
+      "title": "Merge",
+      "publisher": "Araxis",
+      "versionCount": 3
+    },
+    {
+      "id": "ArcadeRenegade.SidebarDiagnostics",
+      "title": "SidebarDiagnostics",
+      "publisher": "ArcadeRenegade",
+      "versionCount": 4
+    },
+    {
+      "id": "ArcanaDevelopment.adTempus",
+      "title": "adTempus",
+      "publisher": "ArcanaDevelopment",
+      "versionCount": 1
+    },
+    {
+      "id": "Archeb.OpenTrace",
+      "title": "OpenTrace",
+      "publisher": "Archeb",
+      "versionCount": 3
+    },
+    {
+      "id": "Archi.Archi",
+      "title": "Archi",
+      "publisher": "Archi",
+      "versionCount": 1
+    },
+    {
+      "id": "ArcticLine.JetScreenshot",
+      "title": "JetScreenshot",
+      "publisher": "ArcticLine",
+      "versionCount": 1
+    },
+    {
+      "id": "Arctype.Arctype",
+      "title": "Arctype",
+      "publisher": "Arctype",
+      "versionCount": 3
+    },
+    {
+      "id": "ArduinoSA.CLI",
+      "title": "CLI",
+      "publisher": "ArduinoSA",
+      "versionCount": 10
+    },
+    {
+      "id": "ArduinoSA.IDE",
+      "title": "IDE",
+      "publisher": "ArduinoSA",
+      "versionCount": 3
+    },
+    {
+      "id": "Arelle.Arelle",
+      "title": "Arelle",
+      "publisher": "Arelle",
+      "versionCount": 4
+    },
+    {
+      "id": "Ares.Ares",
+      "title": "Ares",
+      "publisher": "Ares",
+      "versionCount": 1
+    },
+    {
+      "id": "Argente.Utilities",
+      "title": "Utilities",
+      "publisher": "Argente",
+      "versionCount": 2
+    },
+    {
+      "id": "Argotronic.ArgusMonitor",
+      "title": "ArgusMonitor",
+      "publisher": "Argotronic",
+      "versionCount": 1
+    },
+    {
+      "id": "Aries-Sciences-LLC.AI-Chess",
+      "title": "AI-Chess",
+      "publisher": "Aries-Sciences-LLC",
+      "versionCount": 1
+    },
+    {
+      "id": "Arixcel.ArixcelExplorer",
+      "title": "ArixcelExplorer",
+      "publisher": "Arixcel",
+      "versionCount": 2
+    },
+    {
+      "id": "Arks-Layer.PSO2Tweaker",
+      "title": "PSO2Tweaker",
+      "publisher": "Arks-Layer",
+      "versionCount": 1
+    },
+    {
+      "id": "Arm.ArmGnuToolchain",
+      "title": "ArmGnuToolchain",
+      "publisher": "Arm",
+      "versionCount": 1
+    },
+    {
+      "id": "Arm.ArmPerformanceLibraries",
+      "title": "ArmPerformanceLibraries",
+      "publisher": "Arm",
+      "versionCount": 2
+    },
+    {
+      "id": "Arm.GnuArmEmbeddedToolchain",
+      "title": "GnuArmEmbeddedToolchain",
+      "publisher": "Arm",
+      "versionCount": 8
+    },
+    {
+      "id": "Arm.WindowsPerf",
+      "title": "WindowsPerf",
+      "publisher": "Arm",
+      "versionCount": 11
+    },
+    {
+      "id": "ArmagetronAdvanced.ArmagetronAdvanced",
+      "title": "ArmagetronAdvanced",
+      "publisher": "ArmagetronAdvanced",
+      "versionCount": 3
+    },
+    {
+      "id": "Armaria.Armaria",
+      "title": "Armaria",
+      "publisher": "Armaria",
+      "versionCount": 6
+    },
+    {
+      "id": "ArminOsaj.AutoDarkMode",
+      "title": "AutoDarkMode",
+      "publisher": "ArminOsaj",
+      "versionCount": 11
+    },
+    {
+      "id": "Arnau478.hevi",
+      "title": "hevi",
+      "publisher": "Arnau478",
+      "versionCount": 1
+    },
+    {
+      "id": "ArobasMusic.GuitarPro",
+      "title": "GuitarPro",
+      "publisher": "ArobasMusic",
+      "versionCount": 3
+    },
+    {
+      "id": "ArrayFire.ArrayFire",
+      "title": "ArrayFire",
+      "publisher": "ArrayFire",
+      "versionCount": 1
+    },
+    {
+      "id": "ArrayNetworks.MotionPro",
+      "title": "MotionPro",
+      "publisher": "ArrayNetworks",
+      "versionCount": 1
+    },
+    {
+      "id": "ArtemChepurnyi.Keyguard",
+      "title": "Keyguard",
+      "publisher": "ArtemChepurnyi",
+      "versionCount": 12
+    },
+    {
+      "id": "Artempyanykh.Marksman",
+      "title": "Marksman",
+      "publisher": "Artempyanykh",
+      "versionCount": 2
+    },
+    {
+      "id": "Artha.Artha",
+      "title": "Artha",
+      "publisher": "Artha",
+      "versionCount": 1
+    },
+    {
+      "id": "Articulate.Articulate360",
+      "title": "Articulate360",
+      "publisher": "Articulate",
+      "versionCount": 1
+    },
+    {
+      "id": "ArtifexSoftware.mutool",
+      "title": "mutool",
+      "publisher": "ArtifexSoftware",
+      "versionCount": 2
+    },
+    {
+      "id": "ArtificialQualia.PyEveLiveDPS",
+      "title": "PyEveLiveDPS",
+      "publisher": "ArtificialQualia",
+      "versionCount": 1
+    },
+    {
+      "id": "Artikash.Textractor",
+      "title": "Textractor",
+      "publisher": "Artikash",
+      "versionCount": 1
+    },
+    {
+      "id": "ArtisteerLimited.Nicepage",
+      "title": "Nicepage",
+      "publisher": "ArtisteerLimited",
+      "versionCount": 5
+    },
+    {
+      "id": "ArtisticStyle.ArtisticStyle",
+      "title": "ArtisticStyle",
+      "publisher": "ArtisticStyle",
+      "versionCount": 3
+    },
+    {
+      "id": "Artsoft.RocksNDiamonds",
+      "title": "RocksNDiamonds",
+      "publisher": "Artsoft",
+      "versionCount": 4
+    },
+    {
+      "id": "ArturKharin.ProcessesPriorityManager",
+      "title": "ProcessesPriorityManager",
+      "publisher": "ArturKharin",
+      "versionCount": 1
+    },
+    {
+      "id": "Asana.Asana",
+      "title": "Asana",
+      "publisher": "Asana",
+      "versionCount": 1
+    },
+    {
+      "id": "AsaphaHalifa.AudioRelay",
+      "title": "AudioRelay",
+      "publisher": "AsaphaHalifa",
+      "versionCount": 2
+    },
+    {
+      "id": "Ascensio.AVSAudioConverter",
+      "title": "AVSAudioConverter",
+      "publisher": "Ascensio",
+      "versionCount": 1
+    },
+    {
+      "id": "Ascensio.AVSAudioEditor",
+      "title": "AVSAudioEditor",
+      "publisher": "Ascensio",
+      "versionCount": 1
+    },
+    {
+      "id": "Ascensio.AVSImageConverter",
+      "title": "AVSImageConverter",
+      "publisher": "Ascensio",
+      "versionCount": 1
+    },
+    {
+      "id": "Ascensio.AVSInstallPack",
+      "title": "AVSInstallPack",
+      "publisher": "Ascensio",
+      "versionCount": 1
+    },
+    {
+      "id": "Ascensio.AVSMediaPlayer",
+      "title": "AVSMediaPlayer",
+      "publisher": "Ascensio",
+      "versionCount": 1
+    },
+    {
+      "id": "Ascensio.AVSVideoConverter",
+      "title": "AVSVideoConverter",
+      "publisher": "Ascensio",
+      "versionCount": 1
+    },
+    {
+      "id": "Ascensio.AVSVideoEditor",
+      "title": "AVSVideoEditor",
+      "publisher": "Ascensio",
+      "versionCount": 1
+    },
+    {
+      "id": "Ascensio.AVSVideoReMaker",
+      "title": "AVSVideoReMaker",
+      "publisher": "Ascensio",
+      "versionCount": 1
+    },
+    {
+      "id": "AsciidocFX.AsciidocFX",
+      "title": "AsciidocFX",
+      "publisher": "AsciidocFX",
+      "versionCount": 7
+    },
+    {
+      "id": "Aserto.CLI",
+      "title": "CLI",
+      "publisher": "Aserto",
+      "versionCount": 16
+    },
+    {
+      "id": "Aserto.Check2Decision",
+      "title": "Check2Decision",
+      "publisher": "Aserto",
+      "versionCount": 1
+    },
+    {
+      "id": "Aserto.DSLoad",
+      "title": "DSLoad",
+      "publisher": "Aserto",
+      "versionCount": 14
+    },
+    {
+      "id": "Aserto.Topaz",
+      "title": "Topaz",
+      "publisher": "Aserto",
+      "versionCount": 75
+    },
+    {
+      "id": "AshishBharadwajJ.Flawesome",
+      "title": "Flawesome",
+      "publisher": "AshishBharadwajJ",
+      "versionCount": 1
+    },
+    {
+      "id": "AshleyStone.DefaultAudio",
+      "title": "DefaultAudio",
+      "publisher": "AshleyStone",
+      "versionCount": 1
+    },
+    {
+      "id": "AshleyStone.SitdownMW",
+      "title": "SitdownMW",
+      "publisher": "AshleyStone",
+      "versionCount": 1
+    },
+    {
+      "id": "AsiasoftOnline.PlayparkDownloader",
+      "title": "PlayparkDownloader",
+      "publisher": "AsiasoftOnline",
+      "versionCount": 1
+    },
+    {
+      "id": "AssetRipper.AssetRipper",
+      "title": "AssetRipper",
+      "publisher": "AssetRipper",
+      "versionCount": 27
+    },
+    {
+      "id": "AstroComma.AstroGrep",
+      "title": "AstroGrep",
+      "publisher": "AstroComma",
+      "versionCount": 2
+    },
+    {
+      "id": "Astronet.Scholaread",
+      "title": "Scholaread",
+      "publisher": "Astronet",
+      "versionCount": 21
+    },
+    {
+      "id": "Astronomer.Astro",
+      "title": "Astro",
+      "publisher": "Astronomer",
+      "versionCount": 57
+    },
+    {
+      "id": "AstuteGraphics.AstuteManager",
+      "title": "AstuteManager",
+      "publisher": "AstuteGraphics",
+      "versionCount": 1
+    },
+    {
+      "id": "Asus.ArmouryCrate",
+      "title": "ArmouryCrate",
+      "publisher": "Asus",
+      "versionCount": 1
+    },
+    {
+      "id": "AswaPaul.Sorter",
+      "title": "Sorter",
+      "publisher": "AswaPaul",
+      "versionCount": 1
+    },
+    {
+      "id": "Atari800Win.PLus",
+      "title": "PLus",
+      "publisher": "Atari800Win",
+      "versionCount": 1
+    },
+    {
+      "id": "Atlassian.AtlassianCLI",
+      "title": "AtlassianCLI",
+      "publisher": "Atlassian",
+      "versionCount": 2
+    },
+    {
+      "id": "Atlassian.Confluence",
+      "title": "Confluence",
+      "publisher": "Atlassian",
+      "versionCount": 1
+    },
+    {
+      "id": "Atlassian.JiraSoftwareLTS",
+      "title": "JiraSoftwareLTS",
+      "publisher": "Atlassian",
+      "versionCount": 2
+    },
+    {
+      "id": "Atlassian.ServiceManagementLTS",
+      "title": "ServiceManagementLTS",
+      "publisher": "Atlassian",
+      "versionCount": 1
+    },
+    {
+      "id": "Atlassian.Sourcetree",
+      "title": "Sourcetree",
+      "publisher": "Atlassian",
+      "versionCount": 26
+    },
+    {
+      "id": "Atnel.mkclipse",
+      "title": "mkclipse",
+      "publisher": "Atnel",
+      "versionCount": 1
+    },
+    {
+      "id": "Atola.FindandMount",
+      "title": "FindandMount",
+      "publisher": "Atola",
+      "versionCount": 1
+    },
+    {
+      "id": "Atola.MultiDrive",
+      "title": "MultiDrive",
+      "publisher": "Atola",
+      "versionCount": 2
+    },
+    {
+      "id": "Atomi.ActivePresenter",
+      "title": "ActivePresenter",
+      "publisher": "Atomi",
+      "versionCount": 2
+    },
+    {
+      "id": "AtomicJar.Testcontainers",
+      "title": "Testcontainers",
+      "publisher": "AtomicJar",
+      "versionCount": 1
+    },
+    {
+      "id": "AtomixProductions.VirtualDJ",
+      "title": "VirtualDJ",
+      "publisher": "AtomixProductions",
+      "versionCount": 5
+    },
+    {
+      "id": "Atos.emotachDirect",
+      "title": "emotachDirect",
+      "publisher": "Atos",
+      "versionCount": 1
+    },
+    {
+      "id": "Atrix.AtrixLauncher",
+      "title": "AtrixLauncher",
+      "publisher": "Atrix",
+      "versionCount": 1
+    },
+    {
+      "id": "Atticus64.juice",
+      "title": "juice",
+      "publisher": "Atticus64",
+      "versionCount": 2
+    },
+    {
+      "id": "Atticus64.news",
+      "title": "news",
+      "publisher": "Atticus64",
+      "versionCount": 1
+    },
+    {
+      "id": "Audacious.MediaPlayer",
+      "title": "MediaPlayer",
+      "publisher": "Audacious",
+      "versionCount": 4
+    },
+    {
+      "id": "Audacity.Audacity",
+      "title": "Audacity",
+      "publisher": "Audacity",
+      "versionCount": 34
+    },
+    {
+      "id": "Audient.EVO",
+      "title": "EVO",
+      "publisher": "Audient",
+      "versionCount": 4
+    },
+    {
+      "id": "Audient.Sono",
+      "title": "Sono",
+      "publisher": "Audient",
+      "versionCount": 1
+    },
+    {
+      "id": "Audient.iD",
+      "title": "iD",
+      "publisher": "Audient",
+      "versionCount": 1
+    },
+    {
+      "id": "Audinate.DanteVia",
+      "title": "DanteVia",
+      "publisher": "Audinate",
+      "versionCount": 1
+    },
+    {
+      "id": "Audinate.DanteVirtualSoundcard",
+      "title": "DanteVirtualSoundcard",
+      "publisher": "Audinate",
+      "versionCount": 1
+    },
+    {
+      "id": "AudioCodes.ConfigurationBuilder",
+      "title": "ConfigurationBuilder",
+      "publisher": "AudioCodes",
+      "versionCount": 1
+    },
+    {
+      "id": "AudioCodes.INIViewerEditor",
+      "title": "INIViewerEditor",
+      "publisher": "AudioCodes",
+      "versionCount": 1
+    },
+    {
+      "id": "AudioCodes.SBCConfigurationWizard",
+      "title": "SBCConfigurationWizard",
+      "publisher": "AudioCodes",
+      "versionCount": 1
+    },
+    {
+      "id": "AudioCodes.SyslogViewer",
+      "title": "SyslogViewer",
+      "publisher": "AudioCodes",
+      "versionCount": 1
+    },
+    {
+      "id": "Audio_Arcade.Audio_Arcade",
+      "title": "Audio_Arcade",
+      "publisher": "Audio_Arcade",
+      "versionCount": 1
+    },
+    {
+      "id": "Audius.Audius",
+      "title": "Audius",
+      "publisher": "Audius",
+      "versionCount": 1
+    },
+    {
+      "id": "AuraMarker.Lattics",
+      "title": "Lattics",
+      "publisher": "AuraMarker",
+      "versionCount": 4
+    },
+    {
+      "id": "Aurora.Aurora",
+      "title": "Aurora",
+      "publisher": "Aurora",
+      "versionCount": 1
+    },
+    {
+      "id": "Auroral0810.EasyRename",
+      "title": "EasyRename",
+      "publisher": "Auroral0810",
+      "versionCount": 1
+    },
+    {
+      "id": "Auslogics.BitReplica",
+      "title": "BitReplica",
+      "publisher": "Auslogics",
+      "versionCount": 1
+    },
+    {
+      "id": "Auslogics.BoostSpeed",
+      "title": "BoostSpeed",
+      "publisher": "Auslogics",
+      "versionCount": 1
+    },
+    {
+      "id": "Auslogics.ChillMate",
+      "title": "ChillMate",
+      "publisher": "Auslogics",
+      "versionCount": 1
+    },
+    {
+      "id": "Auslogics.DiskDefrag",
+      "title": "DiskDefrag",
+      "publisher": "Auslogics",
+      "versionCount": 1
+    },
+    {
+      "id": "Auslogics.DriverUpdater",
+      "title": "DriverUpdater",
+      "publisher": "Auslogics",
+      "versionCount": 1
+    },
+    {
+      "id": "Auslogics.DuplicateFileFinder",
+      "title": "DuplicateFileFinder",
+      "publisher": "Auslogics",
+      "versionCount": 1
+    },
+    {
+      "id": "Auslogics.FileRecovery",
+      "title": "FileRecovery",
+      "publisher": "Auslogics",
+      "versionCount": 1
+    },
+    {
+      "id": "Auslogics.RegistryCleaner",
+      "title": "RegistryCleaner",
+      "publisher": "Auslogics",
+      "versionCount": 1
+    },
+    {
+      "id": "Auslogics.RegistryDefrag",
+      "title": "RegistryDefrag",
+      "publisher": "Auslogics",
+      "versionCount": 1
+    },
+    {
+      "id": "Auslogics.SSDOptimizer",
+      "title": "SSDOptimizer",
+      "publisher": "Auslogics",
+      "versionCount": 1
+    },
+    {
+      "id": "Auslogics.VideoGrabber",
+      "title": "VideoGrabber",
+      "publisher": "Auslogics",
+      "versionCount": 1
+    },
+    {
+      "id": "Auslogics.WindowsSlimmer",
+      "title": "WindowsSlimmer",
+      "publisher": "Auslogics",
+      "versionCount": 1
+    },
+    {
+      "id": "AustinLeath.R6RC",
+      "title": "R6RC",
+      "publisher": "AustinLeath",
+      "versionCount": 1
+    },
+    {
+      "id": "AuthorMore.PenpotDesktop",
+      "title": "PenpotDesktop",
+      "publisher": "AuthorMore",
+      "versionCount": 16
+    },
+    {
+      "id": "Authpass.Authpass",
+      "title": "Authpass",
+      "publisher": "Authpass",
+      "versionCount": 15
+    },
+    {
+      "id": "Auto-Plugin.milkup",
+      "title": "milkup",
+      "publisher": "Auto-Plugin",
+      "versionCount": 1
+    },
+    {
+      "id": "AutoDWG.DWGSeeCAD",
+      "title": "DWGSeeCAD",
+      "publisher": "AutoDWG",
+      "versionCount": 1
+    },
+    {
+      "id": "AutoDWG.DWGSeePro",
+      "title": "DWGSeePro",
+      "publisher": "AutoDWG",
+      "versionCount": 1
+    },
+    {
+      "id": "AutoHotkey.AutoHotkey",
+      "title": "AutoHotkey",
+      "publisher": "AutoHotkey",
+      "versionCount": 36
+    },
+    {
+      "id": "AutoIt.AutoIt",
+      "title": "AutoIt",
+      "publisher": "AutoIt",
+      "versionCount": 2
+    },
+    {
+      "id": "AutoIt.SciTE4AutoIt3",
+      "title": "SciTE4AutoIt3",
+      "publisher": "AutoIt",
+      "versionCount": 1
+    },
+    {
+      "id": "AutoVer.AutoVer",
+      "title": "AutoVer",
+      "publisher": "AutoVer",
+      "versionCount": 1
+    },
+    {
+      "id": "Autodesk.AutodeskAccess",
+      "title": "AutodeskAccess",
+      "publisher": "Autodesk",
+      "versionCount": 9
+    },
+    {
+      "id": "Autodesk.DesktopApp",
+      "title": "DesktopApp",
+      "publisher": "Autodesk",
+      "versionCount": 1
+    },
+    {
+      "id": "Autodesk.DesktopConnector",
+      "title": "DesktopConnector",
+      "publisher": "Autodesk",
+      "versionCount": 1
+    },
+    {
+      "id": "Autodesk.EAGLE",
+      "title": "EAGLE",
+      "publisher": "Autodesk",
+      "versionCount": 1
+    },
+    {
+      "id": "Autodesk.NavisworksFreedom",
+      "title": "NavisworksFreedom",
+      "publisher": "Autodesk",
+      "versionCount": 1
+    },
+    {
+      "id": "AutomatedLab.AutomatedLab",
+      "title": "AutomatedLab",
+      "publisher": "AutomatedLab",
+      "versionCount": 8
+    },
+    {
+      "id": "Automattic.PocketCasts",
+      "title": "PocketCasts",
+      "publisher": "Automattic",
+      "versionCount": 1
+    },
+    {
+      "id": "Automattic.Simplenote",
+      "title": "Simplenote",
+      "publisher": "Automattic",
+      "versionCount": 49
+    },
+    {
+      "id": "Automattic.Wordpress",
+      "title": "Wordpress",
+      "publisher": "Automattic",
+      "versionCount": 14
+    },
+    {
+      "id": "Automattic.harper-ls",
+      "title": "harper-ls",
+      "publisher": "Automattic",
+      "versionCount": 54
+    },
+    {
+      "id": "Automox.AutomoxAgent",
+      "title": "AutomoxAgent",
+      "publisher": "Automox",
+      "versionCount": 1
+    },
+    {
+      "id": "AutonomousSoftware.MetronomeWallet",
+      "title": "MetronomeWallet",
+      "publisher": "AutonomousSoftware",
+      "versionCount": 2
+    },
+    {
+      "id": "AvaCC.AvaDesktop",
+      "title": "AvaDesktop",
+      "publisher": "AvaCC",
+      "versionCount": 2
+    },
+    {
+      "id": "Avanquest.SodaPDFDesktop",
+      "title": "SodaPDFDesktop",
+      "publisher": "Avanquest",
+      "versionCount": 1
+    },
+    {
+      "id": "Avanquestpdfforge.PDFArchitect",
+      "title": "PDFArchitect",
+      "publisher": "Avanquestpdfforge",
+      "versionCount": 1
+    },
+    {
+      "id": "Avanquestpdfforge.PDFCreator-Free",
+      "title": "PDFCreator-Free",
+      "publisher": "Avanquestpdfforge",
+      "versionCount": 3
+    },
+    {
+      "id": "Avanquestpdfforge.PDFCreator-Professional",
+      "title": "PDFCreator-Professional",
+      "publisher": "Avanquestpdfforge",
+      "versionCount": 10
+    },
+    {
+      "id": "Avanquestpdfforge.PDFCreator-Server",
+      "title": "PDFCreator-Server",
+      "publisher": "Avanquestpdfforge",
+      "versionCount": 3
+    },
+    {
+      "id": "Avanquestpdfforge.PDFCreator-Terminal-Server",
+      "title": "PDFCreator-Terminal-Server",
+      "publisher": "Avanquestpdfforge",
+      "versionCount": 8
+    },
+    {
+      "id": "Avaya.AvayaWorkplace",
+      "title": "AvayaWorkplace",
+      "publisher": "Avaya",
+      "versionCount": 2
+    },
+    {
+      "id": "AveekSaha.DuskPlayer",
+      "title": "DuskPlayer",
+      "publisher": "AveekSaha",
+      "versionCount": 2
+    },
+    {
+      "id": "Avestura.EyesGuard",
+      "title": "EyesGuard",
+      "publisher": "Avestura",
+      "versionCount": 1
+    },
+    {
+      "id": "AviSynth.AviSynth",
+      "title": "AviSynth",
+      "publisher": "AviSynth",
+      "versionCount": 1
+    },
+    {
+      "id": "AviSynth.AviSynthPlus",
+      "title": "AviSynthPlus",
+      "publisher": "AviSynth",
+      "versionCount": 6
+    },
+    {
+      "id": "Avidemux.Avidemux",
+      "title": "Avidemux",
+      "publisher": "Avidemux",
+      "versionCount": 1
+    },
+    {
+      "id": "Avocode.Avocode",
+      "title": "Avocode",
+      "publisher": "Avocode",
+      "versionCount": 4
+    },
+    {
+      "id": "Avogadro.Avogadro",
+      "title": "Avogadro",
+      "publisher": "Avogadro",
+      "versionCount": 2
+    },
+    {
+      "id": "AwthWathje.SteaScree",
+      "title": "SteaScree",
+      "publisher": "AwthWathje",
+      "versionCount": 1
+    },
+    {
+      "id": "AxCrypt.AxCrypt",
+      "title": "AxCrypt",
+      "publisher": "AxCrypt",
+      "versionCount": 2
+    },
+    {
+      "id": "AxelRietschin.FastPictureViewer",
+      "title": "FastPictureViewer",
+      "publisher": "AxelRietschin",
+      "versionCount": 1
+    },
+    {
+      "id": "Axialis.CursorWorkshop",
+      "title": "CursorWorkshop",
+      "publisher": "Axialis",
+      "versionCount": 1
+    },
+    {
+      "id": "Axialis.IconGenerator",
+      "title": "IconGenerator",
+      "publisher": "Axialis",
+      "versionCount": 1
+    },
+    {
+      "id": "Axialis.IconVectors",
+      "title": "IconVectors",
+      "publisher": "Axialis",
+      "versionCount": 1
+    },
+    {
+      "id": "Axialis.IconWorkshop",
+      "title": "IconWorkshop",
+      "publisher": "Axialis",
+      "versionCount": 1
+    },
+    {
+      "id": "Axialis.ScreensaverProducer",
+      "title": "ScreensaverProducer",
+      "publisher": "Axialis",
+      "versionCount": 1
+    },
+    {
+      "id": "AxiomaticSystems.Bento4",
+      "title": "Bento4",
+      "publisher": "AxiomaticSystems",
+      "versionCount": 1
+    },
+    {
+      "id": "AxisCommunicationsAB.FilePlayerLauncher",
+      "title": "FilePlayerLauncher",
+      "publisher": "AxisCommunicationsAB",
+      "versionCount": 1
+    },
+    {
+      "id": "Axosoft.GitKraken",
+      "title": "GitKraken",
+      "publisher": "Axosoft",
+      "versionCount": 45
+    },
+    {
+      "id": "Axure.AxureRP",
+      "title": "AxureRP",
+      "publisher": "Axure",
+      "versionCount": 2
+    },
+    {
+      "id": "AyibatariIbaba.Stopawu",
+      "title": "Stopawu",
+      "publisher": "AyibatariIbaba",
+      "versionCount": 1
+    },
+    {
+      "id": "AzaharEmu.Azahar",
+      "title": "Azahar",
+      "publisher": "AzaharEmu",
+      "versionCount": 11
+    },
+    {
+      "id": "AzaharPlus.AzaharPlus",
+      "title": "AzaharPlus",
+      "publisher": "AzaharPlus",
+      "versionCount": 1
+    },
+    {
+      "id": "Azeus.Convene",
+      "title": "Convene",
+      "publisher": "Azeus",
+      "versionCount": 21
+    },
+    {
+      "id": "Azul.IcedTea-Web",
+      "title": "IcedTea-Web",
+      "publisher": "Azul",
+      "versionCount": 1
+    },
+    {
+      "id": "Azul.Zulu",
+      "title": "Zulu",
+      "publisher": "Azul",
+      "versionCount": 20
+    },
+    {
+      "id": "Azul.ZuluFX",
+      "title": "ZuluFX",
+      "publisher": "Azul",
+      "versionCount": 12
+    },
+    {
+      "id": "aSc.aScTimeTables",
+      "title": "aScTimeTables",
+      "publisher": "aSc",
+      "versionCount": 1
+    },
+    {
+      "id": "aandrew-me.ytDownloader",
+      "title": "ytDownloader",
+      "publisher": "aandrew-me",
+      "versionCount": 8
+    },
+    {
+      "id": "abbodi1406.vcredist",
+      "title": "vcredist",
+      "publisher": "abbodi1406",
+      "versionCount": 2
+    },
+    {
+      "id": "abdenasser.NeoHtop",
+      "title": "NeoHtop",
+      "publisher": "abdenasser",
+      "versionCount": 2
+    },
+    {
+      "id": "abgox.InputTip",
+      "title": "InputTip",
+      "publisher": "abgox",
+      "versionCount": 45
+    },
+    {
+      "id": "abhimanyu003.sttr",
+      "title": "sttr",
+      "publisher": "abhimanyu003",
+      "versionCount": 6
+    },
+    {
+      "id": "abrignoni.ALEAPP-cli",
+      "title": "ALEAPP-cli",
+      "publisher": "abrignoni",
+      "versionCount": 2
+    },
+    {
+      "id": "abrignoni.ALEAPP",
+      "title": "ALEAPP",
+      "publisher": "abrignoni",
+      "versionCount": 2
+    },
+    {
+      "id": "abrignoni.iLEAPP-cli",
+      "title": "iLEAPP-cli",
+      "publisher": "abrignoni",
+      "versionCount": 2
+    },
+    {
+      "id": "abrignoni.iLEAPP",
+      "title": "iLEAPP",
+      "publisher": "abrignoni",
+      "versionCount": 3
+    },
+    {
+      "id": "acaudwell.Gource",
+      "title": "Gource",
+      "publisher": "acaudwell",
+      "versionCount": 3
+    },
+    {
+      "id": "accellence.vimacc",
+      "title": "vimacc",
+      "publisher": "accellence",
+      "versionCount": 2
+    },
+    {
+      "id": "accellence.vimaccEnterprise",
+      "title": "vimaccEnterprise",
+      "publisher": "accellence",
+      "versionCount": 2
+    },
+    {
+      "id": "accellence.vimaccEnterprise_2215",
+      "title": "vimaccEnterprise_2215",
+      "publisher": "accellence",
+      "versionCount": 1
+    },
+    {
+      "id": "accellence.vimaccProfessional",
+      "title": "vimaccProfessional",
+      "publisher": "accellence",
+      "versionCount": 2
+    },
+    {
+      "id": "achannarasappa.ticker",
+      "title": "ticker",
+      "publisher": "achannarasappa",
+      "versionCount": 10
+    },
+    {
+      "id": "acrosync.DuplicacyWeb",
+      "title": "DuplicacyWeb",
+      "publisher": "acrosync",
+      "versionCount": 6
+    },
+    {
+      "id": "acrosync.acrosync",
+      "title": "acrosync",
+      "publisher": "acrosync",
+      "versionCount": 1
+    },
+    {
+      "id": "activescott.lessmsi",
+      "title": "lessmsi",
+      "publisher": "activescott",
+      "versionCount": 11
+    },
+    {
+      "id": "actualsolution.VolumeLock",
+      "title": "VolumeLock",
+      "publisher": "actualsolution",
+      "versionCount": 1
+    },
+    {
+      "id": "advaith.CurrencyConverterCommandPalette",
+      "title": "CurrencyConverterCommandPalette",
+      "publisher": "advaith",
+      "versionCount": 2
+    },
+    {
+      "id": "advaith.CurrencyConverterPowerToys",
+      "title": "CurrencyConverterPowerToys",
+      "publisher": "advaith",
+      "versionCount": 7
+    },
+    {
+      "id": "advancedfx.HLAE",
+      "title": "HLAE",
+      "publisher": "advancedfx",
+      "versionCount": 6
+    },
+    {
+      "id": "aelassas.Servy",
+      "title": "Servy",
+      "publisher": "aelassas",
+      "versionCount": 19
+    },
+    {
+      "id": "afractal.Echo",
+      "title": "Echo",
+      "publisher": "afractal",
+      "versionCount": 1
+    },
+    {
+      "id": "afractal.Metronome",
+      "title": "Metronome",
+      "publisher": "afractal",
+      "versionCount": 1
+    },
+    {
+      "id": "afractal.TwitterTron",
+      "title": "TwitterTron",
+      "publisher": "afractal",
+      "versionCount": 1
+    },
+    {
+      "id": "agalwood.Motrix",
+      "title": "Motrix",
+      "publisher": "agalwood",
+      "versionCount": 18
+    },
+    {
+      "id": "agateau.PixelWheels",
+      "title": "PixelWheels",
+      "publisher": "agateau",
+      "versionCount": 1
+    },
+    {
+      "id": "ahkohd.switch",
+      "title": "switch",
+      "publisher": "ahkohd",
+      "versionCount": 4
+    },
+    {
+      "id": "ahmetb.kubectx",
+      "title": "kubectx",
+      "publisher": "ahmetb",
+      "versionCount": 2
+    },
+    {
+      "id": "ahmetb.kubens",
+      "title": "kubens",
+      "publisher": "ahmetb",
+      "versionCount": 2
+    },
+    {
+      "id": "ahrm.sioyek",
+      "title": "sioyek",
+      "publisher": "ahrm",
+      "versionCount": 1
+    },
+    {
+      "id": "aiko-chan-ai.DiscordBotClient",
+      "title": "DiscordBotClient",
+      "publisher": "aiko-chan-ai",
+      "versionCount": 7
+    },
+    {
+      "id": "aimotrens.impulsar",
+      "title": "impulsar",
+      "publisher": "aimotrens",
+      "versionCount": 27
+    },
+    {
+      "id": "airSlate.pdfFiller",
+      "title": "pdfFiller",
+      "publisher": "airSlate",
+      "versionCount": 1
+    },
+    {
+      "id": "aislx.FlameLauncher",
+      "title": "FlameLauncher",
+      "publisher": "aislx",
+      "versionCount": 8
+    },
+    {
+      "id": "ajeetdsouza.zoxide",
+      "title": "zoxide",
+      "publisher": "ajeetdsouza",
+      "versionCount": 9
+    },
+    {
+      "id": "akeo.ie",
+      "title": "ie",
+      "publisher": "akeo",
+      "versionCount": 1
+    },
+    {
+      "id": "akesh0805.WorldTimeCli",
+      "title": "WorldTimeCli",
+      "publisher": "akesh0805",
+      "versionCount": 1
+    },
+    {
+      "id": "alagrede.znote",
+      "title": "znote",
+      "publisher": "alagrede",
+      "versionCount": 27
+    },
+    {
+      "id": "albertony.npiperelay",
+      "title": "npiperelay",
+      "publisher": "albertony",
+      "versionCount": 3
+    },
+    {
+      "id": "alesimula.wsa_pacman",
+      "title": "wsa_pacman",
+      "publisher": "alesimula",
+      "versionCount": 16
+    },
+    {
+      "id": "alexd.Metapad",
+      "title": "Metapad",
+      "publisher": "alexd",
+      "versionCount": 1
+    },
+    {
+      "id": "alexkim205.g-desktop-suite",
+      "title": "g-desktop-suite",
+      "publisher": "alexkim205",
+      "versionCount": 1
+    },
+    {
+      "id": "alexpasmantier.television",
+      "title": "television",
+      "publisher": "alexpasmantier",
+      "versionCount": 16
+    },
+    {
+      "id": "alexvallat.AlbumArtDownloader",
+      "title": "AlbumArtDownloader",
+      "publisher": "alexvallat",
+      "versionCount": 1
+    },
+    {
+      "id": "alexx2000.DoubleCommander",
+      "title": "DoubleCommander",
+      "publisher": "alexx2000",
+      "versionCount": 30
+    },
+    {
+      "id": "alfaview.alfaview",
+      "title": "alfaview",
+      "publisher": "alfaview",
+      "versionCount": 14
+    },
+    {
+      "id": "ali50m.AddCurrentPath",
+      "title": "AddCurrentPath",
+      "publisher": "ali50m",
+      "versionCount": 1
+    },
+    {
+      "id": "aliceandbob-io.aliceandbob",
+      "title": "aliceandbob",
+      "publisher": "aliceandbob-io",
+      "versionCount": 3
+    },
+    {
+      "id": "allentown521.Saladict",
+      "title": "Saladict",
+      "publisher": "allentown521",
+      "versionCount": 2
+    },
+    {
+      "id": "aloneguid.ParquetDotnet",
+      "title": "ParquetDotnet",
+      "publisher": "aloneguid",
+      "versionCount": 1
+    },
+    {
+      "id": "aloneguid.bt",
+      "title": "bt",
+      "publisher": "aloneguid",
+      "versionCount": 7
+    },
+    {
+      "id": "altair-graphql.altair",
+      "title": "altair",
+      "publisher": "altair-graphql",
+      "versionCount": 90
+    },
+    {
+      "id": "aluigi.QuickBMS",
+      "title": "QuickBMS",
+      "publisher": "aluigi",
+      "versionCount": 1
+    },
+    {
+      "id": "aluxnimm.OutlookCalDavSynchronizer",
+      "title": "OutlookCalDavSynchronizer",
+      "publisher": "aluxnimm",
+      "versionCount": 3
+    },
+    {
+      "id": "amacneil.dbmate",
+      "title": "dbmate",
+      "publisher": "amacneil",
+      "versionCount": 5
+    },
+    {
+      "id": "ameshkov.dnslookup",
+      "title": "dnslookup",
+      "publisher": "ameshkov",
+      "versionCount": 5
+    },
+    {
+      "id": "amir1376.ABDownloadManager",
+      "title": "ABDownloadManager",
+      "publisher": "amir1376",
+      "versionCount": 33
+    },
+    {
+      "id": "amitmerchant1990.electron-markdownify",
+      "title": "electron-markdownify",
+      "publisher": "amitmerchant1990",
+      "versionCount": 1
+    },
+    {
+      "id": "amrali-eg.EncodingChecker",
+      "title": "EncodingChecker",
+      "publisher": "amrali-eg",
+      "versionCount": 1
+    },
+    {
+      "id": "amrdeveloper.fileql",
+      "title": "fileql",
+      "publisher": "amrdeveloper",
+      "versionCount": 5
+    },
+    {
+      "id": "amrdeveloper.gitql",
+      "title": "gitql",
+      "publisher": "amrdeveloper",
+      "versionCount": 20
+    },
+    {
+      "id": "ams.SolutionAG",
+      "title": "SolutionAG",
+      "publisher": "ams",
+      "versionCount": 1
+    },
+    {
+      "id": "anatawa12.ALCOM",
+      "title": "ALCOM",
+      "publisher": "anatawa12",
+      "versionCount": 2
+    },
+    {
+      "id": "anatawa12.vrc-get",
+      "title": "vrc-get",
+      "publisher": "anatawa12",
+      "versionCount": 6
+    },
+    {
+      "id": "andem81.Windroy",
+      "title": "Windroy",
+      "publisher": "andem81",
+      "versionCount": 1
+    },
+    {
+      "id": "andrewbrey.flot",
+      "title": "flot",
+      "publisher": "andrewbrey",
+      "versionCount": 6
+    },
+    {
+      "id": "androidWG.Corkscrew",
+      "title": "Corkscrew",
+      "publisher": "androidWG",
+      "versionCount": 3
+    },
+    {
+      "id": "angryziber.AngryIPScanner",
+      "title": "AngryIPScanner",
+      "publisher": "angryziber",
+      "versionCount": 4
+    },
+    {
+      "id": "ankurk91.GoogleChatElectron",
+      "title": "GoogleChatElectron",
+      "publisher": "ankurk91",
+      "versionCount": 9
+    },
+    {
+      "id": "antnsn.lexorium",
+      "title": "lexorium",
+      "publisher": "antnsn",
+      "versionCount": 3
+    },
+    {
+      "id": "antonmedv.walk",
+      "title": "walk",
+      "publisher": "antonmedv",
+      "versionCount": 4
+    },
+    {
+      "id": "antonreshetov.massCode",
+      "title": "massCode",
+      "publisher": "antonreshetov",
+      "versionCount": 16
+    },
+    {
+      "id": "anyme123.ClaudeWorkbench",
+      "title": "ClaudeWorkbench",
+      "publisher": "anyme123",
+      "versionCount": 1
+    },
+    {
+      "id": "aoguai.QQtoExcel",
+      "title": "QQtoExcel",
+      "publisher": "aoguai",
+      "versionCount": 2
+    },
+    {
+      "id": "aome510.spotify-player",
+      "title": "spotify-player",
+      "publisher": "aome510",
+      "versionCount": 9
+    },
+    {
+      "id": "apernet.Hysteria",
+      "title": "Hysteria",
+      "publisher": "apernet",
+      "versionCount": 4
+    },
+    {
+      "id": "appleseedhq.appleseed",
+      "title": "appleseed",
+      "publisher": "appleseedhq",
+      "versionCount": 1
+    },
+    {
+      "id": "appmakes.Typora",
+      "title": "Typora",
+      "publisher": "appmakes",
+      "versionCount": 33
+    },
+    {
+      "id": "aqtq314.Vogen",
+      "title": "Vogen",
+      "publisher": "aqtq314",
+      "versionCount": 1
+    },
+    {
+      "id": "aquaproj.aqua",
+      "title": "aqua",
+      "publisher": "aquaproj",
+      "versionCount": 91
+    },
+    {
+      "id": "ar51an.iPerf3",
+      "title": "iPerf3",
+      "publisher": "ar51an",
+      "versionCount": 4
+    },
+    {
+      "id": "arcusmaximus.YTSubConverter",
+      "title": "YTSubConverter",
+      "publisher": "arcusmaximus",
+      "versionCount": 1
+    },
+    {
+      "id": "ares-emulator.ares",
+      "title": "ares",
+      "publisher": "ares-emulator",
+      "versionCount": 1
+    },
+    {
+      "id": "arghena.katharsis",
+      "title": "katharsis",
+      "publisher": "arghena",
+      "versionCount": 4
+    },
+    {
+      "id": "argoproj.argocd",
+      "title": "argocd",
+      "publisher": "argoproj",
+      "versionCount": 44
+    },
+    {
+      "id": "aria2.aria2",
+      "title": "aria2",
+      "publisher": "aria2",
+      "versionCount": 2
+    },
+    {
+      "id": "aristocratos.btop4win",
+      "title": "btop4win",
+      "publisher": "aristocratos",
+      "versionCount": 2
+    },
+    {
+      "id": "arjun-g.google-meet-desktop",
+      "title": "google-meet-desktop",
+      "publisher": "arjun-g",
+      "versionCount": 1
+    },
+    {
+      "id": "arrow2nd.serizawa",
+      "title": "serizawa",
+      "publisher": "arrow2nd",
+      "versionCount": 3
+    },
+    {
+      "id": "arrow2nd.tokumei-player-plus",
+      "title": "tokumei-player-plus",
+      "publisher": "arrow2nd",
+      "versionCount": 2
+    },
+    {
+      "id": "arrow2nd.tokumei-player-pp",
+      "title": "tokumei-player-pp",
+      "publisher": "arrow2nd",
+      "versionCount": 3
+    },
+    {
+      "id": "asciinema.agg",
+      "title": "agg",
+      "publisher": "asciinema",
+      "versionCount": 6
+    },
+    {
+      "id": "asdfjkl.JerryChess",
+      "title": "JerryChess",
+      "publisher": "asdfjkl",
+      "versionCount": 3
+    },
+    {
+      "id": "asdfjkl.YAHB",
+      "title": "YAHB",
+      "publisher": "asdfjkl",
+      "versionCount": 2
+    },
+    {
+      "id": "asheroto.MessagesforWeb",
+      "title": "MessagesforWeb",
+      "publisher": "asheroto",
+      "versionCount": 1
+    },
+    {
+      "id": "assassing.BaiduPanFilesTransfers",
+      "title": "BaiduPanFilesTransfers",
+      "publisher": "assassing",
+      "versionCount": 1
+    },
+    {
+      "id": "assassing.BrutalityExtractor",
+      "title": "BrutalityExtractor",
+      "publisher": "assassing",
+      "versionCount": 3
+    },
+    {
+      "id": "assetizr.assetizr",
+      "title": "assetizr",
+      "publisher": "assetizr",
+      "versionCount": 3
+    },
+    {
+      "id": "assnctr.unfx-proxy-checker",
+      "title": "unfx-proxy-checker",
+      "publisher": "assnctr",
+      "versionCount": 2
+    },
+    {
+      "id": "ast-grep.ast-grep",
+      "title": "ast-grep",
+      "publisher": "ast-grep",
+      "versionCount": 26
+    },
+    {
+      "id": "astral-sh.ruff",
+      "title": "ruff",
+      "publisher": "astral-sh",
+      "versionCount": 94
+    },
+    {
+      "id": "astral-sh.ty",
+      "title": "ty",
+      "publisher": "astral-sh",
+      "versionCount": 20
+    },
+    {
+      "id": "astral-sh.uv",
+      "title": "uv",
+      "publisher": "astral-sh",
+      "versionCount": 153
+    },
+    {
+      "id": "athlabs.Spyglass",
+      "title": "Spyglass",
+      "publisher": "athlabs",
+      "versionCount": 13
+    },
+    {
+      "id": "atom0s.Steamless",
+      "title": "Steamless",
+      "publisher": "atom0s",
+      "versionCount": 1
+    },
+    {
+      "id": "atsuover.Garcello",
+      "title": "Garcello",
+      "publisher": "atsuover",
+      "versionCount": 1
+    },
+    {
+      "id": "audiorouterdev.audio-router",
+      "title": "audio-router",
+      "publisher": "audiorouterdev",
+      "versionCount": 1
+    },
+    {
+      "id": "avborup.kitty",
+      "title": "kitty",
+      "publisher": "avborup",
+      "versionCount": 2
+    },
+    {
+      "id": "avosskuehler.viana",
+      "title": "viana",
+      "publisher": "avosskuehler",
+      "versionCount": 2
+    },
+    {
+      "id": "awakecoding.mcp-proxy-tool",
+      "title": "mcp-proxy-tool",
+      "publisher": "awakecoding",
+      "versionCount": 1
+    },
+    {
+      "id": "awehook.BlinkMind",
+      "title": "BlinkMind",
+      "publisher": "awehook",
+      "versionCount": 1
+    },
+    {
+      "id": "axcore.tartube",
+      "title": "tartube",
+      "publisher": "axcore",
+      "versionCount": 2
+    },
+    {
+      "id": "axeprpr.SSHCopyID",
+      "title": "SSHCopyID",
+      "publisher": "axeprpr",
+      "versionCount": 1
+    },
+    {
+      "id": "axes4.PAC",
+      "title": "PAC",
+      "publisher": "axes4",
+      "versionCount": 1
+    },
+    {
+      "id": "ayangweb.BongoCat",
+      "title": "BongoCat",
+      "publisher": "ayangweb",
+      "versionCount": 6
+    },
+    {
+      "id": "ayoisaiah.f2",
+      "title": "f2",
+      "publisher": "ayoisaiah",
+      "versionCount": 7
+    },
+    {
+      "id": "ayoisaiah.focus",
+      "title": "focus",
+      "publisher": "ayoisaiah",
+      "versionCount": 2
+    },
+    {
+      "id": "aziontech.azion",
+      "title": "azion",
+      "publisher": "aziontech",
+      "versionCount": 27
+    },
+    {
+      "id": "azure06.clips",
+      "title": "clips",
+      "publisher": "azure06",
+      "versionCount": 3
+    },
+    {
+      "id": "azurejoga.aurorawindowsoptimizer",
+      "title": "aurorawindowsoptimizer",
+      "publisher": "azurejoga",
+      "versionCount": 1
+    },
+    {
+      "id": "B-trust.BISS",
+      "title": "BISS",
+      "publisher": "B-trust",
+      "versionCount": 1
+    },
+    {
+      "id": "B3log.SiYuan",
+      "title": "SiYuan",
+      "publisher": "B3log",
+      "versionCount": 218
+    },
+    {
+      "id": "B4CK.B4CK",
+      "title": "B4CK",
+      "publisher": "B4CK",
+      "versionCount": 1
+    },
+    {
+      "id": "BBC.audiowaveform",
+      "title": "audiowaveform",
+      "publisher": "BBC",
+      "versionCount": 1
+    },
+    {
+      "id": "BC3Tech.FileSorter",
+      "title": "FileSorter",
+      "publisher": "BC3Tech",
+      "versionCount": 2
+    },
+    {
+      "id": "BCM.SecEditCtl",
+      "title": "SecEditCtl",
+      "publisher": "BCM",
+      "versionCount": 1
+    },
+    {
+      "id": "BDRThermea.ServiceTool",
+      "title": "ServiceTool",
+      "publisher": "BDRThermea",
+      "versionCount": 5
+    },
+    {
+      "id": "BJLive!.LumineaRemote",
+      "title": "LumineaRemote",
+      "publisher": "BJLive!",
+      "versionCount": 1
+    },
+    {
+      "id": "BLife.CustomCursor",
+      "title": "CustomCursor",
+      "publisher": "BLife",
+      "versionCount": 1
+    },
+    {
+      "id": "BOC.SecEditCtl",
+      "title": "SecEditCtl",
+      "publisher": "BOC",
+      "versionCount": 1
+    },
+    {
+      "id": "BOMIST.BOMIST",
+      "title": "BOMIST",
+      "publisher": "BOMIST",
+      "versionCount": 2
+    },
+    {
+      "id": "BPBible.BPBible",
+      "title": "BPBible",
+      "publisher": "BPBible",
+      "versionCount": 1
+    },
+    {
+      "id": "BRAK.beAClientSecurity",
+      "title": "beAClientSecurity",
+      "publisher": "BRAK",
+      "versionCount": 1
+    },
+    {
+      "id": "BRL-CAD.brlcad",
+      "title": "brlcad",
+      "publisher": "BRL-CAD",
+      "versionCount": 3
+    },
+    {
+      "id": "BR\u00d6TJE.ProfiTool",
+      "title": "ProfiTool",
+      "publisher": "BR\u00d6TJE",
+      "versionCount": 2
+    },
+    {
+      "id": "BUT.NetfoxDetective",
+      "title": "NetfoxDetective",
+      "publisher": "BUT",
+      "versionCount": 1
+    },
+    {
+      "id": "BYOND.BYOND",
+      "title": "BYOND",
+      "publisher": "BYOND",
+      "versionCount": 6
+    },
+    {
+      "id": "BZFlag.BZFlag",
+      "title": "BZFlag",
+      "publisher": "BZFlag",
+      "versionCount": 6
+    },
+    {
+      "id": "Babashka.Babashka",
+      "title": "Babashka",
+      "publisher": "Babashka",
+      "versionCount": 3
+    },
+    {
+      "id": "Babble.babblevoiceDesktop",
+      "title": "babblevoiceDesktop",
+      "publisher": "Babble",
+      "versionCount": 1
+    },
+    {
+      "id": "BackstaffSoftware.InstallBuilder",
+      "title": "InstallBuilder",
+      "publisher": "BackstaffSoftware",
+      "versionCount": 4
+    },
+    {
+      "id": "Badlion.BadlionClient",
+      "title": "BadlionClient",
+      "publisher": "Badlion",
+      "versionCount": 42
+    },
+    {
+      "id": "Baidu.BaiduNetdisk",
+      "title": "BaiduNetdisk",
+      "publisher": "Baidu",
+      "versionCount": 87
+    },
+    {
+      "id": "Baidu.BaiduPinyin",
+      "title": "BaiduPinyin",
+      "publisher": "Baidu",
+      "versionCount": 60
+    },
+    {
+      "id": "Baidu.BaiduSIAssistant",
+      "title": "BaiduSIAssistant",
+      "publisher": "Baidu",
+      "versionCount": 2
+    },
+    {
+      "id": "Baidu.BaiduSIMeeting",
+      "title": "BaiduSIMeeting",
+      "publisher": "Baidu",
+      "versionCount": 1
+    },
+    {
+      "id": "Baidu.BaiduSpeechInput",
+      "title": "BaiduSpeechInput",
+      "publisher": "Baidu",
+      "versionCount": 1
+    },
+    {
+      "id": "Baidu.BaiduTranslate",
+      "title": "BaiduTranslate",
+      "publisher": "Baidu",
+      "versionCount": 18
+    },
+    {
+      "id": "Baidu.BaiduWenku",
+      "title": "BaiduWenku",
+      "publisher": "Baidu",
+      "versionCount": 24
+    },
+    {
+      "id": "Baidu.Comate",
+      "title": "Comate",
+      "publisher": "Baidu",
+      "versionCount": 26
+    },
+    {
+      "id": "Baidu.SwanIDE",
+      "title": "SwanIDE",
+      "publisher": "Baidu",
+      "versionCount": 62
+    },
+    {
+      "id": "Baidu.TeraBox",
+      "title": "TeraBox",
+      "publisher": "Baidu",
+      "versionCount": 27
+    },
+    {
+      "id": "BaileyBrown.cppcryptfs",
+      "title": "cppcryptfs",
+      "publisher": "BaileyBrown",
+      "versionCount": 3
+    },
+    {
+      "id": "BakaXL.BakaXL",
+      "title": "BakaXL",
+      "publisher": "BakaXL",
+      "versionCount": 1
+    },
+    {
+      "id": "BalanceBalls.Nekot",
+      "title": "Nekot",
+      "publisher": "BalanceBalls",
+      "versionCount": 1
+    },
+    {
+      "id": "BalazsTihanyi.NClass",
+      "title": "NClass",
+      "publisher": "BalazsTihanyi",
+      "versionCount": 1
+    },
+    {
+      "id": "BaldurKarlsson.RenderDoc",
+      "title": "RenderDoc",
+      "publisher": "BaldurKarlsson",
+      "versionCount": 22
+    },
+    {
+      "id": "Balena.BalenaCLI",
+      "title": "BalenaCLI",
+      "publisher": "Balena",
+      "versionCount": 151
+    },
+    {
+      "id": "Balena.Etcher",
+      "title": "Etcher",
+      "publisher": "Balena",
+      "versionCount": 35
+    },
+    {
+      "id": "Balsamiq.Wireframes",
+      "title": "Wireframes",
+      "publisher": "Balsamiq",
+      "versionCount": 4
+    },
+    {
+      "id": "Bambulab.Bambustudio",
+      "title": "Bambustudio",
+      "publisher": "Bambulab",
+      "versionCount": 21
+    },
+    {
+      "id": "Banbuds.VsWhitty",
+      "title": "VsWhitty",
+      "publisher": "Banbuds",
+      "versionCount": 1
+    },
+    {
+      "id": "BandLab.Cakewalk",
+      "title": "Cakewalk",
+      "publisher": "BandLab",
+      "versionCount": 1
+    },
+    {
+      "id": "Bandai.Reml",
+      "title": "Reml",
+      "publisher": "Bandai",
+      "versionCount": 1
+    },
+    {
+      "id": "BandicamCompany.Bandicam",
+      "title": "Bandicam",
+      "publisher": "BandicamCompany",
+      "versionCount": 94
+    },
+    {
+      "id": "BandicamCompany.BandicamMPEG-1Decoder",
+      "title": "BandicamMPEG-1Decoder",
+      "publisher": "BandicamCompany",
+      "versionCount": 1
+    },
+    {
+      "id": "BandicamCompany.Bandicut",
+      "title": "Bandicut",
+      "publisher": "BandicamCompany",
+      "versionCount": 34
+    },
+    {
+      "id": "Bandisoft.BandiView",
+      "title": "BandiView",
+      "publisher": "Bandisoft",
+      "versionCount": 1
+    },
+    {
+      "id": "Bandisoft.Bandizip",
+      "title": "Bandizip",
+      "publisher": "Bandisoft",
+      "versionCount": 3
+    },
+    {
+      "id": "Bandisoft.Honeyview",
+      "title": "Honeyview",
+      "publisher": "Bandisoft",
+      "versionCount": 1
+    },
+    {
+      "id": "Baota.AingDesk",
+      "title": "AingDesk",
+      "publisher": "Baota",
+      "versionCount": 5
+    },
+    {
+      "id": "Barry-ran.QtScrcpy",
+      "title": "QtScrcpy",
+      "publisher": "Barry-ran",
+      "versionCount": 4
+    },
+    {
+      "id": "BarryCarlyon.BarryCarlyonExtensionTools",
+      "title": "BarryCarlyonExtensionTools",
+      "publisher": "BarryCarlyon",
+      "versionCount": 1
+    },
+    {
+      "id": "BartelsMedia.MacroRecorder",
+      "title": "MacroRecorder",
+      "publisher": "BartelsMedia",
+      "versionCount": 1
+    },
+    {
+      "id": "BartelsMedia.PhraseExpress",
+      "title": "PhraseExpress",
+      "publisher": "BartelsMedia",
+      "versionCount": 1
+    },
+    {
+      "id": "BartelsMedia.ShareMouse",
+      "title": "ShareMouse",
+      "publisher": "BartelsMedia",
+      "versionCount": 1
+    },
+    {
+      "id": "BartoszCichecki.LenovoLegionToolkit",
+      "title": "LenovoLegionToolkit",
+      "publisher": "BartoszCichecki",
+      "versionCount": 51
+    },
+    {
+      "id": "BasDriessen.Aurora",
+      "title": "Aurora",
+      "publisher": "BasDriessen",
+      "versionCount": 1
+    },
+    {
+      "id": "BasecampLLC.Basecamp3",
+      "title": "Basecamp3",
+      "publisher": "BasecampLLC",
+      "versionCount": 1
+    },
+    {
+      "id": "Basedash.Basedash",
+      "title": "Basedash",
+      "publisher": "Basedash",
+      "versionCount": 2
+    },
+    {
+      "id": "BasileBruneau.AllToMP3",
+      "title": "AllToMP3",
+      "publisher": "BasileBruneau",
+      "versionCount": 1
+    },
+    {
+      "id": "Basilisk.Basilisk",
+      "title": "Basilisk",
+      "publisher": "Basilisk",
+      "versionCount": 5
+    },
+    {
+      "id": "Basti-def.helloworld",
+      "title": "helloworld",
+      "publisher": "Basti-def",
+      "versionCount": 1
+    },
+    {
+      "id": "Bauerapps.RightNote",
+      "title": "RightNote",
+      "publisher": "Bauerapps",
+      "versionCount": 1
+    },
+    {
+      "id": "Baulk.Baulk",
+      "title": "Baulk",
+      "publisher": "Baulk",
+      "versionCount": 15
+    },
+    {
+      "id": "Baxi.MyBaxiPRO",
+      "title": "MyBaxiPRO",
+      "publisher": "Baxi",
+      "versionCount": 2
+    },
+    {
+      "id": "Baxi.ServiceTool",
+      "title": "ServiceTool",
+      "publisher": "Baxi",
+      "versionCount": 6
+    },
+    {
+      "id": "Bay12Games.DwarfFortressClassic",
+      "title": "DwarfFortressClassic",
+      "publisher": "Bay12Games",
+      "versionCount": 2
+    },
+    {
+      "id": "Bazel.Bazel",
+      "title": "Bazel",
+      "publisher": "Bazel",
+      "versionCount": 14
+    },
+    {
+      "id": "Bazel.Bazelisk",
+      "title": "Bazelisk",
+      "publisher": "Bazel",
+      "versionCount": 11
+    },
+    {
+      "id": "Bazwise.FolderSizeExplorer",
+      "title": "FolderSizeExplorer",
+      "publisher": "Bazwise",
+      "versionCount": 1
+    },
+    {
+      "id": "Bdrive.RcloneView",
+      "title": "RcloneView",
+      "publisher": "Bdrive",
+      "versionCount": 1
+    },
+    {
+      "id": "BeagleSoftware.BeTL",
+      "title": "BeTL",
+      "publisher": "BeagleSoftware",
+      "versionCount": 1
+    },
+    {
+      "id": "BeagleSoftware.BeagleEditor",
+      "title": "BeagleEditor",
+      "publisher": "BeagleSoftware",
+      "versionCount": 1
+    },
+    {
+      "id": "Beamr.JPEGminiPro",
+      "title": "JPEGminiPro",
+      "publisher": "Beamr",
+      "versionCount": 1
+    },
+    {
+      "id": "BearWare.dk",
+      "title": "dk",
+      "publisher": "BearWare",
+      "versionCount": 1
+    },
+    {
+      "id": "BedaKosata.BKChem",
+      "title": "BKChem",
+      "publisher": "BedaKosata",
+      "versionCount": 2
+    },
+    {
+      "id": "Bedrock-OSS.regolith",
+      "title": "regolith",
+      "publisher": "Bedrock-OSS",
+      "versionCount": 11
+    },
+    {
+      "id": "BeeBEEP.BeeBEEP",
+      "title": "BeeBEEP",
+      "publisher": "BeeBEEP",
+      "versionCount": 2
+    },
+    {
+      "id": "Beeftext.Beeftext",
+      "title": "Beeftext",
+      "publisher": "Beeftext",
+      "versionCount": 35
+    },
+    {
+      "id": "Beeper.Beeper",
+      "title": "Beeper",
+      "publisher": "Beeper",
+      "versionCount": 36
+    },
+    {
+      "id": "Belarc.Advisor",
+      "title": "Advisor",
+      "publisher": "Belarc",
+      "versionCount": 1
+    },
+    {
+      "id": "Belfius.BelfiusConnector",
+      "title": "BelfiusConnector",
+      "publisher": "Belfius",
+      "versionCount": 1
+    },
+    {
+      "id": "BelgianGovernment.eIDViewer",
+      "title": "eIDViewer",
+      "publisher": "BelgianGovernment",
+      "versionCount": 5
+    },
+    {
+      "id": "BelgianGovernment.eIDmiddleware",
+      "title": "eIDmiddleware",
+      "publisher": "BelgianGovernment",
+      "versionCount": 3
+    },
+    {
+      "id": "BellSoft.LibericaJDK",
+      "title": "LibericaJDK",
+      "publisher": "BellSoft",
+      "versionCount": 14
+    },
+    {
+      "id": "BellSoft.LibericaJRE",
+      "title": "LibericaJRE",
+      "publisher": "BellSoft",
+      "versionCount": 15
+    },
+    {
+      "id": "BellSoft.LibericaNIK",
+      "title": "LibericaNIK",
+      "publisher": "BellSoft",
+      "versionCount": 3
+    },
+    {
+      "id": "BelledonneCommunications.Linphone",
+      "title": "Linphone",
+      "publisher": "BelledonneCommunications",
+      "versionCount": 11
+    },
+    {
+      "id": "BenBoyter.scc",
+      "title": "scc",
+      "publisher": "BenBoyter",
+      "versionCount": 3
+    },
+    {
+      "id": "BenHollis.PNGGauntlet",
+      "title": "PNGGauntlet",
+      "publisher": "BenHollis",
+      "versionCount": 1
+    },
+    {
+      "id": "BenQ.InstaShare",
+      "title": "InstaShare",
+      "publisher": "BenQ",
+      "versionCount": 1
+    },
+    {
+      "id": "BenQ.InstaShare2",
+      "title": "InstaShare2",
+      "publisher": "BenQ",
+      "versionCount": 1
+    },
+    {
+      "id": "Benbuck.Finestray",
+      "title": "Finestray",
+      "publisher": "Benbuck",
+      "versionCount": 3
+    },
+    {
+      "id": "BenjaminLSR.HandheldCompanion",
+      "title": "HandheldCompanion",
+      "publisher": "BenjaminLSR",
+      "versionCount": 14
+    },
+    {
+      "id": "Benji377.Tooka",
+      "title": "Tooka",
+      "publisher": "Benji377",
+      "versionCount": 5
+    },
+    {
+      "id": "BenthicSoftware.GoldSqall",
+      "title": "GoldSqall",
+      "publisher": "BenthicSoftware",
+      "versionCount": 2
+    },
+    {
+      "id": "BenthicSoftware.Golden",
+      "title": "Golden",
+      "publisher": "BenthicSoftware",
+      "versionCount": 3
+    },
+    {
+      "id": "BenthicSoftware.Goldview",
+      "title": "Goldview",
+      "publisher": "BenthicSoftware",
+      "versionCount": 1
+    },
+    {
+      "id": "BenthicSoftware.ImpExpPro",
+      "title": "ImpExpPro",
+      "publisher": "BenthicSoftware",
+      "versionCount": 1
+    },
+    {
+      "id": "BenthicSoftware.PLEdit",
+      "title": "PLEdit",
+      "publisher": "BenthicSoftware",
+      "versionCount": 2
+    },
+    {
+      "id": "BepassOrg.OblivionDesktop",
+      "title": "OblivionDesktop",
+      "publisher": "BepassOrg",
+      "versionCount": 1
+    },
+    {
+      "id": "Berkeley.BYOB",
+      "title": "BYOB",
+      "publisher": "Berkeley",
+      "versionCount": 1
+    },
+    {
+      "id": "BerndBestel.grocy-desktop",
+      "title": "grocy-desktop",
+      "publisher": "BerndBestel",
+      "versionCount": 3
+    },
+    {
+      "id": "Beseda.Convy",
+      "title": "Convy",
+      "publisher": "Beseda",
+      "versionCount": 1
+    },
+    {
+      "id": "BespokeSynth.BespokeSynth",
+      "title": "BespokeSynth",
+      "publisher": "BespokeSynth",
+      "versionCount": 5
+    },
+    {
+      "id": "BestNotes.BestNotes",
+      "title": "BestNotes",
+      "publisher": "BestNotes",
+      "versionCount": 3
+    },
+    {
+      "id": "Besware.Artweaver",
+      "title": "Artweaver",
+      "publisher": "Besware",
+      "versionCount": 2
+    },
+    {
+      "id": "Betaflight.Betaflight-Configurator",
+      "title": "Betaflight-Configurator",
+      "publisher": "Betaflight",
+      "versionCount": 6
+    },
+    {
+      "id": "Bethesda.Launcher",
+      "title": "Launcher",
+      "publisher": "Bethesda",
+      "versionCount": 1
+    },
+    {
+      "id": "BetterCrewLink.BetterCrewLink",
+      "title": "BetterCrewLink",
+      "publisher": "BetterCrewLink",
+      "versionCount": 21
+    },
+    {
+      "id": "Betterbird.Betterbird",
+      "title": "Betterbird",
+      "publisher": "Betterbird",
+      "versionCount": 2
+    },
+    {
+      "id": "Beyond-All-Reason.Beyond-All-Reason",
+      "title": "Beyond-All-Reason",
+      "publisher": "Beyond-All-Reason",
+      "versionCount": 1
+    },
+    {
+      "id": "BeyondATC.Client",
+      "title": "Client",
+      "publisher": "BeyondATC",
+      "versionCount": 1
+    },
+    {
+      "id": "BeyondATC.TrafficMap",
+      "title": "TrafficMap",
+      "publisher": "BeyondATC",
+      "versionCount": 4
+    },
+    {
+      "id": "BeyondCode.Herd",
+      "title": "Herd",
+      "publisher": "BeyondCode",
+      "versionCount": 1
+    },
+    {
+      "id": "Bforartists.Bforartists",
+      "title": "Bforartists",
+      "publisher": "Bforartists",
+      "versionCount": 4
+    },
+    {
+      "id": "BiSS.WSLDiskShrinker",
+      "title": "WSLDiskShrinker",
+      "publisher": "BiSS",
+      "versionCount": 4
+    },
+    {
+      "id": "BibleTime.BibleTime",
+      "title": "BibleTime",
+      "publisher": "BibleTime",
+      "versionCount": 2
+    },
+    {
+      "id": "BicomSystems.Communicator",
+      "title": "Communicator",
+      "publisher": "BicomSystems",
+      "versionCount": 2
+    },
+    {
+      "id": "BicomSystems.OutCALL",
+      "title": "OutCALL",
+      "publisher": "BicomSystems",
+      "versionCount": 1
+    },
+    {
+      "id": "BicomSystems.gloCOM",
+      "title": "gloCOM",
+      "publisher": "BicomSystems",
+      "versionCount": 2
+    },
+    {
+      "id": "BigSweetPotatoStudio.HyperChat",
+      "title": "HyperChat",
+      "publisher": "BigSweetPotatoStudio",
+      "versionCount": 40
+    },
+    {
+      "id": "BiglySoftware.BiglyBT",
+      "title": "BiglyBT",
+      "publisher": "BiglySoftware",
+      "versionCount": 16
+    },
+    {
+      "id": "Bilibili.Bcut",
+      "title": "Bcut",
+      "publisher": "Bilibili",
+      "versionCount": 5
+    },
+    {
+      "id": "Bilibili.Bilibili",
+      "title": "Bilibili",
+      "publisher": "Bilibili",
+      "versionCount": 52
+    },
+    {
+      "id": "Bilibili.Livehime",
+      "title": "Livehime",
+      "publisher": "Bilibili",
+      "versionCount": 232
+    },
+    {
+      "id": "Bililive.BililiveRecorder",
+      "title": "BililiveRecorder",
+      "publisher": "Bililive",
+      "versionCount": 3
+    },
+    {
+      "id": "BillStewart.SyncthingWindowsSetup",
+      "title": "SyncthingWindowsSetup",
+      "publisher": "BillStewart",
+      "versionCount": 3
+    },
+    {
+      "id": "Billfish.Billfish",
+      "title": "Billfish",
+      "publisher": "Billfish",
+      "versionCount": 76
+    },
+    {
+      "id": "Bin-Huang.Chatbox",
+      "title": "Chatbox",
+      "publisher": "Bin-Huang",
+      "versionCount": 89
+    },
+    {
+      "id": "BinanceTech.Binance",
+      "title": "Binance",
+      "publisher": "BinanceTech",
+      "versionCount": 67
+    },
+    {
+      "id": "BinaryFortress.ClipboardFusion",
+      "title": "ClipboardFusion",
+      "publisher": "BinaryFortress",
+      "versionCount": 7
+    },
+    {
+      "id": "BinaryFortress.CloudShow",
+      "title": "CloudShow",
+      "publisher": "BinaryFortress",
+      "versionCount": 8
+    },
+    {
+      "id": "BinaryFortress.DisplayFusion",
+      "title": "DisplayFusion",
+      "publisher": "BinaryFortress",
+      "versionCount": 14
+    },
+    {
+      "id": "BinaryFortress.FileSeek",
+      "title": "FileSeek",
+      "publisher": "BinaryFortress",
+      "versionCount": 6
+    },
+    {
+      "id": "BinaryFortress.HashTools",
+      "title": "HashTools",
+      "publisher": "BinaryFortress",
+      "versionCount": 7
+    },
+    {
+      "id": "BinaryFortress.LogFusion",
+      "title": "LogFusion",
+      "publisher": "BinaryFortress",
+      "versionCount": 7
+    },
+    {
+      "id": "BinaryFortress.TrayStatus",
+      "title": "TrayStatus",
+      "publisher": "BinaryFortress",
+      "versionCount": 7
+    },
+    {
+      "id": "BinaryFortress.VoiceBot",
+      "title": "VoiceBot",
+      "publisher": "BinaryFortress",
+      "versionCount": 8
+    },
+    {
+      "id": "BinaryFortress.WindowInspector",
+      "title": "WindowInspector",
+      "publisher": "BinaryFortress",
+      "versionCount": 11
+    },
+    {
+      "id": "BinaryMark.AdvancedFileFinder",
+      "title": "AdvancedFileFinder",
+      "publisher": "BinaryMark",
+      "versionCount": 1
+    },
+    {
+      "id": "BinaryMark.BatchDocs",
+      "title": "BatchDocs",
+      "publisher": "BinaryMark",
+      "versionCount": 1
+    },
+    {
+      "id": "BinaryMark.BatchEncodingConverter",
+      "title": "BatchEncodingConverter",
+      "publisher": "BinaryMark",
+      "versionCount": 1
+    },
+    {
+      "id": "BinaryMark.BatchFileEncrypt",
+      "title": "BatchFileEncrypt",
+      "publisher": "BinaryMark",
+      "versionCount": 1
+    },
+    {
+      "id": "BinaryMark.BatchFileManager",
+      "title": "BatchFileManager",
+      "publisher": "BinaryMark",
+      "versionCount": 1
+    },
+    {
+      "id": "BinaryMark.BatchFileRename",
+      "title": "BatchFileRename",
+      "publisher": "BinaryMark",
+      "versionCount": 1
+    },
+    {
+      "id": "BinaryMark.BatchFileReplace",
+      "title": "BatchFileReplace",
+      "publisher": "BinaryMark",
+      "versionCount": 1
+    },
+    {
+      "id": "BinaryMark.BatchFileSplitJoin",
+      "title": "BatchFileSplitJoin",
+      "publisher": "BinaryMark",
+      "versionCount": 1
+    },
+    {
+      "id": "BinaryMark.BatchFiles",
+      "title": "BatchFiles",
+      "publisher": "BinaryMark",
+      "versionCount": 1
+    },
+    {
+      "id": "BinaryMark.BatchHexEditor",
+      "title": "BatchHexEditor",
+      "publisher": "BinaryMark",
+      "versionCount": 1
+    },
+    {
+      "id": "BinaryMark.BatchImageConverter",
+      "title": "BatchImageConverter",
+      "publisher": "BinaryMark",
+      "versionCount": 1
+    },
+    {
+      "id": "BinaryMark.BatchImageEnhancer",
+      "title": "BatchImageEnhancer",
+      "publisher": "BinaryMark",
+      "versionCount": 1
+    },
+    {
+      "id": "BinaryMark.BatchImageResizer",
+      "title": "BatchImageResizer",
+      "publisher": "BinaryMark",
+      "versionCount": 1
+    },
+    {
+      "id": "BinaryMark.BatchImageSplitter",
+      "title": "BatchImageSplitter",
+      "publisher": "BinaryMark",
+      "versionCount": 1
+    },
+    {
+      "id": "BinaryMark.BatchImageWatermarker",
+      "title": "BatchImageWatermarker",
+      "publisher": "BinaryMark",
+      "versionCount": 1
+    },
+    {
+      "id": "BinaryMark.BatchImages",
+      "title": "BatchImages",
+      "publisher": "BinaryMark",
+      "versionCount": 1
+    },
+    {
+      "id": "BinaryMark.BatchPhotoFace",
+      "title": "BatchPhotoFace",
+      "publisher": "BinaryMark",
+      "versionCount": 1
+    },
+    {
+      "id": "BinaryMark.BatchRegEx",
+      "title": "BatchRegEx",
+      "publisher": "BinaryMark",
+      "versionCount": 1
+    },
+    {
+      "id": "BinaryMark.BatchTextFileEditor",
+      "title": "BatchTextFileEditor",
+      "publisher": "BinaryMark",
+      "versionCount": 1
+    },
+    {
+      "id": "BinaryMark.BatchWordReplace",
+      "title": "BatchWordReplace",
+      "publisher": "BinaryMark",
+      "versionCount": 1
+    },
+    {
+      "id": "BinaryMark.BiorhythmsCalculator",
+      "title": "BiorhythmsCalculator",
+      "publisher": "BinaryMark",
+      "versionCount": 1
+    },
+    {
+      "id": "BinaryMark.ColorPickerPro",
+      "title": "ColorPickerPro",
+      "publisher": "BinaryMark",
+      "versionCount": 1
+    },
+    {
+      "id": "BinaryMark.FileHashGenerator",
+      "title": "FileHashGenerator",
+      "publisher": "BinaryMark",
+      "versionCount": 1
+    },
+    {
+      "id": "BinaryMark.PasswordGenerator",
+      "title": "PasswordGenerator",
+      "publisher": "BinaryMark",
+      "versionCount": 1
+    },
+    {
+      "id": "BinaryMark.RandomNumberGenerator",
+      "title": "RandomNumberGenerator",
+      "publisher": "BinaryMark",
+      "versionCount": 1
+    },
+    {
+      "id": "BinaryMark.StreamingVideoDownloader",
+      "title": "StreamingVideoDownloader",
+      "publisher": "BinaryMark",
+      "versionCount": 1
+    },
+    {
+      "id": "BinaryMark.TextToMp3Converter",
+      "title": "TextToMp3Converter",
+      "publisher": "BinaryMark",
+      "versionCount": 1
+    },
+    {
+      "id": "BiniSoft.WindowsFirewallControl",
+      "title": "WindowsFirewallControl",
+      "publisher": "BiniSoft",
+      "versionCount": 9
+    },
+    {
+      "id": "BioSilico.EssayWriter",
+      "title": "EssayWriter",
+      "publisher": "BioSilico",
+      "versionCount": 2
+    },
+    {
+      "id": "BioSilico.IdeaMapper",
+      "title": "IdeaMapper",
+      "publisher": "BioSilico",
+      "versionCount": 5
+    },
+    {
+      "id": "BioSilico.MicroBreak",
+      "title": "MicroBreak",
+      "publisher": "BioSilico",
+      "versionCount": 1
+    },
+    {
+      "id": "Biognosys.Spectronaut",
+      "title": "Spectronaut",
+      "publisher": "Biognosys",
+      "versionCount": 1
+    },
+    {
+      "id": "BiomeJS.Biome",
+      "title": "Biome",
+      "publisher": "BiomeJS",
+      "versionCount": 12
+    },
+    {
+      "id": "BirdBrain.BlueBirdConnector",
+      "title": "BlueBirdConnector",
+      "publisher": "BirdBrain",
+      "versionCount": 1
+    },
+    {
+      "id": "Biscuit.Biscuit",
+      "title": "Biscuit",
+      "publisher": "Biscuit",
+      "versionCount": 9
+    },
+    {
+      "id": "BishwaSaha.Koncentro",
+      "title": "Koncentro",
+      "publisher": "BishwaSaha",
+      "versionCount": 12
+    },
+    {
+      "id": "Bisq.Bisq",
+      "title": "Bisq",
+      "publisher": "Bisq",
+      "versionCount": 29
+    },
+    {
+      "id": "Bit4id.Firma4ng",
+      "title": "Firma4ng",
+      "publisher": "Bit4id",
+      "versionCount": 1
+    },
+    {
+      "id": "Bit4id.UniversalMiddleware",
+      "title": "UniversalMiddleware",
+      "publisher": "Bit4id",
+      "versionCount": 1
+    },
+    {
+      "id": "BitGuardian.BitDriverUpdater",
+      "title": "BitDriverUpdater",
+      "publisher": "BitGuardian",
+      "versionCount": 4
+    },
+    {
+      "id": "BitGuardian.BitGameBooster",
+      "title": "BitGameBooster",
+      "publisher": "BitGuardian",
+      "versionCount": 1
+    },
+    {
+      "id": "BitRecover.AadhaarCardPasswordRemover",
+      "title": "AadhaarCardPasswordRemover",
+      "publisher": "BitRecover",
+      "versionCount": 1
+    },
+    {
+      "id": "BitRecover.WindowsLiveMailConverter",
+      "title": "WindowsLiveMailConverter",
+      "publisher": "BitRecover",
+      "versionCount": 1
+    },
+    {
+      "id": "BitSum.Coreprio",
+      "title": "Coreprio",
+      "publisher": "BitSum",
+      "versionCount": 1
+    },
+    {
+      "id": "BitSum.ParkControl",
+      "title": "ParkControl",
+      "publisher": "BitSum",
+      "versionCount": 1
+    },
+    {
+      "id": "BitSum.ProcessLasso",
+      "title": "ProcessLasso",
+      "publisher": "BitSum",
+      "versionCount": 2
+    },
+    {
+      "id": "BitcoinCoreProject.BitcoinCore",
+      "title": "BitcoinCore",
+      "publisher": "BitcoinCoreProject",
+      "versionCount": 13
+    },
+    {
+      "id": "Bitdefender.Bitdefender",
+      "title": "Bitdefender",
+      "publisher": "Bitdefender",
+      "versionCount": 1
+    },
+    {
+      "id": "Bitfocus.Companion",
+      "title": "Companion",
+      "publisher": "Bitfocus",
+      "versionCount": 1
+    },
+    {
+      "id": "Bitmutex.Simc",
+      "title": "Simc",
+      "publisher": "Bitmutex",
+      "versionCount": 1
+    },
+    {
+      "id": "Bitmutex.Winhider",
+      "title": "Winhider",
+      "publisher": "Bitmutex",
+      "versionCount": 1
+    },
+    {
+      "id": "Bitvise.SSH",
+      "title": "SSH",
+      "publisher": "Bitvise",
+      "versionCount": 2
+    },
+    {
+      "id": "Bitwarden.Bitwarden",
+      "title": "Bitwarden",
+      "publisher": "Bitwarden",
+      "versionCount": 74
+    },
+    {
+      "id": "Bitwarden.CLI",
+      "title": "CLI",
+      "publisher": "Bitwarden",
+      "versionCount": 36
+    },
+    {
+      "id": "Biyi.Biyi",
+      "title": "Biyi",
+      "publisher": "Biyi",
+      "versionCount": 3
+    },
+    {
+      "id": "BjoernBoeckle.mqtt-presence",
+      "title": "mqtt-presence",
+      "publisher": "BjoernBoeckle",
+      "versionCount": 4
+    },
+    {
+      "id": "BlackCatSystems.Atomic",
+      "title": "Atomic",
+      "publisher": "BlackCatSystems",
+      "versionCount": 1
+    },
+    {
+      "id": "BlastApps.FluentSearch",
+      "title": "FluentSearch",
+      "publisher": "BlastApps",
+      "versionCount": 2
+    },
+    {
+      "id": "BlastWave.BlastShield",
+      "title": "BlastShield",
+      "publisher": "BlastWave",
+      "versionCount": 1
+    },
+    {
+      "id": "BleachBit.BleachBit",
+      "title": "BleachBit",
+      "publisher": "BleachBit",
+      "versionCount": 7
+    },
+    {
+      "id": "BlenderFoundation.Blender",
+      "title": "Blender",
+      "publisher": "BlenderFoundation",
+      "versionCount": 46
+    },
+    {
+      "id": "BleuBleu.FamiStudio",
+      "title": "FamiStudio",
+      "publisher": "BleuBleu",
+      "versionCount": 8
+    },
+    {
+      "id": "BlindPandasTeam.Bookworm",
+      "title": "Bookworm",
+      "publisher": "BlindPandasTeam",
+      "versionCount": 2
+    },
+    {
+      "id": "Blinue.Magpie",
+      "title": "Magpie",
+      "publisher": "Blinue",
+      "versionCount": 9
+    },
+    {
+      "id": "Blitz.Blitz",
+      "title": "Blitz",
+      "publisher": "Blitz",
+      "versionCount": 1
+    },
+    {
+      "id": "Blix.BlueMail",
+      "title": "BlueMail",
+      "publisher": "Blix",
+      "versionCount": 49
+    },
+    {
+      "id": "Blizzard.BattleNet",
+      "title": "BattleNet",
+      "publisher": "Blizzard",
+      "versionCount": 1
+    },
+    {
+      "id": "Blocknetproject.Blocknet",
+      "title": "Blocknet",
+      "publisher": "Blocknetproject",
+      "versionCount": 10
+    },
+    {
+      "id": "Bloomberg.BloombergTerminal",
+      "title": "BloombergTerminal",
+      "publisher": "Bloomberg",
+      "versionCount": 1
+    },
+    {
+      "id": "Bloret.BloretLauncher",
+      "title": "BloretLauncher",
+      "publisher": "Bloret",
+      "versionCount": 2
+    },
+    {
+      "id": "Bloret.Launcher",
+      "title": "Launcher",
+      "publisher": "Bloret",
+      "versionCount": 3
+    },
+    {
+      "id": "BlueBubbles.BlueBubbles",
+      "title": "BlueBubbles",
+      "publisher": "BlueBubbles",
+      "versionCount": 8
+    },
+    {
+      "id": "BlueJTeam.BlueJ",
+      "title": "BlueJ",
+      "publisher": "BlueJTeam",
+      "versionCount": 11
+    },
+    {
+      "id": "BlueMystical.EDHM",
+      "title": "EDHM",
+      "publisher": "BlueMystical",
+      "versionCount": 9
+    },
+    {
+      "id": "BluePointLilac.ContextMenuManager",
+      "title": "ContextMenuManager",
+      "publisher": "BluePointLilac",
+      "versionCount": 1
+    },
+    {
+      "id": "BlueStack.BlueStacks",
+      "title": "BlueStacks",
+      "publisher": "BlueStack",
+      "versionCount": 22
+    },
+    {
+      "id": "Bluebeam.BluebeamOCR",
+      "title": "BluebeamOCR",
+      "publisher": "Bluebeam",
+      "versionCount": 1
+    },
+    {
+      "id": "Bluebeam.Revu",
+      "title": "Revu",
+      "publisher": "Bluebeam",
+      "versionCount": 2
+    },
+    {
+      "id": "Blueberry.FBX",
+      "title": "FBX",
+      "publisher": "Blueberry",
+      "versionCount": 1
+    },
+    {
+      "id": "Blueberry.FlashBackPro",
+      "title": "FlashBackPro",
+      "publisher": "Blueberry",
+      "versionCount": 1
+    },
+    {
+      "id": "Blueberry.FlashbackExpress",
+      "title": "FlashbackExpress",
+      "publisher": "Blueberry",
+      "versionCount": 2
+    },
+    {
+      "id": "Blueberry.FlashbackVideoConverter",
+      "title": "FlashbackVideoConverter",
+      "publisher": "Blueberry",
+      "versionCount": 1
+    },
+    {
+      "id": "Bluefish.Bluefish",
+      "title": "Bluefish",
+      "publisher": "Bluefish",
+      "versionCount": 4
+    },
+    {
+      "id": "Bluemaxima.NewgroundsAuditorium",
+      "title": "NewgroundsAuditorium",
+      "publisher": "Bluemaxima",
+      "versionCount": 1
+    },
+    {
+      "id": "BlueprintFreespeech.RicochetRefresh",
+      "title": "RicochetRefresh",
+      "publisher": "BlueprintFreespeech",
+      "versionCount": 1
+    },
+    {
+      "id": "Blushyes.Sofast",
+      "title": "Sofast",
+      "publisher": "Blushyes",
+      "versionCount": 59
+    },
+    {
+      "id": "BoanAnbo.ZoteroCitationPicker",
+      "title": "ZoteroCitationPicker",
+      "publisher": "BoanAnbo",
+      "versionCount": 1
+    },
+    {
+      "id": "BobK4CY.Logger32",
+      "title": "Logger32",
+      "publisher": "BobK4CY",
+      "versionCount": 1
+    },
+    {
+      "id": "BobdaProgrammer.slik",
+      "title": "slik",
+      "publisher": "BobdaProgrammer",
+      "versionCount": 1
+    },
+    {
+      "id": "Bochs.Bochs",
+      "title": "Bochs",
+      "publisher": "Bochs",
+      "versionCount": 1
+    },
+    {
+      "id": "Boeing.config-file-validator",
+      "title": "config-file-validator",
+      "publisher": "Boeing",
+      "versionCount": 2
+    },
+    {
+      "id": "Bome.SendSX",
+      "title": "SendSX",
+      "publisher": "Bome",
+      "versionCount": 1
+    },
+    {
+      "id": "Bonnefon.glogg",
+      "title": "glogg",
+      "publisher": "Bonnefon",
+      "versionCount": 1
+    },
+    {
+      "id": "BonsaiFoundation.Bonsai",
+      "title": "Bonsai",
+      "publisher": "BonsaiFoundation",
+      "versionCount": 1
+    },
+    {
+      "id": "BookStairs.bookhunter",
+      "title": "bookhunter",
+      "publisher": "BookStairs",
+      "versionCount": 3
+    },
+    {
+      "id": "BookxSoftware.BookxNotePro",
+      "title": "BookxNotePro",
+      "publisher": "BookxSoftware",
+      "versionCount": 14
+    },
+    {
+      "id": "Bopsoft.Listary",
+      "title": "Listary",
+      "publisher": "Bopsoft",
+      "versionCount": 1
+    },
+    {
+      "id": "BorisYakubchik.SimplestFileRenamer",
+      "title": "SimplestFileRenamer",
+      "publisher": "BorisYakubchik",
+      "versionCount": 1
+    },
+    {
+      "id": "BornToBeRoot.NETworkManager",
+      "title": "NETworkManager",
+      "publisher": "BornToBeRoot",
+      "versionCount": 33
+    },
+    {
+      "id": "Borvid.HttpMasterExpress",
+      "title": "HttpMasterExpress",
+      "publisher": "Borvid",
+      "versionCount": 42
+    },
+    {
+      "id": "Borvid.HttpMasterProfessional",
+      "title": "HttpMasterProfessional",
+      "publisher": "Borvid",
+      "versionCount": 50
+    },
+    {
+      "id": "Bose.Updater",
+      "title": "Updater",
+      "publisher": "Bose",
+      "versionCount": 1
+    },
+    {
+      "id": "Bostrot.WSLManager",
+      "title": "WSLManager",
+      "publisher": "Bostrot",
+      "versionCount": 6
+    },
+    {
+      "id": "Bosyun.BoardMix",
+      "title": "BoardMix",
+      "publisher": "Bosyun",
+      "versionCount": 3
+    },
+    {
+      "id": "Bosyun.Pixso",
+      "title": "Pixso",
+      "publisher": "Bosyun",
+      "versionCount": 3
+    },
+    {
+      "id": "Bosyun.PixsoLocalFont",
+      "title": "PixsoLocalFont",
+      "publisher": "Bosyun",
+      "versionCount": 4
+    },
+    {
+      "id": "BotProductions.IconViewer",
+      "title": "IconViewer",
+      "publisher": "BotProductions",
+      "versionCount": 1
+    },
+    {
+      "id": "BotProductions.PSPThumbnailHandler",
+      "title": "PSPThumbnailHandler",
+      "publisher": "BotProductions",
+      "versionCount": 1
+    },
+    {
+      "id": "Botkind.AllwaySync",
+      "title": "AllwaySync",
+      "publisher": "Botkind",
+      "versionCount": 1
+    },
+    {
+      "id": "Box.Box",
+      "title": "Box",
+      "publisher": "Box",
+      "versionCount": 11
+    },
+    {
+      "id": "Box.BoxForOffice",
+      "title": "BoxForOffice",
+      "publisher": "Box",
+      "versionCount": 1
+    },
+    {
+      "id": "Box.BoxSync",
+      "title": "BoxSync",
+      "publisher": "Box",
+      "versionCount": 1
+    },
+    {
+      "id": "Box.BoxTools",
+      "title": "BoxTools",
+      "publisher": "Box",
+      "versionCount": 1
+    },
+    {
+      "id": "BoxHero.BoxHero",
+      "title": "BoxHero",
+      "publisher": "BoxHero",
+      "versionCount": 7
+    },
+    {
+      "id": "BoxlightCorporation.LYNXWhiteboard",
+      "title": "LYNXWhiteboard",
+      "publisher": "BoxlightCorporation",
+      "versionCount": 1
+    },
+    {
+      "id": "Boxstar.DeepVocal",
+      "title": "DeepVocal",
+      "publisher": "Boxstar",
+      "versionCount": 1
+    },
+    {
+      "id": "Boxstar.DeepVocalToolBox",
+      "title": "DeepVocalToolBox",
+      "publisher": "Boxstar",
+      "versionCount": 1
+    },
+    {
+      "id": "BranchBlocks.Branch",
+      "title": "Branch",
+      "publisher": "BranchBlocks",
+      "versionCount": 1
+    },
+    {
+      "id": "Brave.Brave",
+      "title": "Brave",
+      "publisher": "Brave",
+      "versionCount": 106
+    },
+    {
+      "id": "Brave.BraveUpdater",
+      "title": "BraveUpdater",
+      "publisher": "Brave",
+      "versionCount": 1
+    },
+    {
+      "id": "BreakPointSoftware.HexWorkshop",
+      "title": "HexWorkshop",
+      "publisher": "BreakPointSoftware",
+      "versionCount": 2
+    },
+    {
+      "id": "BrechtSanders.WinLibs",
+      "title": "WinLibs",
+      "publisher": "BrechtSanders",
+      "versionCount": 2
+    },
+    {
+      "id": "BrettMayson.HEMTT",
+      "title": "HEMTT",
+      "publisher": "BrettMayson",
+      "versionCount": 39
+    },
+    {
+      "id": "Bria.Bria",
+      "title": "Bria",
+      "publisher": "Bria",
+      "versionCount": 5
+    },
+    {
+      "id": "BrianApps.Sizer",
+      "title": "Sizer",
+      "publisher": "BrianApps",
+      "versionCount": 2
+    },
+    {
+      "id": "BriceLambson.ImageResizerforWindows",
+      "title": "ImageResizerforWindows",
+      "publisher": "BriceLambson",
+      "versionCount": 2
+    },
+    {
+      "id": "BrickLink.PartDesigner",
+      "title": "PartDesigner",
+      "publisher": "BrickLink",
+      "versionCount": 1
+    },
+    {
+      "id": "BrickLink.Studio",
+      "title": "Studio",
+      "publisher": "BrickLink",
+      "versionCount": 3
+    },
+    {
+      "id": "BrightSign.BAconnected",
+      "title": "BAconnected",
+      "publisher": "BrightSign",
+      "versionCount": 5
+    },
+    {
+      "id": "BrightSign.BrightAuthor",
+      "title": "BrightAuthor",
+      "publisher": "BrightSign",
+      "versionCount": 3
+    },
+    {
+      "id": "BrightlySoftware.AsseticPredictor",
+      "title": "AsseticPredictor",
+      "publisher": "BrightlySoftware",
+      "versionCount": 1
+    },
+    {
+      "id": "BrinkSoftware.IbisCalculerenVoorBouw",
+      "title": "IbisCalculerenVoorBouw",
+      "publisher": "BrinkSoftware",
+      "versionCount": 1
+    },
+    {
+      "id": "BrinkSoftware.IbisCalculerenVoorInstallatie",
+      "title": "IbisCalculerenVoorInstallatie",
+      "publisher": "BrinkSoftware",
+      "versionCount": 1
+    },
+    {
+      "id": "BrinkSoftware.IbisVoorInfra",
+      "title": "IbisVoorInfra",
+      "publisher": "BrinkSoftware",
+      "versionCount": 1
+    },
+    {
+      "id": "Brinno.BrinnoConnect",
+      "title": "BrinnoConnect",
+      "publisher": "Brinno",
+      "versionCount": 1
+    },
+    {
+      "id": "Brinno.BrinnoVideoPlayer",
+      "title": "BrinnoVideoPlayer",
+      "publisher": "Brinno",
+      "versionCount": 2
+    },
+    {
+      "id": "Brio.FolderSize",
+      "title": "FolderSize",
+      "publisher": "Brio",
+      "versionCount": 1
+    },
+    {
+      "id": "Brosix.Brosix",
+      "title": "Brosix",
+      "publisher": "Brosix",
+      "versionCount": 1
+    },
+    {
+      "id": "Brother.BRAdmin",
+      "title": "BRAdmin",
+      "publisher": "Brother",
+      "versionCount": 1
+    },
+    {
+      "id": "Brother.iPrintScan",
+      "title": "iPrintScan",
+      "publisher": "Brother",
+      "versionCount": 5
+    },
+    {
+      "id": "Brotje.ServiceTool",
+      "title": "ServiceTool",
+      "publisher": "Brotje",
+      "versionCount": 5
+    },
+    {
+      "id": "Brows.App",
+      "title": "App",
+      "publisher": "Brows",
+      "versionCount": 3
+    },
+    {
+      "id": "BrowserOS.BrowserOS",
+      "title": "BrowserOS",
+      "publisher": "BrowserOS",
+      "versionCount": 17
+    },
+    {
+      "id": "BrowserStack.BrowserStackLocal",
+      "title": "BrowserStackLocal",
+      "publisher": "BrowserStack",
+      "versionCount": 1
+    },
+    {
+      "id": "BrunnerBI.MeasureKiller",
+      "title": "MeasureKiller",
+      "publisher": "BrunnerBI",
+      "versionCount": 1
+    },
+    {
+      "id": "Bruno.Bruno",
+      "title": "Bruno",
+      "publisher": "Bruno",
+      "versionCount": 88
+    },
+    {
+      "id": "BrunoBanelli.PCI-Z",
+      "title": "PCI-Z",
+      "publisher": "BrunoBanelli",
+      "versionCount": 1
+    },
+    {
+      "id": "BrunoNova.DrMIPS",
+      "title": "DrMIPS",
+      "publisher": "BrunoNova",
+      "versionCount": 1
+    },
+    {
+      "id": "BrunoVergastaPaiva.CabInstaller",
+      "title": "CabInstaller",
+      "publisher": "BrunoVergastaPaiva",
+      "versionCount": 1
+    },
+    {
+      "id": "BrutalChess.BrutalChess",
+      "title": "BrutalChess",
+      "publisher": "BrutalChess",
+      "versionCount": 1
+    },
+    {
+      "id": "BryanCandi.BandwidthCalculator",
+      "title": "BandwidthCalculator",
+      "publisher": "BryanCandi",
+      "versionCount": 8
+    },
+    {
+      "id": "BtbN.FFmpeg",
+      "title": "FFmpeg",
+      "publisher": "BtbN",
+      "versionCount": 2
+    },
+    {
+      "id": "Buanzo.FFmpegforAudacity",
+      "title": "FFmpegforAudacity",
+      "publisher": "Buanzo",
+      "versionCount": 1
+    },
+    {
+      "id": "Buct0r.fullfetch",
+      "title": "fullfetch",
+      "publisher": "Buct0r",
+      "versionCount": 4
+    },
+    {
+      "id": "Builtbybel.Appcopier",
+      "title": "Appcopier",
+      "publisher": "Builtbybel",
+      "versionCount": 1
+    },
+    {
+      "id": "Bullzip.BullzipPDFStudio",
+      "title": "BullzipPDFStudio",
+      "publisher": "Bullzip",
+      "versionCount": 1
+    },
+    {
+      "id": "Bullzip.PDFPrinter",
+      "title": "PDFPrinter",
+      "publisher": "Bullzip",
+      "versionCount": 3
+    },
+    {
+      "id": "BumpTechnologies.BumpTop",
+      "title": "BumpTop",
+      "publisher": "BumpTechnologies",
+      "versionCount": 1
+    },
+    {
+      "id": "Bunny-Wabbit.ISOCreator",
+      "title": "ISOCreator",
+      "publisher": "Bunny-Wabbit",
+      "versionCount": 1
+    },
+    {
+      "id": "Burnaware.BurnAwareFree",
+      "title": "BurnAwareFree",
+      "publisher": "Burnaware",
+      "versionCount": 2
+    },
+    {
+      "id": "Burnaware.BurnAwarePremium",
+      "title": "BurnAwarePremium",
+      "publisher": "Burnaware",
+      "versionCount": 2
+    },
+    {
+      "id": "Burnaware.BurnAwarePro",
+      "title": "BurnAwarePro",
+      "publisher": "Burnaware",
+      "versionCount": 2
+    },
+    {
+      "id": "Burnaware.PDFShaper",
+      "title": "PDFShaper",
+      "publisher": "Burnaware",
+      "versionCount": 3
+    },
+    {
+      "id": "BurntSushi.ripgrep",
+      "title": "ripgrep",
+      "publisher": "BurntSushi",
+      "versionCount": 2
+    },
+    {
+      "id": "BurntSushi.xsv",
+      "title": "xsv",
+      "publisher": "BurntSushi",
+      "versionCount": 2
+    },
+    {
+      "id": "Buttercup.Buttercup",
+      "title": "Buttercup",
+      "publisher": "Buttercup",
+      "versionCount": 83
+    },
+    {
+      "id": "ButterflyEffect.Monica",
+      "title": "Monica",
+      "publisher": "ButterflyEffect",
+      "versionCount": 30
+    },
+    {
+      "id": "Byron.dua-cli",
+      "title": "dua-cli",
+      "publisher": "Byron",
+      "versionCount": 6
+    },
+    {
+      "id": "ByteDance.CapCut",
+      "title": "CapCut",
+      "publisher": "ByteDance",
+      "versionCount": 64
+    },
+    {
+      "id": "ByteDance.Debugtron",
+      "title": "Debugtron",
+      "publisher": "ByteDance",
+      "versionCount": 3
+    },
+    {
+      "id": "ByteDance.Doubao",
+      "title": "Doubao",
+      "publisher": "ByteDance",
+      "versionCount": 139
+    },
+    {
+      "id": "ByteDance.Douyin",
+      "title": "Douyin",
+      "publisher": "ByteDance",
+      "versionCount": 75
+    },
+    {
+      "id": "ByteDance.DouyinIDE",
+      "title": "DouyinIDE",
+      "publisher": "ByteDance",
+      "versionCount": 59
+    },
+    {
+      "id": "ByteDance.DouyinIM",
+      "title": "DouyinIM",
+      "publisher": "ByteDance",
+      "versionCount": 25
+    },
+    {
+      "id": "ByteDance.EffectHouse",
+      "title": "EffectHouse",
+      "publisher": "ByteDance",
+      "versionCount": 1
+    },
+    {
+      "id": "ByteDance.FeiLian",
+      "title": "FeiLian",
+      "publisher": "ByteDance",
+      "versionCount": 8
+    },
+    {
+      "id": "ByteDance.Feishu",
+      "title": "Feishu",
+      "publisher": "ByteDance",
+      "versionCount": 85
+    },
+    {
+      "id": "ByteDance.JianyingPro",
+      "title": "JianyingPro",
+      "publisher": "ByteDance",
+      "versionCount": 94
+    },
+    {
+      "id": "ByteDance.Lark",
+      "title": "Lark",
+      "publisher": "ByteDance",
+      "versionCount": 83
+    },
+    {
+      "id": "ByteDance.Resso",
+      "title": "Resso",
+      "publisher": "ByteDance",
+      "versionCount": 1
+    },
+    {
+      "id": "ByteDance.SodaMusic",
+      "title": "SodaMusic",
+      "publisher": "ByteDance",
+      "versionCount": 45
+    },
+    {
+      "id": "ByteDance.StreamingTool",
+      "title": "StreamingTool",
+      "publisher": "ByteDance",
+      "versionCount": 38
+    }
+  ]
+}

@@ -1,13 +1,56 @@
-import { useState } from 'react';
+import { useState, useEffect, useRef } from 'react';
 import './SearchBar.css';
 
 interface SearchBarProps {
   value: string;
   onChange: (value: string) => void;
+  suggestions?: string[];
 }
 
-export function SearchBar({ value, onChange }: SearchBarProps) {
+export function SearchBar({ value, onChange, suggestions = [] }: SearchBarProps) {
   const [isFocused, setIsFocused] = useState(false);
+  const [localValue, setLocalValue] = useState(value);
+  const [showSuggestions, setShowSuggestions] = useState(false);
+  const debounceTimer = useRef<NodeJS.Timeout | null>(null);
+
+  // Update local value when prop changes
+  useEffect(() => {
+    setLocalValue(value);
+  }, [value]);
+
+  const handleInputChange = (newValue: string) => {
+    setLocalValue(newValue);
+    setShowSuggestions(newValue.length > 0);
+
+    // Clear existing timer
+    if (debounceTimer.current) {
+      clearTimeout(debounceTimer.current);
+    }
+
+    // Set new timer - only call onChange after 300ms of no typing
+    debounceTimer.current = setTimeout(() => {
+      onChange(newValue);
+    }, 300);
+  };
+
+  const handleKeyDown = (e: React.KeyboardEvent) => {
+    if (e.key === 'Enter') {
+      // Immediate search on Enter
+      if (debounceTimer.current) {
+        clearTimeout(debounceTimer.current);
+      }
+      onChange(localValue);
+      setShowSuggestions(false);
+    } else if (e.key === 'Escape') {
+      setShowSuggestions(false);
+    }
+  };
+
+  const handleSuggestionClick = (suggestion: string) => {
+    setLocalValue(suggestion);
+    onChange(suggestion);
+    setShowSuggestions(false);
+  };
 
   return (
     <div className={`search-bar ${isFocused ? 'focused' : ''}`}>
@@ -24,12 +67,30 @@ export function SearchBar({ value, onChange }: SearchBarProps) {
       <input
         type="text"
         className="search-input"
-        placeholder="Search for packages..."
-        value={value}
-        onChange={(e) => onChange(e.target.value)}
+        placeholder="Search for packages... (press Enter to search)"
+        value={localValue}
+        onChange={(e) => handleInputChange(e.target.value)}
+        onKeyDown={handleKeyDown}
         onFocus={() => setIsFocused(true)}
-        onBlur={() => setIsFocused(false)}
+        onBlur={() => {
+          setIsFocused(false);
+          // Delay hiding suggestions to allow clicking them
+          setTimeout(() => setShowSuggestions(false), 200);
+        }}
       />
+      {showSuggestions && suggestions.length > 0 && (
+        <div className="search-suggestions">
+          {suggestions.slice(0, 5).map((suggestion, index) => (
+            <div
+              key={index}
+              className="search-suggestion"
+              onClick={() => handleSuggestionClick(suggestion)}
+            >
+              {suggestion}
+            </div>
+          ))}
+        </div>
+      )}
     </div>
   );
 }

@@ -402,3 +402,123 @@
   background-color: #e81123;
   color: #ffffff;
 }
+
+/* Loading and Error Screens */
+.loading-screen,
+.error-screen {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  gap: 2rem;
+  padding: 2rem;
+  text-align: center;
+  background: #ffffff;
+}
+
+.loading-screen h1,
+.error-screen h1 {
+  font-size: 3rem;
+  font-weight: 300;
+  color: #000000;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  margin: 0;
+}
+
+.loading-screen p,
+.error-screen p {
+  font-size: 0.875rem;
+  font-weight: 400;
+  color: #666666;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  max-width: 500px;
+  margin: 0;
+}
+
+.loading-spinner {
+  width: 60px;
+  height: 60px;
+  border: 2px solid #f0f0f0;
+  border-top: 2px solid #000000;
+  border-radius: 50%;
+  animation: spin 1s ease-in-out infinite;
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+.loading-screen .loading-steps {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  margin-top: 1rem;
+}
+
+.loading-screen .loading-step {
+  font-size: 0.75rem;
+  color: #999999;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  opacity: 0.5;
+  transition: opacity 0.3s;
+}
+
+.loading-screen .loading-step.active {
+  opacity: 1;
+  color: #000000;
+}
+
+.error-screen button {
+  padding: 0.75rem 2rem;
+  background: none;
+  color: #000000;
+  border: 1px solid #000000;
+  border-radius: 6px;
+  font-size: 0.6875rem;
+  font-weight: 400;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  cursor: pointer;
+  transition: all 0.2s;
+  font-family: -apple-system, BlinkMacSystemFont, 'Helvetica Neue', 'Arial', sans-serif;
+}
+
+.error-screen button:hover {
+  background: #000000;
+  color: #ffffff;
+}
+
+/* Dark mode for loading screens */
+.dark-mode .loading-screen,
+.dark-mode .error-screen {
+  background: var(--bg-primary);
+}
+
+.dark-mode .loading-screen h1,
+.dark-mode .error-screen h1 {
+  color: var(--text-primary);
+}
+
+.dark-mode .loading-spinner {
+  border-color: #333333;
+  border-top-color: var(--text-primary);
+}
+
+.dark-mode .loading-step.active {
+  color: var(--text-primary);
+}
+
+.dark-mode .error-screen button {
+  border-color: var(--text-primary);
+  color: var(--text-primary);
+}
+
+.dark-mode .error-screen button:hover {
+  background: var(--text-primary);
+  color: var(--bg-primary);
+}

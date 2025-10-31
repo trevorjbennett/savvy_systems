@@ -7,21 +7,146 @@ import { Collections } from './components/Collections';
 import { PersonaSwitcher } from './components/PersonaSwitcher';
 import type { Package } from './types/package';
 import type { Persona } from './types/persona';
-import { MOCK_PACKAGES } from './data/mockData';
 import { MOCK_PERSONAS } from './data/mockPersonas';
+import { MOCK_PACKAGES } from './data/mockData';
+import { appInitService } from './services/appInitService';
+import { semanticSearchService } from './services/semanticSearchService';
+import { packageIndexService } from './services/packageIndexService';
+import type { PackageMetadata } from './services/packageIndexService';
 
 type FilterStatus = 'all' | 'installed' | 'not-installed';
 type FilterSource = 'all' | 'chocolatey' | 'winget';
 type SortBy = 'name' | 'category' | 'status';
 
+// Convert PackageMetadata to Package type
+function convertToPackage(pkg: PackageMetadata, source: 'chocolatey' | 'winget'): Package {
+  // Clean up version string - remove 'v' prefix if present
+  const cleanVersion = pkg.version ? pkg.version.replace(/^v/, '') : '';
+
+  // Extract category from tags - prioritize meaningful categories
+  const tags = pkg.tags?.split(',').map(t => t.trim()).filter(Boolean) || [];
+
+  // Common metadata tags to skip (not categories)
+  const metaTags = ['admin', 'foss', 'cross-platform', 'cli', 'recommended', 'notsilent'];
+
+  // Category mapping for common tags
+  const categoryMap: { [key: string]: string } = {
+    // Development
+    'development': 'Development',
+    'developer': 'Development',
+    'programming': 'Development',
+    'ide': 'Development',
+    'editor': 'Development',
+    'vcs': 'Development',
+    'git': 'Development',
+
+    // Web & Browsers
+    'browser': 'Web Browser',
+    'web': 'Web',
+    'internet': 'Internet',
+
+    // Media
+    'media': 'Media',
+    'video': 'Video',
+    'audio': 'Audio',
+    'music': 'Music',
+    'graphics': 'Graphics',
+    'photo': 'Graphics',
+    'image': 'Graphics',
+
+    // Gaming
+    'game': 'Games',
+    'games': 'Games',
+    'gaming': 'Games',
+
+    // Utilities
+    'utility': 'Utilities',
+    'utilities': 'Utilities',
+    'tools': 'Tools',
+    'tool': 'Tools',
+
+    // System
+    'system': 'System',
+    'security': 'Security',
+    'backup': 'Backup',
+
+    // Communication
+    'communication': 'Communication',
+    'chat': 'Communication',
+    'messaging': 'Communication',
+
+    // Productivity
+    'productivity': 'Productivity',
+    'office': 'Office',
+    'document': 'Documents',
+
+    // Education
+    'education': 'Education',
+    'learning': 'Education',
+  };
+
+  // First try to find a tag that maps to a known category
+  let category = '';
+  for (const tag of tags) {
+    const lowerTag = tag.toLowerCase();
+    if (categoryMap[lowerTag]) {
+      category = categoryMap[lowerTag];
+      break;
+    }
+  }
+
+  // If no mapped category, find first meaningful tag
+  if (!category) {
+    category = tags.find(t =>
+      !metaTags.includes(t.toLowerCase()) &&
+      t.length > 2 // Skip very short tags
+    ) || '';
+  }
+
+  // If still no category, try to infer from package name
+  if (!category) {
+    const name = pkg.title?.toLowerCase() || pkg.id?.toLowerCase() || '';
+    const desc = pkg.summary?.toLowerCase() || pkg.description?.toLowerCase() || '';
+    const combined = `${name} ${desc}`;
+
+    if (combined.includes('game')) category = 'Games';
+    else if (combined.includes('browser')) category = 'Web Browser';
+    else if (combined.includes('develop') || combined.includes('code') || combined.includes('ide')) category = 'Development';
+    else if (combined.includes('media') || combined.includes('video') || combined.includes('audio') || combined.includes('player')) category = 'Media';
+    else if (combined.includes('office') || combined.includes('document')) category = 'Office';
+    else if (combined.includes('security') || combined.includes('antivirus')) category = 'Security';
+    else if (combined.includes('chat') || combined.includes('messaging')) category = 'Communication';
+    else category = tags[0] || 'Utilities';
+  }
+
+  // Capitalize first letter
+  category = category.charAt(0).toUpperCase() + category.slice(1);
+
+  return {
+    id: pkg.id,
+    name: pkg.title || pkg.id,
+    description: pkg.summary || pkg.description || 'No description available',
+    version: cleanVersion || '1.0.0',
+    source: source,
+    installed: false, // TODO: Check installed status
+    hasUpdate: false, // TODO: Check for updates
+    category: category,
+    publisher: pkg.publisher || 'Unknown Publisher'
+  };
+}
+
 function App() {
   const [searchQuery, setSearchQuery] = useState('');
   const [filteredPackages, setFilteredPackages] = useState<Package[]>([]);
+  const [allPackages, setAllPackages] = useState<Package[]>([]);
+  const [searchSuggestions, setSearchSuggestions] = useState<string[]>([]);
   const [isSearchActive, setIsSearchActive] = useState(false);
   const [showSettings, setShowSettings] = useState(false);
   const [darkMode, setDarkMode] = useState(false);
   const [browseAll, setBrowseAll] = useState(false);
   const [showCollections, setShowCollections] = useState(false);
+  const [isInitializing, setIsInitializing] = useState(true);
+  const [initError, setInitError] = useState<string | null>(null);
 
   // Persona state
   const [currentPersona, setCurrentPersona] = useState<Persona>(() => {
@@ -36,11 +161,51 @@ function App() {
   const [sortBy, setSortBy] = useState<SortBy>('name');
   const [showFilters, setShowFilters] = useState(false);
 
+  // Initialize services on mount
+  useEffect(() => {
+    const initServices = async () => {
+      try {
+        console.log('Initializing SAVVY services...');
+        await appInitService.initialize();
+
+        // Load all packages from indexes
+        const chocoIndex = packageIndexService.getChocoIndex();
+        const wingetIndex = packageIndexService.getWingetIndex();
+
+        const packages: Package[] = [];
+
+        if (chocoIndex) {
+          Object.values(chocoIndex).forEach(pkg => {
+            packages.push(convertToPackage(pkg, 'chocolatey'));
+          });
+        }
+
+        if (wingetIndex) {
+          Object.values(wingetIndex).forEach(pkg => {
+            packages.push(convertToPackage(pkg, 'winget'));
+          });
+        }
+
+        setAllPackages(packages);
+        setIsInitializing(false);
+        console.log(`Loaded ${packages.length} packages`);
+      } catch (error) {
+        console.error('Failed to initialize services:', error);
+        console.warn('Falling back to mock data');
+        // Fallback to mock data if real data fails
+        setAllPackages(MOCK_PACKAGES);
+        setIsInitializing(false);
+      }
+    };
+
+    initServices();
+  }, []);
+
   // Calculate updates count
-  const updatesAvailable = MOCK_PACKAGES.filter(pkg => pkg.installed && pkg.hasUpdate).length;
+  const updatesAvailable = allPackages.filter(pkg => pkg.installed && pkg.hasUpdate).length;
 
   // Get unique categories
-  const categories = ['all', ...Array.from(new Set(MOCK_PACKAGES.map(pkg => pkg.category)))];
+  const categories = ['all', ...Array.from(new Set(allPackages.map(pkg => pkg.category)))];
 
   // Handle persona switch
   const handlePersonaSwitch = (persona: Persona) => {
@@ -95,28 +260,60 @@ function App() {
     return result;
   };
 
-  const handleSearch = (query: string) => {
+  const handleSearch = async (query: string) => {
+    console.log(`[App.handleSearch] Called with query: "${query}"`);
     setSearchQuery(query);
     setBrowseAll(false);
 
     if (query.trim()) {
-      const filtered = MOCK_PACKAGES.filter(
-        (pkg) =>
-          pkg.name.toLowerCase().includes(query.toLowerCase()) ||
-          pkg.description.toLowerCase().includes(query.toLowerCase()) ||
-          pkg.id.toLowerCase().includes(query.toLowerCase())
+      const lowerQuery = query.toLowerCase();
+
+      // Generate search suggestions based on partial match
+      if (query.length >= 2) {
+        const suggestions = Array.from(new Set(
+          allPackages
+            .filter(pkg =>
+              pkg.name.toLowerCase().includes(lowerQuery) ||
+              pkg.id.toLowerCase().includes(lowerQuery)
+            )
+            .map(pkg => pkg.name)
+            .slice(0, 10)
+        ));
+        setSearchSuggestions(suggestions);
+        console.log(`[App.handleSearch] Generated ${suggestions.length} suggestions`);
+      } else {
+        setSearchSuggestions([]);
+      }
+
+      // Use semantic search if available
+      console.log(`[App.handleSearch] Calling semanticSearchService.search...`);
+      const searchResults = await semanticSearchService.search(query, {
+        source: 'both',
+        limit: 100,
+        threshold: 0.2 // Lower threshold for more results
+      });
+
+      console.log(`[App.handleSearch] Got ${searchResults.length} results from semantic search`);
+
+      // Convert search results to Package type
+      const packages = searchResults.map(result =>
+        convertToPackage(result.package, result.source)
       );
-      setFilteredPackages(applyFiltersAndSort(filtered));
+
+      console.log(`[App.handleSearch] Converted to ${packages.length} Package objects`);
+      setFilteredPackages(applyFiltersAndSort(packages));
       setIsSearchActive(true);
+      console.log(`[App.handleSearch] Search complete`);
     } else {
       setFilteredPackages([]);
+      setSearchSuggestions([]);
       setIsSearchActive(false);
     }
   };
 
   const handleBrowseAll = () => {
     setSearchQuery('');
-    setFilteredPackages(applyFiltersAndSort(MOCK_PACKAGES));
+    setFilteredPackages(applyFiltersAndSort(allPackages));
     setIsSearchActive(true);
     setBrowseAll(true);
   };
@@ -140,18 +337,44 @@ function App() {
   useEffect(() => {
     if (isSearchActive) {
       if (browseAll) {
-        setFilteredPackages(applyFiltersAndSort(MOCK_PACKAGES));
+        setFilteredPackages(applyFiltersAndSort(allPackages));
       } else if (searchQuery.trim()) {
-        const filtered = MOCK_PACKAGES.filter(
-          (pkg) =>
-            pkg.name.toLowerCase().includes(searchQuery.toLowerCase()) ||
-            pkg.description.toLowerCase().includes(searchQuery.toLowerCase()) ||
-            pkg.id.toLowerCase().includes(searchQuery.toLowerCase())
-        );
-        setFilteredPackages(applyFiltersAndSort(filtered));
+        // Re-run search with new filters
+        handleSearch(searchQuery);
       }
     }
   }, [filterStatus, filterSource, filterCategory, sortBy]);
+
+  // Show loading state during initialization
+  if (isInitializing) {
+    return (
+      <div className="app">
+        <div className="loading-screen">
+          <h1>SAVVY</h1>
+          <p>Intelligent Package Management</p>
+          <div className="loading-spinner"></div>
+          <div className="loading-steps">
+            <div className="loading-step active">Downloading Package Indexes</div>
+            <div className="loading-step">Loading AI Search Model</div>
+            <div className="loading-step">Preparing Interface</div>
+          </div>
+        </div>
+      </div>
+    );
+  }
+
+  // Show error state if initialization failed
+  if (initError) {
+    return (
+      <div className="app">
+        <div className="error-screen">
+          <h1>SAVVY</h1>
+          <p>Failed to initialize: {initError}</p>
+          <button onClick={() => window.location.reload()}>Retry</button>
+        </div>
+      </div>
+    );
+  }
 
   return (
     <div className="app">
@@ -214,7 +437,7 @@ function App() {
       </header>
 
       {showCollections && (
-        <Collections allPackages={MOCK_PACKAGES} currentPersona={currentPersona} onClose={() => setShowCollections(false)} />
+        <Collections allPackages={allPackages} currentPersona={currentPersona} onClose={() => setShowCollections(false)} />
       )}
 
       {showSettings && (
@@ -281,7 +504,7 @@ function App() {
         {isSearchActive ? (
           <>
             <div className="search-section">
-              <SearchBar value={searchQuery} onChange={handleSearch} />
+              <SearchBar value={searchQuery} onChange={handleSearch} suggestions={searchSuggestions} />
             </div>
             <div className="content-section">
               <PackageList packages={filteredPackages} />
@@ -290,7 +513,7 @@ function App() {
         ) : (
           <div className="welcome-container">
             <WelcomeScreen>
-              <SearchBar value={searchQuery} onChange={handleSearch} />
+              <SearchBar value={searchQuery} onChange={handleSearch} suggestions={searchSuggestions} />
             </WelcomeScreen>
           </div>
         )}

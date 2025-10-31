@@ -1,0 +1,23 @@
+{
+  "version": "2025.10.31",
+  "generated": "2025-10-31T21:51:51.628215Z",
+  "model": "gemma",
+  "sources": {
+    "choco": {
+      "source": "chocolatey",
+      "packageCount": 757,
+      "embeddingDimensions": 384,
+      "model": "gemma",
+      "generated": "2025-10-31T21:51:23.728717Z",
+      "version": "2025.10.31"
+    },
+    "winget": {
+      "source": "winget",
+      "packageCount": 1072,
+      "embeddingDimensions": 384,
+      "model": "gemma",
+      "generated": "2025-10-31T21:51:36.459270Z",
+      "version": "2025.10.31"
+    }
+  }
+}

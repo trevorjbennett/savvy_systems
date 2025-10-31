@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Clear SAVVY Cache</title>
+</head>
+<body>
+    <h1>Clear SAVVY Cache</h1>
+    <button onclick="clearCache()">Clear Cache</button>
+    <div id="result"></div>
+
+    <script>
+        function clearCache() {
+            // Clear all SAVVY-related localStorage items
+            const keys = Object.keys(localStorage);
+            let cleared = 0;
+
+            keys.forEach(key => {
+                if (key.startsWith('savvy_package_index_')) {
+                    localStorage.removeItem(key);
+                    cleared++;
+                }
+            });
+
+            document.getElementById('result').innerHTML =
+                `<p style="color: green;">Cleared ${cleared} cache items. Please reload your SAVVY app.</p>`;
+        }
+
+        // Show what's in cache
+        window.onload = function() {
+            const keys = Object.keys(localStorage);
+            const savvyKeys = keys.filter(k => k.startsWith('savvy_package_index_'));
+
+            if (savvyKeys.length > 0) {
+                document.body.innerHTML += '<h2>Current Cache:</h2><ul>';
+                savvyKeys.forEach(key => {
+                    const size = (localStorage.getItem(key)?.length || 0) / 1024;
+                    document.body.innerHTML += `<li>${key}: ${size.toFixed(2)} KB</li>`;
+                });
+                document.body.innerHTML += '</ul>';
+            } else {
+                document.body.innerHTML += '<p>No cache found.</p>';
+            }
+        };
+    </script>
+</body>
+</html>

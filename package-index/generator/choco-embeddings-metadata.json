@@ -1,0 +1,4554 @@
+{
+  "metadata": {
+    "source": "chocolatey",
+    "packageCount": 757,
+    "embeddingDimensions": 384,
+    "model": "gemma",
+    "generated": "2025-10-31T21:51:23.728717Z",
+    "version": "2025.10.31"
+  },
+  "packages": [
+    {
+      "id": "010 Editor",
+      "title": "010editor",
+      "publisher": "",
+      "versionCount": 16
+    },
+    {
+      "id": "010 Editor (Install)",
+      "title": "010editor.install",
+      "publisher": "",
+      "versionCount": 16
+    },
+    {
+      "id": "010 Editor  (Portable)",
+      "title": "010editor.portable",
+      "publisher": "",
+      "versionCount": 15
+    },
+    {
+      "id": "0 A.D.",
+      "title": "0ad",
+      "publisher": "",
+      "versionCount": 20
+    },
+    {
+      "id": "Zero Install",
+      "title": "0install",
+      "publisher": "",
+      "versionCount": 71
+    },
+    {
+      "id": "Zero Install (Install)",
+      "title": "0install.install",
+      "publisher": "",
+      "versionCount": 3
+    },
+    {
+      "id": "[Deprecated] Zero Install",
+      "title": "0install.install",
+      "publisher": "",
+      "versionCount": 2
+    },
+    {
+      "id": "Zero Install (Portable)",
+      "title": "0install.portable",
+      "publisher": "",
+      "versionCount": 3
+    },
+    {
+      "id": "0patch",
+      "title": "0patch",
+      "publisher": "",
+      "versionCount": 4
+    },
+    {
+      "id": "1\u0421:Barcode printing (Install)",
+      "title": "1c-barcode-printing",
+      "publisher": "",
+      "versionCount": 1
+    },
+    {
+      "id": "1\u0421:Barcode scanner (Install)",
+      "title": "1c-barcode-scanner",
+      "publisher": "",
+      "versionCount": 1
+    },
+    {
+      "id": "1C:ITS",
+      "title": "1c-its",
+      "publisher": "",
+      "versionCount": 3
+    },
+    {
+      "id": "1cfresh-client (Install)",
+      "title": "1cfresh-client",
+      "publisher": "",
+      "versionCount": 151
+    },
+    {
+      "id": "[RETIRED] 1Clipboard",
+      "title": "1clipboard",
+      "publisher": "",
+      "versionCount": 1
+    },
+    {
+      "id": "1Password",
+      "title": "1password",
+      "publisher": "",
+      "versionCount": 200
+    },
+    {
+      "id": "1password: Password Manager for Chrome",
+      "title": "1password-chrome",
+      "publisher": "",
+      "versionCount": 1
+    },
+    {
+      "id": "1Password CLI",
+      "title": "1password-cli",
+      "publisher": "",
+      "versionCount": 15
+    },
+    {
+      "id": "1Remote",
+      "title": "1remote",
+      "publisher": "",
+      "versionCount": 188
+    },
+    {
+      "id": "2fast",
+      "title": "2fast",
+      "publisher": "",
+      "versionCount": 36
+    },
+    {
+      "id": "2gis",
+      "title": "2gis",
+      "publisher": "",
+      "versionCount": 2
+    },
+    {
+      "id": "360 Total Security",
+      "title": "360ts",
+      "publisher": "",
+      "versionCount": 216
+    },
+    {
+      "id": "360 Total Security Essential",
+      "title": "360tse",
+      "publisher": "",
+      "versionCount": 9
+    },
+    {
+      "id": "3CX Client for Windows",
+      "title": "3cx",
+      "publisher": "",
+      "versionCount": 8
+    },
+    {
+      "id": "3dduke-shareware (Install)",
+      "title": "3dduke-shareware",
+      "publisher": "",
+      "versionCount": 1
+    },
+    {
+      "id": "3DMark Basic Edition (Install)",
+      "title": "3dmark",
+      "publisher": "",
+      "versionCount": 5
+    },
+    {
+      "id": "3D Slicer (Install)",
+      "title": "3dslicer",
+      "publisher": "",
+      "versionCount": 12
+    },
+    {
+      "id": "3ds Max",
+      "title": "3dsmax",
+      "publisher": "",
+      "versionCount": 1
+    },
+    {
+      "id": "3proxy",
+      "title": "3proxy",
+      "publisher": "",
+      "versionCount": 8
+    },
+    {
+      "id": "3RVX (Install)",
+      "title": "3rvx",
+      "publisher": "",
+      "versionCount": 1
+    },
+    {
+      "id": "cli",
+      "title": "404Skill-CLI",
+      "publisher": "",
+      "versionCount": 1
+    },
+    {
+      "id": "4k Slideshow Maker (Install)",
+      "title": "4k-slideshow-maker",
+      "publisher": "",
+      "versionCount": 4
+    },
+    {
+      "id": "4K Stogram",
+      "title": "4k-stogram",
+      "publisher": "",
+      "versionCount": 45
+    },
+    {
+      "id": "4K Tokkit (Install)",
+      "title": "4k-tokkit",
+      "publisher": "",
+      "versionCount": 39
+    },
+    {
+      "id": "4K Video Downloader (Install)",
+      "title": "4k-video-downloader",
+      "publisher": "",
+      "versionCount": 98
+    },
+    {
+      "id": "4k Video to MP3 (Install)",
+      "title": "4k-video-to-mp3",
+      "publisher": "",
+      "versionCount": 3
+    },
+    {
+      "id": "4K YouTube to MP3 (Install)",
+      "title": "4k-youtube-to-mp3",
+      "publisher": "",
+      "versionCount": 126
+    },
+    {
+      "id": "4t Tray Minimizer",
+      "title": "4t-tray-minimizer",
+      "publisher": "",
+      "versionCount": 3
+    },
+    {
+      "id": "64Gram",
+      "title": "64gram",
+      "publisher": "",
+      "versionCount": 107
+    },
+    {
+      "id": "7+ Taskbar Tweaker",
+      "title": "7-taskbar-tweaker",
+      "publisher": "",
+      "versionCount": 30
+    },
+    {
+      "id": "Seven Kingdoms Ancient Adversaries",
+      "title": "7KAA",
+      "publisher": "",
+      "versionCount": 1
+    },
+    {
+      "id": "7-Zip",
+      "title": "7zip",
+      "publisher": "",
+      "versionCount": 47
+    },
+    {
+      "id": "7Zip",
+      "title": "7zip",
+      "publisher": "",
+      "versionCount": 9
+    },
+    {
+      "id": "7zip-zstd (Install)",
+      "title": "7zip-zstd",
+      "publisher": "",
+      "versionCount": 6
+    },
+    {
+      "id": "7-Zip (Portable, CommandLine)",
+      "title": "7zip.commandline",
+      "publisher": "",
+      "versionCount": 33
+    },
+    {
+      "id": "[Deprecated] 7-Zip (Portable, CommandLine)",
+      "title": "7zip.commandline",
+      "publisher": "",
+      "versionCount": 1
+    },
+    {
+      "id": "7Zip Command Line",
+      "title": "7zip.commandline",
+      "publisher": "",
+      "versionCount": 2
+    },
+    {
+      "id": "7Zip (CommandLine)",
+      "title": "7zip.commandline",
+      "publisher": "",
+      "versionCount": 4
+    },
+    {
+      "id": "7-Zip (Install)",
+      "title": "7zip.install",
+      "publisher": "",
+      "versionCount": 48
+    },
+    {
+      "id": "7Zip (Install)",
+      "title": "7zip.install",
+      "publisher": "",
+      "versionCount": 2
+    },
+    {
+      "id": "8GadgetPack (Install)",
+      "title": "8gadgetpack",
+      "publisher": "",
+      "versionCount": 10
+    },
+    {
+      "id": "8x8 Virtual Office (Install)",
+      "title": "8x8virtualoffice",
+      "publisher": "",
+      "versionCount": 16
+    },
+    {
+      "id": "[DEPRECATED] 8x8 Virtual Office (Install)",
+      "title": "8x8virtualoffice",
+      "publisher": "",
+      "versionCount": 1
+    },
+    {
+      "id": "8x8work (Install)",
+      "title": "8x8work",
+      "publisher": "",
+      "versionCount": 35
+    },
+    {
+      "id": "9kw-client (Install)",
+      "title": "9kw-client",
+      "publisher": "",
+      "versionCount": 2
+    },
+    {
+      "id": "A0Toolkit",
+      "title": "a0toolkit",
+      "publisher": "",
+      "versionCount": 5
+    },
+    {
+      "id": "AACGain",
+      "title": "aacgain",
+      "publisher": "",
+      "versionCount": 3
+    },
+    {
+      "id": "Auto Aero Colors (AAClr)",
+      "title": "aaclr",
+      "publisher": "",
+      "versionCount": 1
+    },
+    {
+      "id": "AB Download Manager (Install)",
+      "title": "ab-download-manager",
+      "publisher": "",
+      "versionCount": 34
+    },
+    {
+      "id": "AB Download Manager (Portable)",
+      "title": "ab-download-manager.portable",
+      "publisher": "",
+      "versionCount": 34
+    },
+    {
+      "id": "abaclient (Install)",
+      "title": "abaclient",
+      "publisher": "",
+      "versionCount": 4
+    },
+    {
+      "id": "Abalect",
+      "title": "abalect",
+      "publisher": "",
+      "versionCount": 1
+    },
+    {
+      "id": "ABC-Update",
+      "title": "ABC-Update",
+      "publisher": "",
+      "versionCount": 26
+    },
+    {
+      "id": "Ability Office",
+      "title": "abilityoffice",
+      "publisher": "",
+      "versionCount": 1
+    },
+    {
+      "id": "Absolute Uninstaller",
+      "title": "absolute-uninstaller",
+      "publisher": "",
+      "versionCount": 27
+    },
+    {
+      "id": "Acarda Outbound Team Edition Agent",
+      "title": "acardaoutboundagent",
+      "publisher": "",
+      "versionCount": 2
+    },
+    {
+      "id": "Acarda Outbound Solo Edition",
+      "title": "acardaoutboundsolo",
+      "publisher": "",
+      "versionCount": 4
+    },
+    {
+      "id": "Accents",
+      "title": "Accents",
+      "publisher": "",
+      "versionCount": 2
+    },
+    {
+      "id": "Access Data Registry Viewer 1.8.0.5",
+      "title": "access-data-registry-viewer",
+      "publisher": "",
+      "versionCount": 1
+    },
+    {
+      "id": "Access To MySQL Converter",
+      "title": "access-to-mysql",
+      "publisher": "",
+      "versionCount": 1
+    },
+    {
+      "id": "Microsoft Access 2016 Runtime x64",
+      "title": "access2016runtime",
+      "publisher": "",
+      "versionCount": 1
+    },
+    {
+      "id": "AccessChk",
+      "title": "accesschk",
+      "publisher": "",
+      "versionCount": 6
+    },
+    {
+      "id": "AccessChk - Windows Sysinternals",
+      "title": "accesschk",
+      "publisher": "",
+      "versionCount": 3
+    },
+    {
+      "id": "Access Director",
+      "title": "accessdirector",
+      "publisher": "",
+      "versionCount": 1
+    },
+    {
+      "id": "AccessEnum",
+      "title": "accessenum",
+      "publisher": "",
+      "versionCount": 1
+    },
+    {
+      "id": "Access PassView",
+      "title": "accesspv",
+      "publisher": "",
+      "versionCount": 1
+    },
+    {
+      "id": "ACD Dokan.NET (Install)",
+      "title": "acddokannet",
+      "publisher": "",
+      "versionCount": 5
+    },
+    {
+      "id": "App-V Configuration Editor",
+      "title": "ace",
+      "publisher": "",
+      "versionCount": 1
+    },
+    {
+      "id": "Ace Stream",
+      "title": "acestream",
+      "publisher": "",
+      "versionCount": 1
+    },
+    {
+      "id": "Achievement Watcher",
+      "title": "achievement-watcher",
+      "publisher": "",
+      "versionCount": 2
+    },
+    {
+      "id": "Ack!",
+      "title": "ack",
+      "publisher": "",
+      "versionCount": 10
+    },
+    {
+      "id": "Aiden CLI",
+      "title": "acli",
+      "publisher": "",
+      "versionCount": 1
+    },
+    {
+      "id": "ActiveX Compatibility Manager",
+      "title": "acm",
+      "publisher": "",
+      "versionCount": 1
+    },
+    {
+      "id": "acme.sh",
+      "title": "acme-sh",
+      "publisher": "",
+      "versionCount": 28
+    },
+    {
+      "id": "ACMESharp PowerShell Module - ALL (Install)",
+      "title": "acmesharp-posh-all",
+      "publisher": "",
+      "versionCount": 2
+    },
+    {
+      "id": "ACMESharp PowerShell Module EA (Install)",
+      "title": "acmesharp-posh-ea",
+      "publisher": "",
+      "versionCount": 1
+    },
+    {
+      "id": "AssaultCube Reloaded",
+      "title": "acr",
+      "publisher": "",
+      "versionCount": 5
+    },
+    {
+      "id": "Acronis Drive Monitor",
+      "title": "acronis-drive-monitor",
+      "publisher": "",
+      "versionCount": 1
+    },
+    {
+      "id": "Acronis Virtual Disk Driver",
+      "title": "acronis-vdi",
+      "publisher": "",
+      "versionCount": 2
+    },
+    {
+      "id": "Acrylic DNS Proxy",
+      "title": "acrylic-dns-proxy",
+      "publisher": "",
+      "versionCount": 11
+    },
+    {
+      "id": "acs-engine",
+      "title": "acs-engine",
+      "publisher": "",
+      "versionCount": 26
+    },
+    {
+      "id": "act (GitHub Actions CLI)",
+      "title": "act-cli",
+      "publisher": "",
+      "versionCount": 62
+    },
+    {
+      "id": "Action!",
+      "title": "action",
+      "publisher": "",
+      "versionCount": 42
+    },
+    {
+      "id": "Actiona",
+      "title": "actiona",
+      "publisher": "",
+      "versionCount": 2
+    },
+    {
+      "id": "Actiona (Install)",
+      "title": "actiona.install",
+      "publisher": "",
+      "versionCount": 2
+    },
+    {
+      "id": "Actiona (Portable)",
+      "title": "actiona.portable",
+      "publisher": "",
+      "versionCount": 2
+    },
+    {
+      "id": "Actionaz",
+      "title": "Actionaz",
+      "publisher": "",
+      "versionCount": 1
+    },
+    {
+      "id": "[Deprecated] Actionaz",
+      "title": "Actionaz",
+      "publisher": "",
+      "versionCount": 1
+    },
+    {
+      "id": "actionlint",
+      "title": "actionlint",
+      "publisher": "",
+      "versionCount": 32
+    },
+    {
+      "id": "activate-linux",
+      "title": "activate-linux",
+      "publisher": "",
+      "versionCount": 1
+    },
+    {
+      "id": "activator",
+      "title": "activator",
+      "publisher": "",
+      "versionCount": 2
+    },
+    {
+      "id": "CodeTwo Active Directory Photos (free) (Install)",
+      "title": "active-directory-photos",
+      "publisher": "",
+      "versionCount": 4
+    },
+    {
+      "id": "ActiveExit (Install)",
+      "title": "activeexit",
+      "publisher": "",
+      "versionCount": 2
+    },
+    {
+      "id": "Apache ActiveMQ",
+      "title": "ActiveMQ",
+      "publisher": "",
+      "versionCount": 10
+    },
+    {
+      "id": "Active Perl Community Edition",
+      "title": "ActivePerl",
+      "publisher": "",
+      "versionCount": 11
+    },
+    {
+      "id": "ActivePerl-EqEmu-x86",
+      "title": "ActivePerl-EqEmu-x86",
+      "publisher": "",
+      "versionCount": 1
+    },
+    {
+      "id": "Active Presenter",
+      "title": "activepresenter",
+      "publisher": "",
+      "versionCount": 81
+    },
+    {
+      "id": "ActiveTcl",
+      "title": "ActiveTcl",
+      "publisher": "",
+      "versionCount": 2
+    },
+    {
+      "id": "ActivityWatch",
+      "title": "activitywatch",
+      "publisher": "",
+      "versionCount": 20
+    },
+    {
+      "id": "ActySystemStyleRule",
+      "title": "ActySystemStyleRule",
+      "publisher": "",
+      "versionCount": 1
+    },
+    {
+      "id": "Acunetix Free Manual Pen Testing Tools",
+      "title": "acunetix-free",
+      "publisher": "",
+      "versionCount": 4
+    },
+    {
+      "id": "[RETIRED] Acunetix Free Manual Pen Testing Tools",
+      "title": "acunetix-free",
+      "publisher": "",
+      "versionCount": 1
+    },
+    {
+      "id": "AD ACL Scanner (Script)",
+      "title": "ad-acl-scanner",
+      "publisher": "",
+      "versionCount": 18
+    },
+    {
+      "id": "Ad-Aware Free Antivirus+",
+      "title": "ad-awarefreeantivirus",
+      "publisher": "",
+      "versionCount": 7
+    },
+    {
+      "id": "Adaware Free Antivirus (Install)",
+      "title": "ad-awarefreeantivirus",
+      "publisher": "",
+      "versionCount": 1
+    },
+    {
+      "id": "AD Photo Edit Free Edition (Install)",
+      "title": "ad-photo-edit-free",
+      "publisher": "",
+      "versionCount": 2
+    },
+    {
+      "id": "AD Tidy Free Edition (Install)",
+      "title": "ad-tidy-free",
+      "publisher": "",
+      "versionCount": 1
+    },
+    {
+      "id": "Adafruit Raspberry Pi Finder",
+      "title": "adafruit-pi-finder",
+      "publisher": "",
+      "versionCount": 1
+    },
+    {
+      "id": "Android Debug Bridge",
+      "title": "adb",
+      "publisher": "",
+      "versionCount": 37
+    },
+    {
+      "id": "Adblock Plus for Firefox",
+      "title": "adblockplus-firefox",
+      "publisher": "",
+      "versionCount": 3
+    },
+    {
+      "id": "Adblock Plus for Chrome",
+      "title": "adblockpluschrome",
+      "publisher": "",
+      "versionCount": 3
+    },
+    {
+      "id": "Adblock Plus for Internet Explorer",
+      "title": "adblockplusie",
+      "publisher": "",
+      "versionCount": 5
+    },
+    {
+      "id": "Adblock Plus for Opera",
+      "title": "adblockplusopera",
+      "publisher": "",
+      "versionCount": 1
+    },
+    {
+      "id": "Adblock Plus for Opera (Install)",
+      "title": "adblockplusopera",
+      "publisher": "",
+      "versionCount": 1
+    },
+    {
+      "id": "Adblock Plus for Safari",
+      "title": "adblockplussafari",
+      "publisher": "",
+      "versionCount": 2
+    },
+    {
+      "id": "Web Essentials 2019",
+      "title": "addnewfile",
+      "publisher": "",
+      "versionCount": 1
+    },
+    {
+      "id": "Add New File",
+      "title": "addnewfile",
+      "publisher": "",
+      "versionCount": 5
+    },
+    {
+      "id": "addo",
+      "title": "addo",
+      "publisher": "",
+      "versionCount": 1
+    },
+    {
+      "id": "Exclaimer Address Tagging for Exchange (Install)",
+      "title": "address-tagging-exchange",
+      "publisher": "",
+      "versionCount": 1
+    },
+    {
+      "id": "AddToAny: Share Anywhere for Chrome",
+      "title": "addtoany-chrome",
+      "publisher": "",
+      "versionCount": 1
+    },
+    {
+      "id": "Active Directory Explorer",
+      "title": "adexplorer",
+      "publisher": "",
+      "versionCount": 2
+    },
+    {
+      "id": "Active Directory Explorer - Sysinternals",
+      "title": "adexplorer",
+      "publisher": "",
+      "versionCount": 3
+    },
+    {
+      "id": "AdGuard for Chrome",
+      "title": "adguard-chrome",
+      "publisher": "",
+      "versionCount": 1
+    },
+    {
+      "id": "AdGuard Home",
+      "title": "adguardhome",
+      "publisher": "",
+      "versionCount": 63
+    },
+    {
+      "id": "AdGuardHome (Portable)",
+      "title": "adguardhome",
+      "publisher": "",
+      "versionCount": 4
+    },
+    {
+      "id": "AdiIRC",
+      "title": "adiirc",
+      "publisher": "",
+      "versionCount": 4
+    },
+    {
+      "id": "AdInsight",
+      "title": "adinsight",
+      "publisher": "",
+      "versionCount": 1
+    },
+    {
+      "id": "AdMBridge for Signagelive",
+      "title": "admbridge_signagelive",
+      "publisher": "",
+      "versionCount": 1
+    },
+    {
+      "id": "[Deprecated] Windows Admin Center (Install)",
+      "title": "admincenter",
+      "publisher": "",
+      "versionCount": 1
+    },
+    {
+      "id": "adminservice (Install)",
+      "title": "adminservice",
+      "publisher": "",
+      "versionCount": 1
+    },
+    {
+      "id": "AdMobilize Demo App",
+      "title": "admobilize-demo-app",
+      "publisher": "",
+      "versionCount": 9
+    },
+    {
+      "id": "AdMobilize Desktop UI",
+      "title": "admobilize-desktop-ui",
+      "publisher": "",
+      "versionCount": 54
+    },
+    {
+      "id": "AdMobilize Malos Vision",
+      "title": "admobilize-malos-vision",
+      "publisher": "",
+      "versionCount": 76
+    },
+    {
+      "id": "AdMobilize Vision Service",
+      "title": "admobilize-vision-service",
+      "publisher": "",
+      "versionCount": 13
+    },
+    {
+      "id": "Data Provider",
+      "title": "admprovider",
+      "publisher": "",
+      "versionCount": 129
+    },
+    {
+      "id": "ADO CLI",
+      "title": "ado",
+      "publisher": "",
+      "versionCount": 1
+    },
+    {
+      "id": "Adobe Connect",
+      "title": "adobe-connect",
+      "publisher": "",
+      "versionCount": 7
+    },
+    {
+      "id": "Adobe Digital Negative Converter",
+      "title": "adobe-dnc",
+      "publisher": "",
+      "versionCount": 29
+    },
+    {
+      "id": "Source Sans Font",
+      "title": "adobe-source-sans",
+      "publisher": "",
+      "versionCount": 2
+    },
+    {
+      "id": "Source Serif Font",
+      "title": "adobe-source-serif",
+      "publisher": "",
+      "versionCount": 2
+    },
+    {
+      "id": "Adobe AIR Runtime",
+      "title": "AdobeAIR",
+      "publisher": "",
+      "versionCount": 28
+    },
+    {
+      "id": "Adobe Digital Editions (Install)",
+      "title": "adobedigitaleditions",
+      "publisher": "",
+      "versionCount": 10
+    },
+    {
+      "id": "AdobeReader",
+      "title": "adobereader",
+      "publisher": "",
+      "versionCount": 14
+    },
+    {
+      "id": "Adobe Reader",
+      "title": "adobereader",
+      "publisher": "",
+      "versionCount": 5
+    },
+    {
+      "id": "Adobe Reader DC",
+      "title": "adobereader",
+      "publisher": "",
+      "versionCount": 3
+    },
+    {
+      "id": "Adobe Acrobat Reader DC",
+      "title": "adobereader",
+      "publisher": "",
+      "versionCount": 94
+    },
+    {
+      "id": "[Deprecated] Adobe Reader DC Update",
+      "title": "adobereader-update",
+      "publisher": "",
+      "versionCount": 1
+    },
+    {
+      "id": "Adobe Shockwave Player",
+      "title": "adobeshockwaveplayer",
+      "publisher": "",
+      "versionCount": 31
+    },
+    {
+      "id": "Adobe Shockwave Player (Final Version - EOL)",
+      "title": "adobeshockwaveplayer",
+      "publisher": "",
+      "versionCount": 1
+    },
+    {
+      "id": "Ancient Domains of Mystery",
+      "title": "adom",
+      "publisher": "",
+      "versionCount": 1
+    },
+    {
+      "id": "Ancient Domains of Mystery (Classic)",
+      "title": "adom-classic",
+      "publisher": "",
+      "versionCount": 1
+    },
+    {
+      "id": "Ancient Domains of Mystery (Tiles)",
+      "title": "adom-tiles",
+      "publisher": "",
+      "versionCount": 1
+    },
+    {
+      "id": "AdoptOpenJDK",
+      "title": "adoptopenjdk",
+      "publisher": "",
+      "versionCount": 5
+    },
+    {
+      "id": "AdoptOpenJDK jdk13 hotspot version 13.0.1.9 not 13.101.9 (due to version mistake in the past)",
+      "title": "adoptopenjdk",
+      "publisher": "",
+      "versionCount": 2
+    },
+    {
+      "id": "AdoptOpenJDK jdk13 hotspot version 13.0.2.8 not 13.102.8 (due to version mistake in the past)",
+      "title": "adoptopenjdk",
+      "publisher": "",
+      "versionCount": 2
+    },
+    {
+      "id": "AdoptOpenJDK jdk13 hotspot 13.33",
+      "title": "adoptopenjdk",
+      "publisher": "",
+      "versionCount": 2
+    },
+    {
+      "id": "AdoptOpenJDK jdk14 hotspot 14.0.0",
+      "title": "adoptopenjdk",
+      "publisher": "",
+      "versionCount": 2
+    },
+    {
+      "id": "AdoptOpenJDK jdk14 hotspot 14.0.1.7",
+      "title": "adoptopenjdk",
+      "publisher": "",
+      "versionCount": 2
+    },
+    {
+      "id": "AdoptOpenJDK jdk14 hotspot 14.0.2.12",
+      "title": "adoptopenjdk",
+      "publisher": "",
+      "versionCount": 5
+    },
+    {
+      "id": "AdoptOpenJDK jdk15 hotspot 15.0.0.36",
+      "title": "adoptopenjdk",
+      "publisher": "",
+      "versionCount": 4
+    },
+    {
+      "id": "AdoptOpenJDK jdk15 hotspot 15.0.1.9",
+      "title": "adoptopenjdk",
+      "publisher": "",
+      "versionCount": 2
+    },
+    {
+      "id": "AdoptOpenJDK jdk15 hotspot 15.0.2.7",
+      "title": "adoptopenjdk",
+      "publisher": "",
+      "versionCount": 2
+    },
+    {
+      "id": "AdoptOpenJDK jdk16 hotspot 16.0.0.36",
+      "title": "adoptopenjdk",
+      "publisher": "",
+      "versionCount": 2
+    },
+    {
+      "id": "AdoptOpenJDK jdk16 hotspot 16.0.1.9",
+      "title": "adoptopenjdk",
+      "publisher": "",
+      "versionCount": 2
+    },
+    {
+      "id": "[Deprecated] AdoptOpenJDK jdk hotspot",
+      "title": "adoptopenjdk",
+      "publisher": "",
+      "versionCount": 1
+    },
+    {
+      "id": "AdoptOpenJDK JDK Mission Control (JMC) 64 bit only",
+      "title": "adoptopenjdk-jmc",
+      "publisher": "",
+      "versionCount": 4
+    },
+    {
+      "id": "AdoptOpenJDK jdk11 hotspot 11.0.10.9",
+      "title": "adoptopenjdk11",
+      "publisher": "",
+      "versionCount": 1
+    },
+    {
+      "id": "AdoptOpenJDK jdk11 hotspot 11.0.11.9",
+      "title": "adoptopenjdk11",
+      "publisher": "",
+      "versionCount": 1
+    },
+    {
+      "id": "[Deprecated] AdoptOpenJDK jdk11 hotspot",
+      "title": "adoptopenjdk11",
+      "publisher": "",
+      "versionCount": 1
+    },
+    {
+      "id": "AdoptOpenJDK11",
+      "title": "adoptopenjdk11",
+      "publisher": "",
+      "versionCount": 3
+    },
+    {
+      "id": "AdoptOpenJDK jdk11 hotspot 11.0.5.10",
+      "title": "adoptopenjdk11",
+      "publisher": "",
+      "versionCount": 1
+    },
+    {
+      "id": "AdoptOpenJDK jdk11 hotspot 11.0.6.10",
+      "title": "adoptopenjdk11",
+      "publisher": "",
+      "versionCount": 1
+    },
+    {
+      "id": "AdoptOpenJDK jdk11 hotspot 11.0.7.10",
+      "title": "adoptopenjdk11",
+      "publisher": "",
+      "versionCount": 2
+    },
+    {
+      "id": "AdoptOpenJDK jdk11 hotspot 11.0.8.10",
+      "title": "adoptopenjdk11",
+      "publisher": "",
+      "versionCount": 3
+    },
+    {
+      "id": "AdoptOpenJDK jdk11 hotspot 11.0.9.101",
+      "title": "adoptopenjdk11",
+      "publisher": "",
+      "versionCount": 1
+    },
+    {
+      "id": "AdoptOpenJDK jdk11 hotspot 11.0.9.11",
+      "title": "adoptopenjdk11",
+      "publisher": "",
+      "versionCount": 1
+    },
+    {
+      "id": "AdoptOpenJDK jre11 hotspot 11.0.10.9",
+      "title": "adoptopenjdk11jre",
+      "publisher": "",
+      "versionCount": 1
+    },
+    {
+      "id": "AdoptOpenJDK jre11 hotspot 11.0.11.9",
+      "title": "adoptopenjdk11jre",
+      "publisher": "",
+      "versionCount": 1
+    },
+    {
+      "id": "[Deprecated] AdoptOpenJDK jre11 hotspot",
+      "title": "adoptopenjdk11jre",
+      "publisher": "",
+      "versionCount": 1
+    },
+    {
+      "id": "AdoptOpenJDK11JRE",
+      "title": "adoptopenjdk11jre",
+      "publisher": "",
+      "versionCount": 3
+    },
+    {
+      "id": "AdoptOpenJDK jre11 hotspot 11.0.5.10",
+      "title": "adoptopenjdk11jre",
+      "publisher": "",
+      "versionCount": 1
+    },
+    {
+      "id": "AdoptOpenJDK jre11 hotspot 11.0.6.10",
+      "title": "adoptopenjdk11jre",
+      "publisher": "",
+      "versionCount": 1
+    },
+    {
+      "id": "AdoptOpenJDK jre11 hotspot 11.0.7.10",
+      "title": "adoptopenjdk11jre",
+      "publisher": "",
+      "versionCount": 2
+    },
+    {
+      "id": "AdoptOpenJDK jre11 hotspot 11.0.8.10",
+      "title": "adoptopenjdk11jre",
+      "publisher": "",
+      "versionCount": 3
+    },
+    {
+      "id": "AdoptOpenJDK jre11 hotspot 11.0.9.101",
+      "title": "adoptopenjdk11jre",
+      "publisher": "",
+      "versionCount": 1
+    },
+    {
+      "id": "AdoptOpenJDK jre11 hotspot 11.0.9.11",
+      "title": "adoptopenjdk11jre",
+      "publisher": "",
+      "versionCount": 1
+    },
+    {
+      "id": "AdoptOpenJDK jdk11 openj9 11.0.10.9",
+      "title": "adoptopenjdk11openj9",
+      "publisher": "",
+      "versionCount": 1
+    },
+    {
+      "id": "AdoptOpenJDK jdk11 openj9 11.0.11.9",
+      "title": "adoptopenjdk11openj9",
+      "publisher": "",
+      "versionCount": 1
+    },
+    {
+      "id": "AdoptOpenJDK jdk11 openj9 11.0.4.11",
+      "title": "adoptopenjdk11openj9",
+      "publisher": "",
+      "versionCount": 1
+    },
+    {
+      "id": "AdoptOpenJDK jdk11 openj9 11.0.5.10",
+      "title": "adoptopenjdk11openj9",
+      "publisher": "",
+      "versionCount": 1
+    },
+    {
+      "id": "AdoptOpenJDK jdk11 openj9 11.0.6.10",
+      "title": "adoptopenjdk11openj9",
+      "publisher": "",
+      "versionCount": 1
+    },
+    {
+      "id": "AdoptOpenJDK jdk11 openj9 11.0.7.10",
+      "title": "adoptopenjdk11openj9",
+      "publisher": "",
+      "versionCount": 1
+    },
+    {
+      "id": "AdoptOpenJDK jdk11 openj9 11.0.8.10",
+      "title": "adoptopenjdk11openj9",
+      "publisher": "",
+      "versionCount": 2
+    },
+    {
+      "id": "AdoptOpenJDK jdk11 openj9 11.0.9.11",
+      "title": "adoptopenjdk11openj9",
+      "publisher": "",
+      "versionCount": 1
+    },
+    {
+      "id": "AdoptOpenJDK jre11 openj9 11.0.10.9",
+      "title": "adoptopenjdk11openj9jre",
+      "publisher": "",
+      "versionCount": 1
+    },
+    {
+      "id": "AdoptOpenJDK jre11 openj9 11.0.11.9",
+      "title": "adoptopenjdk11openj9jre",
+      "publisher": "",
+      "versionCount": 1
+    },
+    {
+      "id": "AdoptOpenJDK jre11 openj9 11.0.4.11",
+      "title": "adoptopenjdk11openj9jre",
+      "publisher": "",
+      "versionCount": 1
+    },
+    {
+      "id": "AdoptOpenJDK jre11 openj9 11.0.5.10",
+      "title": "adoptopenjdk11openj9jre",
+      "publisher": "",
+      "versionCount": 1
+    },
+    {
+      "id": "AdoptOpenJDK jre11 openj9 11.0.6.10",
+      "title": "adoptopenjdk11openj9jre",
+      "publisher": "",
+      "versionCount": 1
+    },
+    {
+      "id": "AdoptOpenJDK jre11 openj9 11.0.7.10",
+      "title": "adoptopenjdk11openj9jre",
+      "publisher": "",
+      "versionCount": 1
+    },
+    {
+      "id": "AdoptOpenJDK jre11 openj9 11.0.8.10",
+      "title": "adoptopenjdk11openj9jre",
+      "publisher": "",
+      "versionCount": 2
+    },
+    {
+      "id": "AdoptOpenJDK jre11 openj9 11.0.9.11",
+      "title": "adoptopenjdk11openj9jre",
+      "publisher": "",
+      "versionCount": 1
+    },
+    {
+      "id": "AdoptOpenJDK 12",
+      "title": "adoptopenjdk12",
+      "publisher": "",
+      "versionCount": 1
+    },
+    {
+      "id": "AdoptOpenJDK 12 JRE",
+      "title": "adoptopenjdk12jre",
+      "publisher": "",
+      "versionCount": 1
+    },
+    {
+      "id": "AdoptOpenJDK jdk12 openj9 12.0.2.10",
+      "title": "adoptopenjdk12openj9",
+      "publisher": "",
+      "versionCount": 2
+    },
+    {
+      "id": "AdoptOpenJDK jre12 openj9 12.0.2.10",
+      "title": "adoptopenjdk12openj9jre",
+      "publisher": "",
+      "versionCount": 2
+    },
+    {
+      "id": "AdoptOpenJDK jre13 hotspot version 13.0.1.9 not 13.101.9 (due to version mistake in the past)",
+      "title": "adoptopenjdk13jre",
+      "publisher": "",
+      "versionCount": 2
+    },
+    {
+      "id": "AdoptOpenJDK jre13 hotspot version 13.0.2.8 not 13.102.8 (due to version mistake in the past)",
+      "title": "adoptopenjdk13jre",
+      "publisher": "",
+      "versionCount": 2
+    },
+    {
+      "id": "AdoptOpenJDK jre13 hotspot 13.33",
+      "title": "adoptopenjdk13jre",
+      "publisher": "",
+      "versionCount": 2
+    },
+    {
+      "id": "AdoptOpenJDK jdk13 openj9 version 13.0.1.9 not 13.101.9 (due to version mistake in the past)",
+      "title": "adoptopenjdk13openj9",
+      "publisher": "",
+      "versionCount": 2
+    },
+    {
+      "id": "AdoptOpenJDK jdk13 openj9 13.33",
+      "title": "adoptopenjdk13openj9",
+      "publisher": "",
+      "versionCount": 2
+    },
+    {
+      "id": "AdoptOpenJDK jre13 openj9 version 13.0.1.9 not 13.101.9 (due to version mistake in the past)",
+      "title": "adoptopenjdk13openj9jre",
+      "publisher": "",
+      "versionCount": 2
+    },
+    {
+      "id": "AdoptOpenJDK jre13 openj9 version 13.0.2.8 not 13.102.8 (due to version mistake in the past)",
+      "title": "adoptopenjdk13openj9jre",
+      "publisher": "",
+      "versionCount": 2
+    },
+    {
+      "id": "AdoptOpenJDK jre13 openj9 13.33",
+      "title": "adoptopenjdk13openj9jre",
+      "publisher": "",
+      "versionCount": 2
+    },
+    {
+      "id": "AdoptOpenJDK jre14 hotspot 14.0.0",
+      "title": "adoptopenjdk14jre",
+      "publisher": "",
+      "versionCount": 2
+    },
+    {
+      "id": "AdoptOpenJDK jre14 hotspot 14.0.1.7",
+      "title": "adoptopenjdk14jre",
+      "publisher": "",
+      "versionCount": 2
+    },
+    {
+      "id": "AdoptOpenJDK jre14 hotspot 14.0.2.12",
+      "title": "adoptopenjdk14jre",
+      "publisher": "",
+      "versionCount": 5
+    },
+    {
+      "id": "AdoptOpenJDK jdk14 openj9 14.0.0.1",
+      "title": "adoptopenjdk14openj9",
+      "publisher": "",
+      "versionCount": 2
+    },
+    {
+      "id": "AdoptOpenJDK jdk14 openj9 14.0.1.7",
+      "title": "adoptopenjdk14openj9",
+      "publisher": "",
+      "versionCount": 2
+    },
+    {
+      "id": "AdoptOpenJDK jdk14 openj9 14.0.2.12",
+      "title": "adoptopenjdk14openj9",
+      "publisher": "",
+      "versionCount": 3
+    },
+    {
+      "id": "AdoptOpenJDK jre14 openj9 14.0.0.1",
+      "title": "adoptopenjdk14openj9jre",
+      "publisher": "",
+      "versionCount": 2
+    },
+    {
+      "id": "AdoptOpenJDK jre14 openj9 14.0.2.12",
+      "title": "adoptopenjdk14openj9jre",
+      "publisher": "",
+      "versionCount": 3
+    },
+    {
+      "id": "AdoptOpenJDK jre15 hotspot 15.0.0.36",
+      "title": "AdoptOpenJDK15jre",
+      "publisher": "",
+      "versionCount": 4
+    },
+    {
+      "id": "AdoptOpenJDK jre15 hotspot 15.0.1.9",
+      "title": "AdoptOpenJDK15jre",
+      "publisher": "",
+      "versionCount": 2
+    },
+    {
+      "id": "AdoptOpenJDK jre15 hotspot 15.0.2.7",
+      "title": "AdoptOpenJDK15jre",
+      "publisher": "",
+      "versionCount": 2
+    },
+    {
+      "id": "AdoptOpenJDK jdk15 openj9 15.0.0.36",
+      "title": "AdoptOpenJDK15openj9",
+      "publisher": "",
+      "versionCount": 4
+    },
+    {
+      "id": "AdoptOpenJDK jdk15 openj9 15.0.1.9",
+      "title": "AdoptOpenJDK15openj9",
+      "publisher": "",
+      "versionCount": 2
+    },
+    {
+      "id": "AdoptOpenJDK jdk15 openj9 15.0.2.7",
+      "title": "AdoptOpenJDK15openj9",
+      "publisher": "",
+      "versionCount": 2
+    },
+    {
+      "id": "AdoptOpenJDK jre15 openj9 15.0.0.36",
+      "title": "AdoptOpenJDK15openj9jre",
+      "publisher": "",
+      "versionCount": 4
+    },
+    {
+      "id": "AdoptOpenJDK jre15 openj9 15.0.1.9",
+      "title": "AdoptOpenJDK15openj9jre",
+      "publisher": "",
+      "versionCount": 2
+    },
+    {
+      "id": "AdoptOpenJDK jre15 openj9 15.0.2.7",
+      "title": "AdoptOpenJDK15openj9jre",
+      "publisher": "",
+      "versionCount": 2
+    },
+    {
+      "id": "AdoptOpenJDK jre16 hotspot 16.0.0.36",
+      "title": "AdoptOpenJDK16jre",
+      "publisher": "",
+      "versionCount": 2
+    },
+    {
+      "id": "AdoptOpenJDK jre16 hotspot 16.0.1.9",
+      "title": "AdoptOpenJDK16jre",
+      "publisher": "",
+      "versionCount": 2
+    },
+    {
+      "id": "AdoptOpenJDK jdk16 openj9 16.0.0.36",
+      "title": "AdoptOpenJDK16openj9",
+      "publisher": "",
+      "versionCount": 2
+    },
+    {
+      "id": "AdoptOpenJDK jdk16 openj9 16.0.1.9",
+      "title": "AdoptOpenJDK16openj9",
+      "publisher": "",
+      "versionCount": 2
+    },
+    {
+      "id": "AdoptOpenJDK jre16 openj9 16.0.0.36",
+      "title": "AdoptOpenJDK16openj9jre",
+      "publisher": "",
+      "versionCount": 2
+    },
+    {
+      "id": "AdoptOpenJDK jre16 openj9 16.0.1.9",
+      "title": "AdoptOpenJDK16openj9jre",
+      "publisher": "",
+      "versionCount": 2
+    },
+    {
+      "id": "AdoptOpenJDK8",
+      "title": "adoptopenjdk8",
+      "publisher": "",
+      "versionCount": 4
+    },
+    {
+      "id": "AdoptOpenJDK 8",
+      "title": "adoptopenjdk8",
+      "publisher": "",
+      "versionCount": 1
+    },
+    {
+      "id": "AdoptOpenJDK jdk8 hotspot 8.222.10",
+      "title": "adoptopenjdk8",
+      "publisher": "",
+      "versionCount": 1
+    },
+    {
+      "id": "AdoptOpenJDK jdk8 hotspot 8.232.9",
+      "title": "adoptopenjdk8",
+      "publisher": "",
+      "versionCount": 1
+    },
+    {
+      "id": "AdoptOpenJDK jdk8 hotspot 8.242.8",
+      "title": "adoptopenjdk8",
+      "publisher": "",
+      "versionCount": 1
+    },
+    {
+      "id": "AdoptOpenJDK jdk8 hotspot 8.252.9",
+      "title": "adoptopenjdk8",
+      "publisher": "",
+      "versionCount": 1
+    },
+    {
+      "id": "AdoptOpenJDK jdk8 hotspot 8.262.10",
+      "title": "adoptopenjdk8",
+      "publisher": "",
+      "versionCount": 1
+    },
+    {
+      "id": "AdoptOpenJDK jdk8 hotspot 8.265.1",
+      "title": "adoptopenjdk8",
+      "publisher": "",
+      "versionCount": 1
+    },
+    {
+      "id": "AdoptOpenJDK jdk8 hotspot 8.272.10",
+      "title": "adoptopenjdk8",
+      "publisher": "",
+      "versionCount": 1
+    },
+    {
+      "id": "AdoptOpenJDK jdk8 hotspot 8.275.1",
+      "title": "adoptopenjdk8",
+      "publisher": "",
+      "versionCount": 1
+    },
+    {
+      "id": "AdoptOpenJDK jdk8 hotspot 8.282.8",
+      "title": "adoptopenjdk8",
+      "publisher": "",
+      "versionCount": 1
+    },
+    {
+      "id": "AdoptOpenJDK jdk8 hotspot 8.292.10",
+      "title": "adoptopenjdk8",
+      "publisher": "",
+      "versionCount": 1
+    },
+    {
+      "id": "[Deprecated] AdoptOpenJDK jdk8 hotspot",
+      "title": "adoptopenjdk8",
+      "publisher": "",
+      "versionCount": 1
+    },
+    {
+      "id": "AdoptOpenJDK jre8 hotspot 8.0.222.10",
+      "title": "adoptopenjdk8jre",
+      "publisher": "",
+      "versionCount": 1
+    },
+    {
+      "id": "AdoptOpenJDK8JRE",
+      "title": "adoptopenjdk8jre",
+      "publisher": "",
+      "versionCount": 2
+    },
+    {
+      "id": "AdoptOpenJDK 8 JRE",
+      "title": "adoptopenjdk8jre",
+      "publisher": "",
+      "versionCount": 1
+    },
+    {
+      "id": "AdoptOpenJDK jre8 hotspot 8.222.10",
+      "title": "adoptopenjdk8jre",
+      "publisher": "",
+      "versionCount": 1
+    },
+    {
+      "id": "AdoptOpenJDK jre8 hotspot 8.232.9",
+      "title": "adoptopenjdk8jre",
+      "publisher": "",
+      "versionCount": 1
+    },
+    {
+      "id": "AdoptOpenJDK jre8 hotspot 8.242.8",
+      "title": "adoptopenjdk8jre",
+      "publisher": "",
+      "versionCount": 1
+    },
+    {
+      "id": "AdoptOpenJDK jre8 hotspot 8.252.9",
+      "title": "adoptopenjdk8jre",
+      "publisher": "",
+      "versionCount": 1
+    },
+    {
+      "id": "AdoptOpenJDK jre8 hotspot 8.262.10",
+      "title": "adoptopenjdk8jre",
+      "publisher": "",
+      "versionCount": 1
+    },
+    {
+      "id": "AdoptOpenJDK jre8 hotspot 8.265.1",
+      "title": "adoptopenjdk8jre",
+      "publisher": "",
+      "versionCount": 1
+    },
+    {
+      "id": "AdoptOpenJDK jre8 hotspot 8.272.10",
+      "title": "adoptopenjdk8jre",
+      "publisher": "",
+      "versionCount": 1
+    },
+    {
+      "id": "AdoptOpenJDK jre8 hotspot 8.275.1",
+      "title": "adoptopenjdk8jre",
+      "publisher": "",
+      "versionCount": 1
+    },
+    {
+      "id": "AdoptOpenJDK jre8 hotspot 8.282.8",
+      "title": "adoptopenjdk8jre",
+      "publisher": "",
+      "versionCount": 1
+    },
+    {
+      "id": "AdoptOpenJDK jre8 hotspot 8.292.10",
+      "title": "adoptopenjdk8jre",
+      "publisher": "",
+      "versionCount": 1
+    },
+    {
+      "id": "[Deprecated] AdoptOpenJDK jre8 hotspot",
+      "title": "adoptopenjdk8jre",
+      "publisher": "",
+      "versionCount": 1
+    },
+    {
+      "id": "AdoptOpenJDK jdk8 openj9 8.0.222.10",
+      "title": "adoptopenjdk8openj9",
+      "publisher": "",
+      "versionCount": 1
+    },
+    {
+      "id": "AdoptOpenJDK jdk8 openj9 8.222.10",
+      "title": "adoptopenjdk8openj9",
+      "publisher": "",
+      "versionCount": 1
+    },
+    {
+      "id": "AdoptOpenJDK jdk8 openj9 8.232.9",
+      "title": "adoptopenjdk8openj9",
+      "publisher": "",
+      "versionCount": 1
+    },
+    {
+      "id": "AdoptOpenJDK jdk8 openj9 8.242.8",
+      "title": "adoptopenjdk8openj9",
+      "publisher": "",
+      "versionCount": 1
+    },
+    {
+      "id": "AdoptOpenJDK jdk8 openj9 8.252.9",
+      "title": "adoptopenjdk8openj9",
+      "publisher": "",
+      "versionCount": 1
+    },
+    {
+      "id": "AdoptOpenJDK jdk8 openj9 8.262.10",
+      "title": "adoptopenjdk8openj9",
+      "publisher": "",
+      "versionCount": 1
+    },
+    {
+      "id": "AdoptOpenJDK jdk8 openj9 8.265.1",
+      "title": "adoptopenjdk8openj9",
+      "publisher": "",
+      "versionCount": 1
+    },
+    {
+      "id": "AdoptOpenJDK jdk8 openj9 8.272.10",
+      "title": "adoptopenjdk8openj9",
+      "publisher": "",
+      "versionCount": 1
+    },
+    {
+      "id": "AdoptOpenJDK jdk8 openj9 8.275.1",
+      "title": "adoptopenjdk8openj9",
+      "publisher": "",
+      "versionCount": 1
+    },
+    {
+      "id": "AdoptOpenJDK jdk8 openj9 8.282.8",
+      "title": "adoptopenjdk8openj9",
+      "publisher": "",
+      "versionCount": 1
+    },
+    {
+      "id": "AdoptOpenJDK jdk8 openj9 8.292.10",
+      "title": "adoptopenjdk8openj9",
+      "publisher": "",
+      "versionCount": 1
+    },
+    {
+      "id": "AdoptOpenJDK jre8 openj9 8.0.222.10",
+      "title": "adoptopenjdk8openj9jre",
+      "publisher": "",
+      "versionCount": 1
+    },
+    {
+      "id": "AdoptOpenJDK jre8 openj9 8.222.10",
+      "title": "adoptopenjdk8openj9jre",
+      "publisher": "",
+      "versionCount": 1
+    },
+    {
+      "id": "AdoptOpenJDK jre8 openj9 8.232.9",
+      "title": "adoptopenjdk8openj9jre",
+      "publisher": "",
+      "versionCount": 1
+    },
+    {
+      "id": "AdoptOpenJDK jre8 openj9 8.242.8",
+      "title": "adoptopenjdk8openj9jre",
+      "publisher": "",
+      "versionCount": 1
+    },
+    {
+      "id": "AdoptOpenJDK jre8 openj9 8.252.9",
+      "title": "adoptopenjdk8openj9jre",
+      "publisher": "",
+      "versionCount": 1
+    },
+    {
+      "id": "AdoptOpenJDK jre8 openj9 8.262.10",
+      "title": "adoptopenjdk8openj9jre",
+      "publisher": "",
+      "versionCount": 1
+    },
+    {
+      "id": "AdoptOpenJDK jre8 openj9 8.265.1",
+      "title": "adoptopenjdk8openj9jre",
+      "publisher": "",
+      "versionCount": 1
+    },
+    {
+      "id": "AdoptOpenJDK jre8 openj9 8.272.10",
+      "title": "adoptopenjdk8openj9jre",
+      "publisher": "",
+      "versionCount": 1
+    },
+    {
+      "id": "AdoptOpenJDK jre8 openj9 8.275.1",
+      "title": "adoptopenjdk8openj9jre",
+      "publisher": "",
+      "versionCount": 1
+    },
+    {
+      "id": "AdoptOpenJDK jre8 openj9 8.282.8",
+      "title": "adoptopenjdk8openj9jre",
+      "publisher": "",
+      "versionCount": 1
+    },
+    {
+      "id": "AdoptOpenJDK jre8 openj9 8.292.10",
+      "title": "adoptopenjdk8openj9jre",
+      "publisher": "",
+      "versionCount": 1
+    },
+    {
+      "id": "AdoptOpenJDKJRE",
+      "title": "adoptopenjdkjre",
+      "publisher": "",
+      "versionCount": 3
+    },
+    {
+      "id": "[Deprecated] AdoptOpenJDK jre hotspot",
+      "title": "adoptopenjdkjre",
+      "publisher": "",
+      "versionCount": 1
+    },
+    {
+      "id": "AdoptOpenJDK jdk14 openj9 14.0.0",
+      "title": "adoptopenjdkopenj9",
+      "publisher": "",
+      "versionCount": 1
+    },
+    {
+      "id": "AdoptOpenJDKOpenJ9JDK",
+      "title": "adoptopenjdkopenj9jdk",
+      "publisher": "",
+      "versionCount": 2
+    },
+    {
+      "id": "AdoptOpenJDKOpenJ9JRE",
+      "title": "adoptopenjdkopenj9jre",
+      "publisher": "",
+      "versionCount": 2
+    },
+    {
+      "id": "AdoptOpenJDK jre14 openj9 14.0.1.7",
+      "title": "adoptopenjdkopenj9jre",
+      "publisher": "",
+      "versionCount": 1
+    },
+    {
+      "id": "ADReports",
+      "title": "adreports",
+      "publisher": "",
+      "versionCount": 2
+    },
+    {
+      "id": "AdRestore",
+      "title": "adrestore",
+      "publisher": "",
+      "versionCount": 2
+    },
+    {
+      "id": "Advanced BAT to EXE Converter (Install)",
+      "title": "advanced-bat-to-exe-converter",
+      "publisher": "",
+      "versionCount": 5
+    },
+    {
+      "id": "Shark007's Advanced Codecs (Install)",
+      "title": "advanced-codecs",
+      "publisher": "",
+      "versionCount": 195
+    },
+    {
+      "id": "Shark007's 64bit ADVANCED Codecs (Portable)",
+      "title": "advanced-codecs",
+      "publisher": "",
+      "versionCount": 32
+    },
+    {
+      "id": "Advanced File Finder",
+      "title": "advanced-file-finder",
+      "publisher": "",
+      "versionCount": 1
+    },
+    {
+      "id": "Advanced Installer",
+      "title": "advanced-installer",
+      "publisher": "",
+      "versionCount": 251
+    },
+    {
+      "id": "Advanced IP Scanner (Install)",
+      "title": "advanced-ip-scanner",
+      "publisher": "",
+      "versionCount": 7
+    },
+    {
+      "id": "[DEPRECATED] Advanced-IP Scanner",
+      "title": "advanced-ipscanner",
+      "publisher": "",
+      "versionCount": 1
+    },
+    {
+      "id": "advanced-port-scanner (Install)",
+      "title": "advanced-port-scanner",
+      "publisher": "",
+      "versionCount": 1
+    },
+    {
+      "id": "Advanced Renamer",
+      "title": "advanced-renamer",
+      "publisher": "",
+      "versionCount": 28
+    },
+    {
+      "id": "Advanced Renamer (Install)",
+      "title": "advanced-renamer.install",
+      "publisher": "",
+      "versionCount": 28
+    },
+    {
+      "id": "Advanced Renamer (Portable)",
+      "title": "advanced-renamer.portable",
+      "publisher": "",
+      "versionCount": 20
+    },
+    {
+      "id": "Advanced Log Viewer",
+      "title": "advancedlogviewer",
+      "publisher": "",
+      "versionCount": 2
+    },
+    {
+      "id": "AdvancedRun (Portable)",
+      "title": "advancedrun",
+      "publisher": "",
+      "versionCount": 4
+    },
+    {
+      "id": "Advanced System Tweaker",
+      "title": "advancedsystemtweaker",
+      "publisher": "",
+      "versionCount": 2
+    },
+    {
+      "id": "Advanced Onion Router",
+      "title": "advor",
+      "publisher": "",
+      "versionCount": 7
+    },
+    {
+      "id": "AdwCleaner",
+      "title": "adwcleaner",
+      "publisher": "",
+      "versionCount": 89
+    },
+    {
+      "id": "AdwCleaner (Portable)",
+      "title": "adwcleaner",
+      "publisher": "",
+      "versionCount": 25
+    },
+    {
+      "id": "Aegisub",
+      "title": "aegisub",
+      "publisher": "",
+      "versionCount": 12
+    },
+    {
+      "id": "Aemulus Package Manager",
+      "title": "aemulusmodmanager",
+      "publisher": "",
+      "versionCount": 15
+    },
+    {
+      "id": "aepctl",
+      "title": "aepctl",
+      "publisher": "",
+      "versionCount": 2
+    },
+    {
+      "id": "AeroAdmin (Portable)",
+      "title": "aeroadmin.portable",
+      "publisher": "",
+      "versionCount": 8
+    },
+    {
+      "id": "AeroZoom",
+      "title": "aerozoom",
+      "publisher": "",
+      "versionCount": 1
+    },
+    {
+      "id": "AESCrypt",
+      "title": "AESCrypt",
+      "publisher": "",
+      "versionCount": 2
+    },
+    {
+      "id": "Advanced System Care Pro",
+      "title": "Afedteated",
+      "publisher": "",
+      "versionCount": 1
+    },
+    {
+      "id": "Advanced SystemCare Free",
+      "title": "Afedteated",
+      "publisher": "",
+      "versionCount": 71
+    },
+    {
+      "id": "Affine Client",
+      "title": "affine-client",
+      "publisher": "",
+      "versionCount": 2
+    },
+    {
+      "id": "AFFiNE Client",
+      "title": "affine-client",
+      "publisher": "",
+      "versionCount": 62
+    },
+    {
+      "id": "The Silver Searcher",
+      "title": "ag",
+      "publisher": "",
+      "versionCount": 5
+    },
+    {
+      "id": "age (Portable)",
+      "title": "age.portable",
+      "publisher": "",
+      "versionCount": 6
+    },
+    {
+      "id": "age.beta (Portable)",
+      "title": "age.portable",
+      "publisher": "",
+      "versionCount": 1
+    },
+    {
+      "id": "agen (Install)",
+      "title": "agen",
+      "publisher": "",
+      "versionCount": 1
+    },
+    {
+      "id": "AgentHub CLI",
+      "title": "agenthub",
+      "publisher": "",
+      "versionCount": 1
+    },
+    {
+      "id": "agentless",
+      "title": "agentless",
+      "publisher": "",
+      "versionCount": 2
+    },
+    {
+      "id": "Agent Ransack",
+      "title": "agentransack",
+      "publisher": "",
+      "versionCount": 28
+    },
+    {
+      "id": "AgentSVN",
+      "title": "agentsvn",
+      "publisher": "",
+      "versionCount": 4
+    },
+    {
+      "id": "Adventure Game Studio",
+      "title": "ags",
+      "publisher": "",
+      "versionCount": 32
+    },
+    {
+      "id": "AGW Ch\u00e2teaux (Portable)",
+      "title": "agwchateaux.portable",
+      "publisher": "",
+      "versionCount": 4
+    },
+    {
+      "id": "AGW Multi-Activit\u00e9s (Portable)",
+      "title": "agwmultiactivites.portable",
+      "publisher": "",
+      "versionCount": 2
+    },
+    {
+      "id": "Original IP Address Module",
+      "title": "ai-web-originalip",
+      "publisher": "",
+      "versionCount": 2
+    },
+    {
+      "id": "AIDA64 Business Edition",
+      "title": "aida64-business",
+      "publisher": "",
+      "versionCount": 6
+    },
+    {
+      "id": "AIDA64 Business",
+      "title": "aida64-business",
+      "publisher": "",
+      "versionCount": 30
+    },
+    {
+      "id": "AIDA64 Engineer",
+      "title": "aida64-engineer",
+      "publisher": "",
+      "versionCount": 36
+    },
+    {
+      "id": "AIDA64 Extreme Edition",
+      "title": "aida64-extreme",
+      "publisher": "",
+      "versionCount": 10
+    },
+    {
+      "id": "AIDA64 Extreme",
+      "title": "aida64-extreme",
+      "publisher": "",
+      "versionCount": 29
+    },
+    {
+      "id": "AIDA64 Extreme Portable",
+      "title": "aida64-extreme.portable",
+      "publisher": "",
+      "versionCount": 4
+    },
+    {
+      "id": "AIDA64 Extreme (Portable)",
+      "title": "aida64-extreme.portable",
+      "publisher": "",
+      "versionCount": 32
+    },
+    {
+      "id": "AIDA64 Network Audit",
+      "title": "aida64-networkaudit",
+      "publisher": "",
+      "versionCount": 30
+    },
+    {
+      "id": "[Deprecated] AIDA64 Extreme Edition",
+      "title": "aida64extreme",
+      "publisher": "",
+      "versionCount": 1
+    },
+    {
+      "id": "aimp",
+      "title": "aimp",
+      "publisher": "",
+      "versionCount": 1
+    },
+    {
+      "id": "AIMP",
+      "title": "aimp",
+      "publisher": "",
+      "versionCount": 129
+    },
+    {
+      "id": "Aircall for Windows",
+      "title": "aircall",
+      "publisher": "",
+      "versionCount": 1
+    },
+    {
+      "id": "Airdroid",
+      "title": "airdroid",
+      "publisher": "",
+      "versionCount": 38
+    },
+    {
+      "id": "Air Explorer",
+      "title": "airexplorer",
+      "publisher": "",
+      "versionCount": 55
+    },
+    {
+      "id": "AirParrot 2",
+      "title": "AirParrot-2",
+      "publisher": "",
+      "versionCount": 3
+    },
+    {
+      "id": "AirParrot 3",
+      "title": "AirParrot-3",
+      "publisher": "",
+      "versionCount": 8
+    },
+    {
+      "id": "AirServer",
+      "title": "airserver",
+      "publisher": "",
+      "versionCount": 21
+    },
+    {
+      "id": "Airship CLI Installer",
+      "title": "airship",
+      "publisher": "",
+      "versionCount": 5
+    },
+    {
+      "id": "airshipper (Install)",
+      "title": "airshipper",
+      "publisher": "",
+      "versionCount": 4
+    },
+    {
+      "id": "Airstream Futuropolis Regular (Font) (Install)",
+      "title": "airstream-futuropolis-regular-font",
+      "publisher": "",
+      "versionCount": 1
+    },
+    {
+      "id": "Airtame",
+      "title": "airtame",
+      "publisher": "",
+      "versionCount": 16
+    },
+    {
+      "id": "Airtest IDE (Portable)",
+      "title": "airtest-ide",
+      "publisher": "",
+      "versionCount": 30
+    },
+    {
+      "id": "Ajour",
+      "title": "ajour",
+      "publisher": "",
+      "versionCount": 29
+    },
+    {
+      "id": "Ajour (OpenGL)",
+      "title": "ajour-opengl",
+      "publisher": "",
+      "versionCount": 27
+    },
+    {
+      "id": "[Deprecated] Ajour (OpenGL)",
+      "title": "ajour-opengl",
+      "publisher": "",
+      "versionCount": 1
+    },
+    {
+      "id": "AkelPad Editor",
+      "title": "akelpad",
+      "publisher": "",
+      "versionCount": 1
+    },
+    {
+      "id": "aks-engine",
+      "title": "aks-engine",
+      "publisher": "",
+      "versionCount": 89
+    },
+    {
+      "id": "AKS Engine Azure Stack",
+      "title": "aks-engine-azurestack",
+      "publisher": "",
+      "versionCount": 6
+    },
+    {
+      "id": "aksctl (Install)",
+      "title": "aksctl",
+      "publisher": "",
+      "versionCount": 1
+    },
+    {
+      "id": "Alacritty",
+      "title": "alacritty",
+      "publisher": "",
+      "versionCount": 59
+    },
+    {
+      "id": "Alacritty (Install)",
+      "title": "alacritty.install",
+      "publisher": "",
+      "versionCount": 41
+    },
+    {
+      "id": "Alacritty (Portable)",
+      "title": "alacritty.portable",
+      "publisher": "",
+      "versionCount": 86
+    },
+    {
+      "id": "Alan Stevens' Windows Utilities",
+      "title": "alanstevens.utils",
+      "publisher": "",
+      "versionCount": 18
+    },
+    {
+      "id": "Alan Stevens' Windows VM Utilities",
+      "title": "alanstevens.utils.vm",
+      "publisher": "",
+      "versionCount": 7
+    },
+    {
+      "id": "Alan Stevens' preferred Visual Studio 2012 extensions",
+      "title": "alanstevens.vs2012extensions",
+      "publisher": "",
+      "versionCount": 4
+    },
+    {
+      "id": "Alan Stevens' preferred Visual Studio extensions",
+      "title": "alanstevens.vsextensions",
+      "publisher": "",
+      "versionCount": 2
+    },
+    {
+      "id": "Alan Stevens' preferred Visual Studio 2010 extensions",
+      "title": "alanstevens.vsextensions",
+      "publisher": "",
+      "versionCount": 3
+    },
+    {
+      "id": "AlbumStomp (Install)",
+      "title": "albumstomp",
+      "publisher": "",
+      "versionCount": 2
+    },
+    {
+      "id": "Alcohol 52% Free",
+      "title": "alcohol52-free",
+      "publisher": "",
+      "versionCount": 2
+    },
+    {
+      "id": "ALEAPP",
+      "title": "aleapp",
+      "publisher": "",
+      "versionCount": 8
+    },
+    {
+      "id": "ALEAPP-GUI",
+      "title": "aleapp-gui",
+      "publisher": "",
+      "versionCount": 6
+    },
+    {
+      "id": "AlethZero Latest",
+      "title": "AlethZero-Latest",
+      "publisher": "",
+      "versionCount": 2
+    },
+    {
+      "id": "AlethZero Stable",
+      "title": "AlethZero-Stable",
+      "publisher": "",
+      "versionCount": 1
+    },
+    {
+      "id": "algobox (Install)",
+      "title": "algobox",
+      "publisher": "",
+      "versionCount": 1
+    },
+    {
+      "id": "Algobox (Install)",
+      "title": "algobox",
+      "publisher": "",
+      "versionCount": 1
+    },
+    {
+      "id": "Algobox",
+      "title": "algobox",
+      "publisher": "",
+      "versionCount": 1
+    },
+    {
+      "id": "AlgoKit",
+      "title": "algokit",
+      "publisher": "",
+      "versionCount": 22
+    },
+    {
+      "id": "algokit",
+      "title": "algokit",
+      "publisher": "",
+      "versionCount": 2
+    },
+    {
+      "id": "Algolia CLI",
+      "title": "algolia",
+      "publisher": "",
+      "versionCount": 21
+    },
+    {
+      "id": "AlienGame",
+      "title": "aliengame",
+      "publisher": "",
+      "versionCount": 1
+    },
+    {
+      "id": "Alire",
+      "title": "alire",
+      "publisher": "",
+      "versionCount": 3
+    },
+    {
+      "id": "Alist",
+      "title": "alist",
+      "publisher": "",
+      "versionCount": 1
+    },
+    {
+      "id": "Alibaba Cloud CLI (aliyun-cli)",
+      "title": "aliyun-cli",
+      "publisher": "",
+      "versionCount": 107
+    },
+    {
+      "id": "AllToMP3 (Install)",
+      "title": "all-to-mp3",
+      "publisher": "",
+      "versionCount": 1
+    },
+    {
+      "id": "All Browsers",
+      "title": "allbrowsers",
+      "publisher": "",
+      "versionCount": 1
+    },
+    {
+      "id": "AllDup",
+      "title": "alldup",
+      "publisher": "",
+      "versionCount": 64
+    },
+    {
+      "id": "Tweaking.com - (Right Click) Allow, Block or Remove - Windows Firewall (Portable)",
+      "title": "allow-block-remove-firewall",
+      "publisher": "",
+      "versionCount": 1
+    },
+    {
+      "id": "All Pairs",
+      "title": "allpairs",
+      "publisher": "",
+      "versionCount": 2
+    },
+    {
+      "id": "allway-sync (Install)",
+      "title": "allway-sync",
+      "publisher": "",
+      "versionCount": 11
+    },
+    {
+      "id": "AllWemo (Install)",
+      "title": "allwemo",
+      "publisher": "",
+      "versionCount": 6
+    },
+    {
+      "id": "ALM Toolkit for PowerBI",
+      "title": "almtoolkit",
+      "publisher": "",
+      "versionCount": 4
+    },
+    {
+      "id": "XSLT 2 and 3 transformation for MSBuild.",
+      "title": "alphacloud.msbuild.xslt.portable",
+      "publisher": "",
+      "versionCount": 1
+    },
+    {
+      "id": "Alreader2 reader by Alan",
+      "title": "Alreader2",
+      "publisher": "",
+      "versionCount": 1
+    },
+    {
+      "id": "Alt-Tab Terminator (Install)",
+      "title": "alt-tab-terminator",
+      "publisher": "",
+      "versionCount": 33
+    },
+    {
+      "id": "Altair GraphQL Client",
+      "title": "altair-graphql",
+      "publisher": "",
+      "versionCount": 71
+    },
+    {
+      "id": "Altap Salamander",
+      "title": "altap-salamander",
+      "publisher": "",
+      "versionCount": 11
+    },
+    {
+      "id": "Alt-C",
+      "title": "altcopy",
+      "publisher": "",
+      "versionCount": 1
+    },
+    {
+      "id": "AltDrag",
+      "title": "altdrag",
+      "publisher": "",
+      "versionCount": 18
+    },
+    {
+      "id": "AlternateStreamView",
+      "title": "alternatestreamview",
+      "publisher": "",
+      "versionCount": 7
+    },
+    {
+      "id": "Altitude for Microsoft Flight Simulator 2020 (MSFS2020)",
+      "title": "altitude-msfs2020",
+      "publisher": "",
+      "versionCount": 9
+    },
+    {
+      "id": "Altium Designer",
+      "title": "altium-designer",
+      "publisher": "",
+      "versionCount": 9
+    },
+    {
+      "id": "Account Lockout and Management Tools",
+      "title": "altools",
+      "publisher": "",
+      "versionCount": 2
+    },
+    {
+      "id": "AltServer",
+      "title": "altserver",
+      "publisher": "",
+      "versionCount": 5
+    },
+    {
+      "id": "AltServer (Install)",
+      "title": "altserver.install",
+      "publisher": "",
+      "versionCount": 5
+    },
+    {
+      "id": "AltSnap",
+      "title": "altsnap",
+      "publisher": "",
+      "versionCount": 19
+    },
+    {
+      "id": "AltStreamDump",
+      "title": "altstreamdump",
+      "publisher": "",
+      "versionCount": 1
+    },
+    {
+      "id": "Amaya",
+      "title": "Amaya",
+      "publisher": "",
+      "versionCount": 1
+    },
+    {
+      "id": "Amazing Marvin",
+      "title": "amazingmarvin",
+      "publisher": "",
+      "versionCount": 2
+    },
+    {
+      "id": "Amazon AppStream Client",
+      "title": "amazon-appstream",
+      "publisher": "",
+      "versionCount": 1
+    },
+    {
+      "id": "Amazon AppStream Client USB Drivers",
+      "title": "amazon-appstream-usb",
+      "publisher": "",
+      "versionCount": 1
+    },
+    {
+      "id": "Amazon Assistant for Chrome",
+      "title": "amazon-assistant-chrome",
+      "publisher": "",
+      "versionCount": 2
+    },
+    {
+      "id": "amazon-chime (Install)",
+      "title": "amazon-chime",
+      "publisher": "",
+      "versionCount": 35
+    },
+    {
+      "id": "Amazon ECR Docker Credential Helper",
+      "title": "amazon-ecr-credential-helper",
+      "publisher": "",
+      "versionCount": 3
+    },
+    {
+      "id": "Amazon Music  (Install)",
+      "title": "amazon-music",
+      "publisher": "",
+      "versionCount": 1
+    },
+    {
+      "id": "Amazon Music (Install)",
+      "title": "amazon-music",
+      "publisher": "",
+      "versionCount": 2
+    },
+    {
+      "id": "Amazon Music for Chrome",
+      "title": "amazon-music-chrome",
+      "publisher": "",
+      "versionCount": 1
+    },
+    {
+      "id": "Amazon Photos (Install)",
+      "title": "amazon-photos",
+      "publisher": "",
+      "versionCount": 2
+    },
+    {
+      "id": "Amazon Workspaces",
+      "title": "amazon-workspaces",
+      "publisher": "",
+      "versionCount": 11
+    },
+    {
+      "id": "Amazon WorkSpaces",
+      "title": "amazon-workspaces",
+      "publisher": "",
+      "versionCount": 52
+    },
+    {
+      "id": "Amazon Drive (Install)",
+      "title": "amazondrive",
+      "publisher": "",
+      "versionCount": 4
+    },
+    {
+      "id": "Amazon Games (Install)",
+      "title": "amazongames",
+      "publisher": "",
+      "versionCount": 4
+    },
+    {
+      "id": "Amcache parser",
+      "title": "amcacheparser",
+      "publisher": "",
+      "versionCount": 12
+    },
+    {
+      "id": "[DEPRECIATED] Amcache parser",
+      "title": "amcacheparser",
+      "publisher": "",
+      "versionCount": 2
+    },
+    {
+      "id": "AmcacheParser",
+      "title": "amcacheparser",
+      "publisher": "",
+      "versionCount": 5
+    },
+    {
+      "id": "AMD Ryzen Chipset Drivers",
+      "title": "amd-ryzen-chipset",
+      "publisher": "",
+      "versionCount": 25
+    },
+    {
+      "id": "AMD Ryzen Master",
+      "title": "amd-ryzen-master",
+      "publisher": "",
+      "versionCount": 12
+    },
+    {
+      "id": "Amethyst",
+      "title": "amethyst",
+      "publisher": "",
+      "versionCount": 2
+    },
+    {
+      "id": "Amidst",
+      "title": "amidst",
+      "publisher": "",
+      "versionCount": 6
+    },
+    {
+      "id": "AMIDuOS PRO (Lollipop) (Trial) (Install)",
+      "title": "amiduos",
+      "publisher": "",
+      "versionCount": 1
+    },
+    {
+      "id": "Amiri Font",
+      "title": "Amiri",
+      "publisher": "",
+      "versionCount": 3
+    },
+    {
+      "id": "Ammyy Admin (Portable)",
+      "title": "ammyy-admin",
+      "publisher": "",
+      "versionCount": 5
+    },
+    {
+      "id": "Ammyy Admin",
+      "title": "ammyy-admin",
+      "publisher": "",
+      "versionCount": 1
+    },
+    {
+      "id": "Amnezia VPN (Install)",
+      "title": "amneziavpn",
+      "publisher": "",
+      "versionCount": 1
+    },
+    {
+      "id": "Among Us Extra Roles",
+      "title": "amongus-extraroles",
+      "publisher": "",
+      "versionCount": 1
+    },
+    {
+      "id": "Amp CLI",
+      "title": "amp",
+      "publisher": "",
+      "versionCount": 1
+    },
+    {
+      "id": "AMP WinOFF",
+      "title": "amp-winoff",
+      "publisher": "",
+      "versionCount": 1
+    },
+    {
+      "id": "AMP WinOFF (Install)",
+      "title": "amp-winoff.install",
+      "publisher": "",
+      "versionCount": 1
+    },
+    {
+      "id": "AMP WinOFF (Portable)",
+      "title": "amp-winoff.portable",
+      "publisher": "",
+      "versionCount": 1
+    },
+    {
+      "id": "ampcast",
+      "title": "ampcast",
+      "publisher": "",
+      "versionCount": 5
+    },
+    {
+      "id": "AMP Font Viewer",
+      "title": "ampfontviewer",
+      "publisher": "",
+      "versionCount": 2
+    },
+    {
+      "id": "Azure Media Services Explorer",
+      "title": "amsexplorer",
+      "publisher": "",
+      "versionCount": 10
+    },
+    {
+      "id": "AMT - Auto-Movie-Thumbnailer (Install)",
+      "title": "amt",
+      "publisher": "",
+      "versionCount": 1
+    },
+    {
+      "id": "aMule",
+      "title": "amule",
+      "publisher": "",
+      "versionCount": 1
+    },
+    {
+      "id": "aMule (Install)",
+      "title": "amule.install",
+      "publisher": "",
+      "versionCount": 1
+    },
+    {
+      "id": "aMule (Portable)",
+      "title": "amule.portable",
+      "publisher": "",
+      "versionCount": 1
+    },
+    {
+      "id": "Amulet Map Editor",
+      "title": "amulet",
+      "publisher": "",
+      "versionCount": 51
+    },
+    {
+      "id": "Anaconda Distribution (Python 2.7)",
+      "title": "anaconda2",
+      "publisher": "",
+      "versionCount": 4
+    },
+    {
+      "id": "Anaconda Distribution (Python 2.x)",
+      "title": "anaconda2",
+      "publisher": "",
+      "versionCount": 3
+    },
+    {
+      "id": "anaconda2",
+      "title": "anaconda2",
+      "publisher": "",
+      "versionCount": 11
+    },
+    {
+      "id": "Anaconda Distribution (Python 3.6)",
+      "title": "anaconda3",
+      "publisher": "",
+      "versionCount": 4
+    },
+    {
+      "id": "Anaconda Distribution (Python 3.x)",
+      "title": "anaconda3",
+      "publisher": "",
+      "versionCount": 14
+    },
+    {
+      "id": "Anaconda Individual Edition (Python 3.x)",
+      "title": "anaconda3",
+      "publisher": "",
+      "versionCount": 3
+    },
+    {
+      "id": "anaconda3",
+      "title": "anaconda3",
+      "publisher": "",
+      "versionCount": 12
+    },
+    {
+      "id": "Analyzer2Go",
+      "title": "analyzer2go",
+      "publisher": "",
+      "versionCount": 1
+    },
+    {
+      "id": "Anchor CLI",
+      "title": "anchor",
+      "publisher": "",
+      "versionCount": 20
+    },
+    {
+      "id": "Android Insomnia Regular (Font) (Install)",
+      "title": "android-insomnia-regular-font",
+      "publisher": "",
+      "versionCount": 1
+    },
+    {
+      "id": "Android Log Viewer",
+      "title": "android-log-viewer",
+      "publisher": "",
+      "versionCount": 1
+    },
+    {
+      "id": "Android Messages Desktop (Install)",
+      "title": "android-messages-desktop",
+      "publisher": "",
+      "versionCount": 1
+    },
+    {
+      "id": "Android NDK (Install)",
+      "title": "android-ndk",
+      "publisher": "",
+      "versionCount": 19
+    },
+    {
+      "id": "android-sdk",
+      "title": "android-sdk",
+      "publisher": "",
+      "versionCount": 1
+    },
+    {
+      "id": "Android SDK",
+      "title": "android-sdk",
+      "publisher": "",
+      "versionCount": 14
+    },
+    {
+      "id": "Android Studio",
+      "title": "AndroidStudio",
+      "publisher": "",
+      "versionCount": 26
+    },
+    {
+      "id": "Android Studio (Install)",
+      "title": "AndroidStudio",
+      "publisher": "",
+      "versionCount": 80
+    },
+    {
+      "id": "Angband",
+      "title": "angband",
+      "publisher": "",
+      "versionCount": 2
+    },
+    {
+      "id": "Angband - Single Player Dungeon Exploration",
+      "title": "angband",
+      "publisher": "",
+      "versionCount": 5
+    },
+    {
+      "id": "Angry Birds Star Wars (Install)",
+      "title": "angry-birds-star-wars",
+      "publisher": "",
+      "versionCount": 2
+    },
+    {
+      "id": "AngryIP Scanner",
+      "title": "angryip",
+      "publisher": "",
+      "versionCount": 1
+    },
+    {
+      "id": "Angry IP Scanner (Installer)",
+      "title": "angryip",
+      "publisher": "",
+      "versionCount": 17
+    },
+    {
+      "id": "AniTa Terminal",
+      "title": "anita-terminal",
+      "publisher": "",
+      "versionCount": 1
+    },
+    {
+      "id": "Anki",
+      "title": "anki",
+      "publisher": "",
+      "versionCount": 3
+    },
+    {
+      "id": "The Anki Flashcard Program",
+      "title": "anki",
+      "publisher": "",
+      "versionCount": 73
+    },
+    {
+      "id": "AnmanieSMP",
+      "title": "anmaniesmp",
+      "publisher": "",
+      "versionCount": 1
+    },
+    {
+      "id": "annatar",
+      "title": "annatar",
+      "publisher": "",
+      "versionCount": 1
+    },
+    {
+      "id": "Annie",
+      "title": "annie",
+      "publisher": "",
+      "versionCount": 8
+    },
+    {
+      "id": "Anonymous Pro",
+      "title": "AnonymousPro",
+      "publisher": "",
+      "versionCount": 2
+    },
+    {
+      "id": "anote (Install)",
+      "title": "anote",
+      "publisher": "",
+      "versionCount": 1
+    },
+    {
+      "id": "Another Redis Desktop Manager",
+      "title": "another-redis-desktop-manager",
+      "publisher": "",
+      "versionCount": 9
+    },
+    {
+      "id": "Ansible Vault Command",
+      "title": "ansiblevaultcmd",
+      "publisher": "",
+      "versionCount": 1
+    },
+    {
+      "id": "ANSICON",
+      "title": "ansicon",
+      "publisher": "",
+      "versionCount": 6
+    },
+    {
+      "id": "Apache Ant",
+      "title": "ant",
+      "publisher": "",
+      "versionCount": 23
+    },
+    {
+      "id": "Ant Commander Personal",
+      "title": "ant-commander-personal",
+      "publisher": "",
+      "versionCount": 18
+    },
+    {
+      "id": "Ant Commander Pro",
+      "title": "ant-commander-pro",
+      "publisher": "",
+      "versionCount": 21
+    },
+    {
+      "id": "Ant Renamer",
+      "title": "ant-renamer",
+      "publisher": "",
+      "versionCount": 5
+    },
+    {
+      "id": "AntelopeIO DUNE",
+      "title": "antelopeio-dune",
+      "publisher": "",
+      "versionCount": 1
+    },
+    {
+      "id": "AntiDupl",
+      "title": "antidupl",
+      "publisher": "",
+      "versionCount": 1
+    },
+    {
+      "id": "AntiDupl.NET",
+      "title": "antidupl",
+      "publisher": "",
+      "versionCount": 2
+    },
+    {
+      "id": "antimicro",
+      "title": "antimicro",
+      "publisher": "",
+      "versionCount": 3
+    },
+    {
+      "id": "antimicro (Install)",
+      "title": "antimicro.install",
+      "publisher": "",
+      "versionCount": 3
+    },
+    {
+      "id": "antimicro (Portable)",
+      "title": "antimicro.portable",
+      "publisher": "",
+      "versionCount": 2
+    },
+    {
+      "id": "antlr4 (Install)",
+      "title": "antlr4",
+      "publisher": "",
+      "versionCount": 2
+    },
+    {
+      "id": "ANTLRWorks 2",
+      "title": "antlrworks2",
+      "publisher": "",
+      "versionCount": 2
+    },
+    {
+      "id": "Anvide Seal Folder",
+      "title": "anvide-seal-folder",
+      "publisher": "",
+      "versionCount": 1
+    },
+    {
+      "id": "Quick Any2Ico (Meta)",
+      "title": "any2ico",
+      "publisher": "",
+      "versionCount": 3
+    },
+    {
+      "id": "Quick Any2Ico (portable)",
+      "title": "any2ico.portable",
+      "publisher": "",
+      "versionCount": 3
+    },
+    {
+      "id": "AnyDesk Exe (Portable or Install)",
+      "title": "anydesk",
+      "publisher": "",
+      "versionCount": 55
+    },
+    {
+      "id": "anyquery",
+      "title": "anyquery",
+      "publisher": "",
+      "versionCount": 12
+    },
+    {
+      "id": "AnyRail6",
+      "title": "AnyRail6",
+      "publisher": "",
+      "versionCount": 77
+    },
+    {
+      "id": "AnyStream (Install)",
+      "title": "anystream",
+      "publisher": "",
+      "versionCount": 52
+    },
+    {
+      "id": "anytoiso",
+      "title": "anytoiso",
+      "publisher": "",
+      "versionCount": 2
+    },
+    {
+      "id": "anytype",
+      "title": "anytype",
+      "publisher": "",
+      "versionCount": 5
+    },
+    {
+      "id": "Any Video Converter Free Edition",
+      "title": "anyvideoconverter",
+      "publisher": "",
+      "versionCount": 33
+    },
+    {
+      "id": "Adb Over Wifi (aow)",
+      "title": "aow",
+      "publisher": "",
+      "versionCount": 3
+    },
+    {
+      "id": "cassandra",
+      "title": "apache-cassandra",
+      "publisher": "",
+      "versionCount": 10
+    },
+    {
+      "id": "Apache\u2122 FOP (Install)",
+      "title": "apache-fop",
+      "publisher": "",
+      "versionCount": 4
+    },
+    {
+      "id": "Apache HTTP Server Project",
+      "title": "apache-httpd",
+      "publisher": "",
+      "versionCount": 30
+    },
+    {
+      "id": "Apache Netbeans (Portable)",
+      "title": "apache-netbeans.portable",
+      "publisher": "",
+      "versionCount": 11
+    },
+    {
+      "id": "[Deprecated] Apache Netbeans (Portable)",
+      "title": "apache-netbeans.portable",
+      "publisher": "",
+      "versionCount": 1
+    },
+    {
+      "id": "apache-zookeeper (Install)",
+      "title": "apache-zookeeper",
+      "publisher": "",
+      "versionCount": 1
+    },
+    {
+      "id": "Binaries for Apache Commons Daemon",
+      "title": "ApacheCommonsDaemon",
+      "publisher": "",
+      "versionCount": 1
+    },
+    {
+      "id": "Apache Directory Studio",
+      "title": "apachedirectorystudio",
+      "publisher": "",
+      "versionCount": 5
+    },
+    {
+      "id": "ApacheDS",
+      "title": "apacheds",
+      "publisher": "",
+      "versionCount": 1
+    },
+    {
+      "id": "Helicon Ape",
+      "title": "ape",
+      "publisher": "",
+      "versionCount": 1
+    },
+    {
+      "id": "APIMonitor",
+      "title": "apimonitor",
+      "publisher": "",
+      "versionCount": 1
+    },
+    {
+      "id": "Rohitab API Monitor",
+      "title": "apimonitor",
+      "publisher": "",
+      "versionCount": 2
+    },
+    {
+      "id": "VSIX VS solution template for Web Api .NET Core",
+      "title": "apincoree-vsix",
+      "publisher": "",
+      "versionCount": 1
+    },
+    {
+      "id": "VS solution template for Python REST Web API wrapper",
+      "title": "apincorepywr-vsix",
+      "publisher": "",
+      "versionCount": 1
+    },
+    {
+      "id": "APKRepatcher",
+      "title": "apkrepatcher",
+      "publisher": "",
+      "versionCount": 1
+    },
+    {
+      "id": "apkshellext",
+      "title": "apkshellext",
+      "publisher": "",
+      "versionCount": 1
+    },
+    {
+      "id": "apktool",
+      "title": "apktool",
+      "publisher": "",
+      "versionCount": 1
+    },
+    {
+      "id": "Apktool",
+      "title": "apktool",
+      "publisher": "",
+      "versionCount": 24
+    },
+    {
+      "id": "AutoPowerOptionsOK (Install)",
+      "title": "apo-ok",
+      "publisher": "",
+      "versionCount": 59
+    },
+    {
+      "id": "AutoPowerOptionsOK",
+      "title": "apo-ok",
+      "publisher": "",
+      "versionCount": 57
+    },
+    {
+      "id": "AutoPowerOptionsOK (Portable)",
+      "title": "apo-ok.portable",
+      "publisher": "",
+      "versionCount": 58
+    },
+    {
+      "id": "Apollo Game Streaming Server",
+      "title": "apollo",
+      "publisher": "",
+      "versionCount": 1
+    },
+    {
+      "id": "APP Shop (Install)",
+      "title": "app-shop",
+      "publisher": "",
+      "versionCount": 1
+    },
+    {
+      "id": "AppAudioConfig",
+      "title": "appaudioconfig",
+      "publisher": "",
+      "versionCount": 4
+    },
+    {
+      "id": "AppCharger (Install)",
+      "title": "appcharger",
+      "publisher": "",
+      "versionCount": 1
+    },
+    {
+      "id": "AppCompatCache parser",
+      "title": "appcompat-cacheparser",
+      "publisher": "",
+      "versionCount": 14
+    },
+    {
+      "id": "[DEPRECIATED] AppCompatCache parser",
+      "title": "appcompat-cacheparser",
+      "publisher": "",
+      "versionCount": 2
+    },
+    {
+      "id": "AppCompatCacheParser",
+      "title": "appcompat-cacheparser",
+      "publisher": "",
+      "versionCount": 4
+    },
+    {
+      "id": "AppCrashView",
+      "title": "appcrashview",
+      "publisher": "",
+      "versionCount": 4
+    },
+    {
+      "id": "AppFabric",
+      "title": "appfabric",
+      "publisher": "",
+      "versionCount": 1
+    },
+    {
+      "id": "AppFabric (Caching)",
+      "title": "appfabric.caching",
+      "publisher": "",
+      "versionCount": 1
+    },
+    {
+      "id": "AppHarbor CLI (Install)",
+      "title": "appharborcli.install",
+      "publisher": "",
+      "versionCount": 3
+    },
+    {
+      "id": "App Install Recorder PowerShell Scripts",
+      "title": "appinstallrecorder",
+      "publisher": "",
+      "versionCount": 2
+    },
+    {
+      "id": "Appium",
+      "title": "appium-desktop",
+      "publisher": "",
+      "versionCount": 16
+    },
+    {
+      "id": "Apple_Airport_Utility",
+      "title": "Apple_Airport_Utility",
+      "publisher": "",
+      "versionCount": 1
+    },
+    {
+      "id": "Applet Runner Pro",
+      "title": "applet-runner-pro",
+      "publisher": "",
+      "versionCount": 5
+    },
+    {
+      "id": "Microsoft Application Compatibility Toolkit",
+      "title": "applicationcompatibilitytoolkit",
+      "publisher": "",
+      "versionCount": 1
+    },
+    {
+      "id": "Apprenti-geometre",
+      "title": "apprenti-geometre",
+      "publisher": "",
+      "versionCount": 3
+    },
+    {
+      "id": "AppSwitcher",
+      "title": "appswitcher",
+      "publisher": "",
+      "versionCount": 1
+    },
+    {
+      "id": "Microsoft Application Verifier",
+      "title": "appverifier",
+      "publisher": "",
+      "versionCount": 1
+    },
+    {
+      "id": "AppVeyor Environment Variable Utilities",
+      "title": "appveyor-evu",
+      "publisher": "",
+      "versionCount": 1
+    },
+    {
+      "id": "AppVeyor Server (Community Edition)",
+      "title": "appveyor-server",
+      "publisher": "",
+      "versionCount": 5
+    },
+    {
+      "id": "AppVeyor Server (Team Edition)",
+      "title": "appveyor-server",
+      "publisher": "",
+      "versionCount": 10
+    },
+    {
+      "id": "AppVeyor Bring-Your-Own-Cloud/Computer (PowerShell Module)",
+      "title": "appveyorbyoc.powershell",
+      "publisher": "",
+      "versionCount": 37
+    },
+    {
+      "id": "AppV Manage",
+      "title": "appvmanage",
+      "publisher": "",
+      "versionCount": 2
+    },
+    {
+      "id": "AppvProvider",
+      "title": "appvprovider",
+      "publisher": "",
+      "versionCount": 1
+    },
+    {
+      "id": "Apricot",
+      "title": "Apricot",
+      "publisher": "",
+      "versionCount": 1
+    },
+    {
+      "id": "Aptana Studio",
+      "title": "aptana-studio",
+      "publisher": "",
+      "versionCount": 9
+    },
+    {
+      "id": "Aptos Binary",
+      "title": "aptos",
+      "publisher": "",
+      "versionCount": 29
+    },
+    {
+      "id": "Another Qt installer (aqt)",
+      "title": "aqt",
+      "publisher": "",
+      "versionCount": 23
+    },
+    {
+      "id": "Aqua",
+      "title": "aqua",
+      "publisher": "",
+      "versionCount": 64
+    },
+    {
+      "id": "AquaSnap",
+      "title": "AquaSnap",
+      "publisher": "",
+      "versionCount": 16
+    },
+    {
+      "id": "Aquila-WakeOnLAN (Install)",
+      "title": "Aquila-WakeOnLAN",
+      "publisher": "",
+      "versionCount": 1
+    },
+    {
+      "id": "araxismerge",
+      "title": "araxismerge",
+      "publisher": "",
+      "versionCount": 2
+    },
+    {
+      "id": "Araxis Merge",
+      "title": "araxismerge",
+      "publisher": "",
+      "versionCount": 40
+    },
+    {
+      "id": "Arcanist",
+      "title": "arcanist",
+      "publisher": "",
+      "versionCount": 4
+    },
+    {
+      "id": "ARC Facilities and Archive Sync",
+      "title": "ARCFacilitiesSync",
+      "publisher": "",
+      "versionCount": 5
+    },
+    {
+      "id": "Archi, The Free ArchiMate Modelling Tool",
+      "title": "Archi",
+      "publisher": "",
+      "versionCount": 12
+    },
+    {
+      "id": "archive",
+      "title": "archive",
+      "publisher": "",
+      "versionCount": 3
+    },
+    {
+      "id": "archiver",
+      "title": "archiver",
+      "publisher": "",
+      "versionCount": 4
+    },
+    {
+      "id": "Archivo Narrow Font",
+      "title": "archivo-narrow.font",
+      "publisher": "",
+      "versionCount": 1
+    },
+    {
+      "id": "ActiveReports Development Environment",
+      "title": "ardev",
+      "publisher": "",
+      "versionCount": 1
+    },
+    {
+      "id": "ActiveReports must-have dev tools",
+      "title": "ardev",
+      "publisher": "",
+      "versionCount": 2
+    },
+    {
+      "id": "Arduino IDE",
+      "title": "arduino",
+      "publisher": "",
+      "versionCount": 5
+    },
+    {
+      "id": "Arduino IDE (Install)",
+      "title": "arduino",
+      "publisher": "",
+      "versionCount": 29
+    },
+    {
+      "id": "Arduino Command Line Interface (CLI)",
+      "title": "arduino-cli",
+      "publisher": "",
+      "versionCount": 62
+    },
+    {
+      "id": "Arduino IDE (Portable)",
+      "title": "arduino.portable",
+      "publisher": "",
+      "versionCount": 2
+    },
+    {
+      "id": "[DEPRECATED] Arduino IDE",
+      "title": "arduinoide",
+      "publisher": "",
+      "versionCount": 1
+    },
+    {
+      "id": "Arduino IDE for Intel Galileo",
+      "title": "arduinoidegalileo",
+      "publisher": "",
+      "versionCount": 2
+    },
+    {
+      "id": "Areca Backup",
+      "title": "ArecaBackup",
+      "publisher": "",
+      "versionCount": 6
+    },
+    {
+      "id": "Ares Galaxy",
+      "title": "ares",
+      "publisher": "",
+      "versionCount": 11
+    },
+    {
+      "id": "argo-workflows (CLI)",
+      "title": "argo-workflows",
+      "publisher": "",
+      "versionCount": 5
+    },
+    {
+      "id": "Argo CD Autopilot",
+      "title": "argocd-autopilot",
+      "publisher": "",
+      "versionCount": 1
+    },
+    {
+      "id": "Argo CD CLI",
+      "title": "argocd-cli",
+      "publisher": "",
+      "versionCount": 135
+    },
+    {
+      "id": "ArgoUml",
+      "title": "argouml",
+      "publisher": "",
+      "versionCount": 1
+    },
+    {
+      "id": "Argyll CMS",
+      "title": "argyll",
+      "publisher": "",
+      "versionCount": 16
+    },
+    {
+      "id": "Aria2",
+      "title": "aria2",
+      "publisher": "",
+      "versionCount": 9
+    },
+    {
+      "id": "aria2",
+      "title": "aria2",
+      "publisher": "",
+      "versionCount": 20
+    },
+    {
+      "id": "Aria2 Client",
+      "title": "aria2",
+      "publisher": "",
+      "versionCount": 2
+    },
+    {
+      "id": "ark-vcs (zip)",
+      "title": "ark-vcs",
+      "publisher": "",
+      "versionCount": 1
+    },
+    {
+      "id": "ark-vcs",
+      "title": "ark-vcs",
+      "publisher": "",
+      "versionCount": 4
+    },
+    {
+      "id": "Arkade (Latest)",
+      "title": "arkade",
+      "publisher": "",
+      "versionCount": 97
+    },
+    {
+      "id": "Arkana CLI",
+      "title": "arkana",
+      "publisher": "",
+      "versionCount": 1
+    },
+    {
+      "id": "Armagetron Advanced",
+      "title": "armagetronad",
+      "publisher": "",
+      "versionCount": 3
+    },
+    {
+      "id": "ARMClient",
+      "title": "ARMClient",
+      "publisher": "",
+      "versionCount": 15
+    },
+    {
+      "id": "Armory Wallet",
+      "title": "armory",
+      "publisher": "",
+      "versionCount": 7
+    },
+    {
+      "id": "Armyknife",
+      "title": "armyknife",
+      "publisher": "",
+      "versionCount": 3
+    },
+    {
+      "id": "Arp-Scanner",
+      "title": "arp-scanner",
+      "publisher": "",
+      "versionCount": 5
+    },
+    {
+      "id": "Arq (Trial) (Install)",
+      "title": "arq",
+      "publisher": "",
+      "versionCount": 37
+    },
+    {
+      "id": "ArrowDL!",
+      "title": "arrowdl",
+      "publisher": "",
+      "versionCount": 2
+    },
+    {
+      "id": "ArrowDL",
+      "title": "arrowdl",
+      "publisher": "",
+      "versionCount": 7
+    },
+    {
+      "id": "Arsenal Image Mounter",
+      "title": "arsenalimagemounter",
+      "publisher": "",
+      "versionCount": 17
+    },
+    {
+      "id": "ART",
+      "title": "art",
+      "publisher": "",
+      "versionCount": 9
+    },
+    {
+      "id": "jFrog Artifactory OSS",
+      "title": "Artifactory",
+      "publisher": "",
+      "versionCount": 6
+    },
+    {
+      "id": "jFrog Artifactory Pro",
+      "title": "artifactory-pro",
+      "publisher": "",
+      "versionCount": 1
+    },
+    {
+      "id": "Artify",
+      "title": "artify",
+      "publisher": "",
+      "versionCount": 4
+    },
+    {
+      "id": "ArtMoney (Install)",
+      "title": "artmoney.install",
+      "publisher": "",
+      "versionCount": 1
+    },
+    {
+      "id": "ActiveReports extra dev tools",
+      "title": "artools",
+      "publisher": "",
+      "versionCount": 2
+    },
+    {
+      "id": "Aruba Networks Virtual Intranet Access Client",
+      "title": "aruba-networks-virtual-intranet-access-client",
+      "publisher": "",
+      "versionCount": 12
+    },
+    {
+      "id": "ArvanCloud CLI",
+      "title": "arvan",
+      "publisher": "",
+      "versionCount": 1
+    },
+    {
+      "id": "arxiv-collector",
+      "title": "arxiv-collector",
+      "publisher": "",
+      "versionCount": 1
+    },
+    {
+      "id": "AS SSD Benchmark",
+      "title": "as-ssd",
+      "publisher": "",
+      "versionCount": 11
+    },
+    {
+      "id": "Asana",
+      "title": "asana",
+      "publisher": "",
+      "versionCount": 14
+    },
+    {
+      "id": "asar7z (Install)",
+      "title": "asar7z",
+      "publisher": "",
+      "versionCount": 1
+    },
+    {
+      "id": "AsciidocFX - Asciidoc Book Editor based on JavaFX 8",
+      "title": "asciidocfx",
+      "publisher": "",
+      "versionCount": 15
+    },
+    {
+      "id": "AsciidocFX - Asciidoc Book Editor based on JavaFX 8 (Install)",
+      "title": "asciidocfx.install",
+      "publisher": "",
+      "versionCount": 15
+    },
+    {
+      "id": "AsciidocFX - Asciidoc Book Editor based on JavaFX 8 (Portable)",
+      "title": "asciidocfx.portable",
+      "publisher": "",
+      "versionCount": 16
+    },
+    {
+      "id": "AsciidoctorJ (Install)",
+      "title": "asciidoctorj",
+      "publisher": "",
+      "versionCount": 14
+    },
+    {
+      "id": "Ashampoo_AntiSpy",
+      "title": "ashampoo-antispy",
+      "publisher": "",
+      "versionCount": 1
+    },
+    {
+      "id": "ASIO4ALL (Install)",
+      "title": "asio4all",
+      "publisher": "",
+      "versionCount": 4
+    },
+    {
+      "id": "ASM6f",
+      "title": "asm6f",
+      "publisher": "",
+      "versionCount": 2
+    },
+    {
+      "id": "AsmSpy",
+      "title": "asmspy",
+      "publisher": "",
+      "versionCount": 4
+    },
+    {
+      "id": "ASN.1 Editor",
+      "title": "asn1editor",
+      "publisher": "",
+      "versionCount": 4
+    },
+    {
+      "id": "ASP.NET MVC Boilerplate",
+      "title": "asp-net-mvc-boilerplate",
+      "publisher": "",
+      "versionCount": 6
+    },
+    {
+      "id": "ASPEED Graphics Windows WHQL Driver (Install)",
+      "title": "aspeed-graphics-driver",
+      "publisher": "",
+      "versionCount": 1
+    },
+    {
+      "id": "ASP.NET Core 1.0 RC1",
+      "title": "aspnetcore",
+      "publisher": "",
+      "versionCount": 1
+    },
+    {
+      "id": "Microsoft ASP.NET Core 2.0 Runtime Package Store",
+      "title": "aspnetcore-2.0-runtimepackagestore",
+      "publisher": "",
+      "versionCount": 1
+    },
+    {
+      "id": "Microsoft ASP.NET Core Package Store",
+      "title": "aspnetcore-runtimepackagestore",
+      "publisher": "",
+      "versionCount": 92
+    },
+    {
+      "id": "aspnetmvc",
+      "title": "aspnetmvc",
+      "publisher": "",
+      "versionCount": 1
+    },
+    {
+      "id": "ASP.NET MVC",
+      "title": "aspnetmvc",
+      "publisher": "",
+      "versionCount": 4
+    },
+    {
+      "id": "ASP.NET MVC (Installation)",
+      "title": "aspnetmvc.install",
+      "publisher": "",
+      "versionCount": 4
+    },
+    {
+      "id": "ASRock 3TB+ Unlocker (Install)",
+      "title": "asrock-3tb-plus-unlocker",
+      "publisher": "",
+      "versionCount": 1
+    },
+    {
+      "id": "AssaultCube",
+      "title": "assaultcube",
+      "publisher": "",
+      "versionCount": 6
+    },
+    {
+      "id": "AssFilterMod",
+      "title": "assfiltermod",
+      "publisher": "",
+      "versionCount": 1
+    },
+    {
+      "id": "assistant-computer-control (Install)",
+      "title": "assistant-computer-control",
+      "publisher": "",
+      "versionCount": 2
+    },
+    {
+      "id": "astah* community",
+      "title": "astah",
+      "publisher": "",
+      "versionCount": 2
+    },
+    {
+      "id": "AsterWin IE",
+      "title": "asterie",
+      "publisher": "",
+      "versionCount": 1
+    },
+    {
+      "id": "Asteroids Freeware (Portable)",
+      "title": "asteroids",
+      "publisher": "",
+      "versionCount": 1
+    },
+    {
+      "id": "AstroGrep",
+      "title": "AstroGrep",
+      "publisher": "",
+      "versionCount": 7
+    },
+    {
+      "id": "AstroMenace (Install)",
+      "title": "astromenace",
+      "publisher": "",
+      "versionCount": 1
+    },
+    {
+      "id": "Artistic Style",
+      "title": "astyle",
+      "publisher": "",
+      "versionCount": 20
+    },
+    {
+      "id": "Asymptote",
+      "title": "asymptote",
+      "publisher": "",
+      "versionCount": 25
+    },
+    {
+      "id": "asyncapi-cli",
+      "title": "asyncapi",
+      "publisher": "",
+      "versionCount": 89
+    },
+    {
+      "id": "AT Term",
+      "title": "at-term",
+      "publisher": "",
+      "versionCount": 1
+    },
+    {
+      "id": "AlephTransfer CLI (Install)",
+      "title": "atcli",
+      "publisher": "",
+      "versionCount": 4
+    },
+    {
+      "id": "ATcmd of Advanced Training",
+      "title": "atcmd",
+      "publisher": "",
+      "versionCount": 1
+    },
+    {
+      "id": "Athens",
+      "title": "athens",
+      "publisher": "",
+      "versionCount": 1
+    },
+    {
+      "id": "Atheros Bluetooth Driver (Install)",
+      "title": "atheros-bluetooth-driver",
+      "publisher": "",
+      "versionCount": 2
+    },
+    {
+      "id": "Atkinson Hyperlegible (font)",
+      "title": "atkinson-hyperlegible",
+      "publisher": "",
+      "versionCount": 1
+    },
+    {
+      "id": "Atlassian Companion",
+      "title": "atlassian-companion",
+      "publisher": "",
+      "versionCount": 23
+    },
+    {
+      "id": "Atlassian Downloader (Portable)",
+      "title": "atlassian-downloader",
+      "publisher": "",
+      "versionCount": 11
+    },
+    {
+      "id": "Atlassian Plugin SDK",
+      "title": "atlassian-plugin-sdk",
+      "publisher": "",
+      "versionCount": 2
+    },
+    {
+      "id": "AtNow",
+      "title": "atnow",
+      "publisher": "",
+      "versionCount": 1
+    },
+    {
+      "id": "Atol DTO (Install)",
+      "title": "atol-dto",
+      "publisher": "",
+      "versionCount": 12
+    },
+    {
+      "id": "Atom",
+      "title": "Atom",
+      "publisher": "",
+      "versionCount": 190
+    },
+    {
+      "id": "Atom (Install)",
+      "title": "atom.install",
+      "publisher": "",
+      "versionCount": 19
+    },
+    {
+      "id": "Atom (Portable)",
+      "title": "atom.portable",
+      "publisher": "",
+      "versionCount": 19
+    },
+    {
+      "id": "AtomicParsley (Portable)",
+      "title": "atomicparsley",
+      "publisher": "",
+      "versionCount": 4
+    },
+    {
+      "id": "AtomicParsley - Wez Furlong fork (Portable)",
+      "title": "atomicparsley",
+      "publisher": "",
+      "versionCount": 1
+    },
+    {
+      "id": "Atraci",
+      "title": "atraci",
+      "publisher": "",
+      "versionCount": 3
+    },
+    {
+      "id": "att-rc - Automatic Translation Tools, RC/PO/POT/XLIFF formats",
+      "title": "att-rc",
+      "publisher": "",
+      "versionCount": 3
+    },
+    {
+      "id": "attractmode (Portable)",
+      "title": "attractmode.portable",
+      "publisher": "",
+      "versionCount": 1
+    },
+    {
+      "id": "Attribute Changer",
+      "title": "attributechanger",
+      "publisher": "",
+      "versionCount": 26
+    },
+    {
+      "id": "AttributeChanger",
+      "title": "attributechanger",
+      "publisher": "",
+      "versionCount": 11
+    },
+    {
+      "id": "aTube Catcher",
+      "title": "atubecatcher",
+      "publisher": "",
+      "versionCount": 18
+    },
+    {
+      "id": "aTube Catcher (Install)",
+      "title": "atubecatcher",
+      "publisher": "",
+      "versionCount": 3
+    },
+    {
+      "id": "Chocolatey Automatic Package Updater Module",
+      "title": "au",
+      "publisher": "",
+      "versionCount": 12
+    },
+    {
+      "id": "Automatic Chocolatey Package Update Powershell Module",
+      "title": "au",
+      "publisher": "",
+      "versionCount": 2
+    },
+    {
+      "id": "Auburn - Earnings Notifier (Install)",
+      "title": "auburn.install",
+      "publisher": "",
+      "versionCount": 4
+    },
+    {
+      "id": "Audacious",
+      "title": "audacious",
+      "publisher": "",
+      "versionCount": 20
+    },
+    {
+      "id": "Audacity",
+      "title": "audacity",
+      "publisher": "",
+      "versionCount": 48
+    },
+    {
+      "id": "FFmpeg for Audacity",
+      "title": "audacity-ffmpeg",
+      "publisher": "",
+      "versionCount": 4
+    },
+    {
+      "id": "LAME for Audacity",
+      "title": "audacity-lame",
+      "publisher": "",
+      "versionCount": 4
+    },
+    {
+      "id": "Audio Router",
+      "title": "audio-router",
+      "publisher": "",
+      "versionCount": 1
+    },
+    {
+      "id": "AudioBookConverter (Install)",
+      "title": "audiobookconverter",
+      "publisher": "",
+      "versionCount": 3
+    },
+    {
+      "id": "AudioBookConverter",
+      "title": "audiobookconverter",
+      "publisher": "",
+      "versionCount": 11
+    },
+    {
+      "id": "AudioConverter",
+      "title": "AudioConverter",
+      "publisher": "",
+      "versionCount": 1
+    },
+    {
+      "id": "AudioFlyout",
+      "title": "audioflyout",
+      "publisher": "",
+      "versionCount": 1
+    },
+    {
+      "id": "audioling",
+      "title": "audioling",
+      "publisher": "",
+      "versionCount": 1
+    },
+    {
+      "id": "AudioMoth Configuration App",
+      "title": "audiomoth-config",
+      "publisher": "",
+      "versionCount": 16
+    },
+    {
+      "id": "audiomoth-config (Install)",
+      "title": "audiomoth-config",
+      "publisher": "",
+      "versionCount": 1
+    },
+    {
+      "id": "AudioMoth Configuration App (Install)",
+      "title": "audiomoth-config",
+      "publisher": "",
+      "versionCount": 2
+    },
+    {
+      "id": "audiomoth-flash (Install)",
+      "title": "audiomoth-flash",
+      "publisher": "",
+      "versionCount": 1
+    },
+    {
+      "id": "AudioMoth Flash App (Install)",
+      "title": "audiomoth-flash",
+      "publisher": "",
+      "versionCount": 1
+    },
+    {
+      "id": "AudioMoth Flash App",
+      "title": "audiomoth-flash",
+      "publisher": "",
+      "versionCount": 7
+    },
+    {
+      "id": "AudioMoth GPS Sync App",
+      "title": "audiomoth-gps-sync",
+      "publisher": "",
+      "versionCount": 4
+    },
+    {
+      "id": "AudioMoth Live App",
+      "title": "audiomoth-live",
+      "publisher": "",
+      "versionCount": 4
+    },
+    {
+      "id": "audiomoth-time (Install)",
+      "title": "audiomoth-time",
+      "publisher": "",
+      "versionCount": 1
+    },
+    {
+      "id": "AudioMoth Time App (Install)",
+      "title": "audiomoth-time",
+      "publisher": "",
+      "versionCount": 1
+    },
+    {
+      "id": "AudioMoth Time App",
+      "title": "audiomoth-time",
+      "publisher": "",
+      "versionCount": 3
+    },
+    {
+      "id": "AudioMoth USB Microphone App",
+      "title": "audiomoth-usb",
+      "publisher": "",
+      "versionCount": 6
+    },
+    {
+      "id": "AudioRelay (Install)",
+      "title": "audiorelay",
+      "publisher": "",
+      "versionCount": 2
+    },
+    {
+      "id": "AudioShell (Install)",
+      "title": "audioshell",
+      "publisher": "",
+      "versionCount": 2
+    },
+    {
+      "id": "Audio Switcher",
+      "title": "audioswitcher",
+      "publisher": "",
+      "versionCount": 7
+    },
+    {
+      "id": "auditbeat",
+      "title": "auditbeat",
+      "publisher": "",
+      "versionCount": 44
+    },
+    {
+      "id": "auditbeat (Install)",
+      "title": "auditbeat.install",
+      "publisher": "",
+      "versionCount": 28
+    },
+    {
+      "id": "Aurora",
+      "title": "aurora-ir",
+      "publisher": "",
+      "versionCount": 2
+    },
+    {
+      "id": "Austin (Install)",
+      "title": "austin",
+      "publisher": "",
+      "versionCount": 16
+    },
+    {
+      "id": "AusweisApp 2",
+      "title": "AusweisApp2",
+      "publisher": "",
+      "versionCount": 20
+    },
+    {
+      "id": "AusweisApp2 (Install)",
+      "title": "AusweisApp2",
+      "publisher": "",
+      "versionCount": 11
+    },
+    {
+      "id": "autenticacao.gov.pt (Install)",
+      "title": "autenticacaogovpt",
+      "publisher": "",
+      "versionCount": 3
+    },
+    {
+      "id": "Authme - Simple 2FA Desktop Application",
+      "title": "authme",
+      "publisher": "",
+      "versionCount": 4
+    },
+    {
+      "id": "Authme (Install) - Simple 2FA Desktop Application",
+      "title": "authme.install",
+      "publisher": "",
+      "versionCount": 2
+    },
+    {
+      "id": "authpass",
+      "title": "authpass",
+      "publisher": "",
+      "versionCount": 15
+    },
+    {
+      "id": "Authy Desktop (Install)",
+      "title": "authy-desktop",
+      "publisher": "",
+      "versionCount": 26
+    },
+    {
+      "id": "Windows 10 Auto Dark Mode",
+      "title": "auto-dark-mode",
+      "publisher": "",
+      "versionCount": 13
+    },
+    {
+      "id": "AutoBootDisk (Install)",
+      "title": "autobootdisk",
+      "publisher": "",
+      "versionCount": 2
+    },
+    {
+      "id": "Autocad (64-bit)",
+      "title": "autocad",
+      "publisher": "",
+      "versionCount": 1
+    },
+    {
+      "id": "AutoCAD",
+      "title": "autocad",
+      "publisher": "",
+      "versionCount": 5
+    },
+    {
+      "id": "Autocad LT (64-bit)",
+      "title": "autocadlt",
+      "publisher": "",
+      "versionCount": 1
+    },
+    {
+      "id": "AutoCAD LT",
+      "title": "autocadlt",
+      "publisher": "",
+      "versionCount": 5
+    },
+    {
+      "id": "OP Auto Clicker",
+      "title": "autoclicker",
+      "publisher": "",
+      "versionCount": 2
+    },
+    {
+      "id": "Autocomplete",
+      "title": "autocomplete",
+      "publisher": "",
+      "versionCount": 1
+    },
+    {
+      "id": "Autodesk Fusion 360",
+      "title": "autodesk-fusion360",
+      "publisher": "",
+      "versionCount": 244
+    },
+    {
+      "id": "AutoFixture with auto mocking using Moq and Prig",
+      "title": "AutoFixture.AutoMoqPrig",
+      "publisher": "",
+      "versionCount": 1
+    },
+    {
+      "id": "AutoHotkey (Install)",
+      "title": "autohotkey",
+      "publisher": "",
+      "versionCount": 112
+    },
+    {
+      "id": "AutoHotkey",
+      "title": "autohotkey",
+      "publisher": "",
+      "versionCount": 84
+    },
+    {
+      "id": "AutoHotkey Compiler",
+      "title": "autohotkey-compiler",
+      "publisher": "",
+      "versionCount": 1
+    },
+    {
+      "id": "AutoHotkey (Portable)",
+      "title": "autohotkey.portable",
+      "publisher": "",
+      "versionCount": 177
+    },
+    {
+      "id": "AutoHotKey_L",
+      "title": "autohotkey_l",
+      "publisher": "",
+      "versionCount": 11
+    },
+    {
+      "id": "AutoHotkey_L",
+      "title": "autohotkey_l",
+      "publisher": "",
+      "versionCount": 2
+    },
+    {
+      "id": "AutoHotkey_L (Install)",
+      "title": "autohotkey_l",
+      "publisher": "",
+      "versionCount": 4
+    },
+    {
+      "id": "AutoHotKey_L (Install)",
+      "title": "autohotkey_l.install",
+      "publisher": "",
+      "versionCount": 5
+    },
+    {
+      "id": "AutoHotKey_L (Portable)",
+      "title": "autohotkey_l.portable",
+      "publisher": "",
+      "versionCount": 5
+    },
+    {
+      "id": "AutoHotkey_L (Portable)",
+      "title": "autohotkey_l.portable",
+      "publisher": "",
+      "versionCount": 4
+    },
+    {
+      "id": "AutoIT",
+      "title": "autoit",
+      "publisher": "",
+      "versionCount": 9
+    },
+    {
+      "id": "AutoIt",
+      "title": "autoit",
+      "publisher": "",
+      "versionCount": 6
+    },
+    {
+      "id": "AutoIT (commandline, portable)",
+      "title": "autoit.commandline",
+      "publisher": "",
+      "versionCount": 5
+    },
+    {
+      "id": "AutoIT.commandline",
+      "title": "autoit.commandline",
+      "publisher": "",
+      "versionCount": 2
+    },
+    {
+      "id": "AutoIt (Install)",
+      "title": "autoit.install",
+      "publisher": "",
+      "versionCount": 6
+    },
+    {
+      "id": "AutoIT (Portable)",
+      "title": "autoit.portable",
+      "publisher": "",
+      "versionCount": 7
+    },
+    {
+      "id": "Autologon",
+      "title": "autologon",
+      "publisher": "",
+      "versionCount": 3
+    },
+    {
+      "id": "automatedlab (Install)",
+      "title": "automatedlab",
+      "publisher": "",
+      "versionCount": 2
+    },
+    {
+      "id": "Automation Spy",
+      "title": "automation-spy",
+      "publisher": "",
+      "versionCount": 1
+    },
+    {
+      "id": "Automise (Install)",
+      "title": "automise",
+      "publisher": "",
+      "versionCount": 57
+    },
+    {
+      "id": "Automise Runner (Install)",
+      "title": "automiserunner",
+      "publisher": "",
+      "versionCount": 49
+    },
+    {
+      "id": "Automise Run-time (Install)",
+      "title": "automiseruntime",
+      "publisher": "",
+      "versionCount": 50
+    },
+    {
+      "id": "Auto Mouse Click",
+      "title": "automouseclick",
+      "publisher": "",
+      "versionCount": 360
+    },
+    {
+      "id": "Autopsy\u00ae",
+      "title": "autopsy",
+      "publisher": "",
+      "versionCount": 13
+    },
+    {
+      "id": "AutoRest",
+      "title": "AutoRest",
+      "publisher": "",
+      "versionCount": 10
+    },
+    {
+      "id": "Autorunner",
+      "title": "autorunner",
+      "publisher": "",
+      "versionCount": 2
+    },
+    {
+      "id": "AutoRuns",
+      "title": "AutoRuns",
+      "publisher": "",
+      "versionCount": 8
+    },
+    {
+      "id": "Autoruns",
+      "title": "AutoRuns",
+      "publisher": "",
+      "versionCount": 29
+    },
+    {
+      "id": "Auto Screenshot (Install)",
+      "title": "autoscreenshot",
+      "publisher": "",
+      "versionCount": 1
+    },
+    {
+      "id": "Auto Screenshot (Portable)",
+      "title": "autoscreenshot.portable",
+      "publisher": "",
+      "versionCount": 1
+    },
+    {
+      "id": "AutoVer",
+      "title": "autover",
+      "publisher": "",
+      "versionCount": 2
+    },
+    {
+      "id": "Auxil Excel Add-In",
+      "title": "auxil-excel-add-in",
+      "publisher": "",
+      "versionCount": 3
+    },
+    {
+      "id": "Avast Internet Security (Trial)",
+      "title": "avast-is-trial",
+      "publisher": "",
+      "versionCount": 1
+    },
+    {
+      "id": "Avast Premier (Trial)",
+      "title": "avast-premier-trial",
+      "publisher": "",
+      "versionCount": 1
+    },
+    {
+      "id": "Avast Pro Antivirus (Trial)",
+      "title": "avast-pro-trial",
+      "publisher": "",
+      "versionCount": 1
+    },
+    {
+      "id": "avast! Browser Cleanup",
+      "title": "avastbrowsercleanup",
+      "publisher": "",
+      "versionCount": 4
+    },
+    {
+      "id": "Avast Free Antivirus (Install)",
+      "title": "avastfreeantivirus",
+      "publisher": "",
+      "versionCount": 48
+    },
+    {
+      "id": "Avast Free Antivirus",
+      "title": "avastfreeantivirus",
+      "publisher": "",
+      "versionCount": 10
+    }
+  ]
+}
