@@ -1,0 +1,127 @@
+name: Generate Package Embeddings
+
+# Trigger when a new package index release is published
+on:
+  release:
+    types: [published]
+  workflow_dispatch:  # Allow manual triggering
+
+jobs:
+  generate-embeddings:
+    # Only run for package-index releases
+    if: startsWith(github.event.release.tag_name, 'package-index-')
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+          cache: 'pip'
+
+      - name: Install dependencies
+        run: |
+          pip install -r package-index/generator/requirements-embeddings.txt
+
+      - name: Generate embeddings
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_OWNER: ${{ github.repository_owner }}
+          GITHUB_REPO: ${{ github.event.repository.name }}
+          OUTPUT_DIR: ./embeddings-output
+        run: |
+          mkdir -p embeddings-output
+          python package-index/generator/scraper_embeddings.py
+
+      - name: Upload embeddings to release
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          # Get the release ID
+          RELEASE_ID=$(curl -s -H "Authorization: Bearer $GITHUB_TOKEN" \
+            "https://api.github.com/repos/${{ github.repository }}/releases/tags/${{ github.event.release.tag_name }}" \
+            | jq -r '.id')
+
+          echo "Uploading embeddings to release ID: $RELEASE_ID"
+
+          # Upload all embedding files
+          for file in embeddings-output/*-embeddings*; do
+            if [ -f "$file" ]; then
+              filename=$(basename "$file")
+              echo "Uploading $filename..."
+
+              # Determine content type
+              case "$filename" in
+                *.json.gz) content_type="application/gzip" ;;
+                *.json) content_type="application/json" ;;
+                *.pkl) content_type="application/octet-stream" ;;
+                *.npy) content_type="application/octet-stream" ;;
+                *) content_type="application/octet-stream" ;;
+              esac
+
+              curl -X POST \
+                -H "Authorization: Bearer $GITHUB_TOKEN" \
+                -H "Content-Type: $content_type" \
+                --data-binary @"$file" \
+                "https://uploads.github.com/repos/${{ github.repository }}/releases/$RELEASE_ID/assets?name=$filename"
+            fi
+          done
+
+          echo "All embeddings uploaded successfully!"
+
+      - name: Update release notes
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          # Get current release body
+          CURRENT_BODY=$(curl -s -H "Authorization: Bearer $GITHUB_TOKEN" \
+            "https://api.github.com/repos/${{ github.repository }}/releases/tags/${{ github.event.release.tag_name }}" \
+            | jq -r '.body')
+
+          # Append embeddings info
+          NEW_BODY="$CURRENT_BODY
+
+---
+
+### 🤖 Embeddings Index (AI-Powered Search)
+
+**Model**: Gemma (MiniLM-L6-v2)
+**Embedding Dimensions**: 384
+
+The embeddings enable offline semantic search within SAVVY. Download the embedding files below to use AI-powered package discovery.
+
+**Chocolatey Embeddings:**
+- [choco-embeddings.json.gz](https://github.com/${{ github.repository }}/releases/download/${{ github.event.release.tag_name }}/choco-embeddings.json.gz) (recommended)
+- [choco-embeddings.npy](https://github.com/${{ github.repository }}/releases/download/${{ github.event.release.tag_name }}/choco-embeddings.npy) (NumPy array)
+- [choco-embeddings.pkl](https://github.com/${{ github.repository }}/releases/download/${{ github.event.release.tag_name }}/choco-embeddings.pkl) (Python pickle)
+- [choco-embeddings-metadata.json.gz](https://github.com/${{ github.repository }}/releases/download/${{ github.event.release.tag_name }}/choco-embeddings-metadata.json.gz) (metadata only)
+
+**Winget Embeddings:**
+- [winget-embeddings.json.gz](https://github.com/${{ github.repository }}/releases/download/${{ github.event.release.tag_name }}/winget-embeddings.json.gz) (recommended)
+- [winget-embeddings.npy](https://github.com/${{ github.repository }}/releases/download/${{ github.event.release.tag_name }}/winget-embeddings.npy) (NumPy array)
+- [winget-embeddings.pkl](https://github.com/${{ github.repository }}/releases/download/${{ github.event.release.tag_name }}/winget-embeddings.pkl) (Python pickle)
+- [winget-embeddings-metadata.json.gz](https://github.com/${{ github.repository }}/releases/download/${{ github.event.release.tag_name }}/winget-embeddings-metadata.json.gz) (metadata only)
+
+**Combined Metadata:**
+- [embeddings-metadata.json](https://github.com/${{ github.repository }}/releases/download/${{ github.event.release.tag_name }}/embeddings-metadata.json)
+
+Generated automatically by GitHub Actions 🚀"
+
+          # Update release
+          curl -X PATCH \
+            -H "Authorization: Bearer $GITHUB_TOKEN" \
+            -H "Content-Type: application/json" \
+            -d "$(jq -n --arg body "$NEW_BODY" '{body: $body}')" \
+            "https://api.github.com/repos/${{ github.repository }}/releases/tags/${{ github.event.release.tag_name }}"
+
+      - name: Summary
+        run: |
+          echo "## Embeddings Generation Complete! 🎉" >> $GITHUB_STEP_SUMMARY
+          echo "" >> $GITHUB_STEP_SUMMARY
+          echo "Embeddings have been generated and uploaded to the release." >> $GITHUB_STEP_SUMMARY
+          echo "" >> $GITHUB_STEP_SUMMARY
+          echo "### Files Generated:" >> $GITHUB_STEP_SUMMARY
+          ls -lh embeddings-output/ >> $GITHUB_STEP_SUMMARY

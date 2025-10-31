@@ -1,0 +1,89 @@
+version: '3.8'
+
+services:
+  # Nexus Repository Manager - Mirrors Chocolatey
+  nexus:
+    image: sonatype/nexus3:latest
+    container_name: savvy-nexus
+    ports:
+      - "8081:8081"  # Nexus web UI and API
+    volumes:
+      - nexus-data:/nexus-data
+    environment:
+      - INSTALL4J_ADD_VM_PARAMS=-Xms512m -Xmx1024m -XX:MaxDirectMemorySize=1024m
+    restart: unless-stopped
+    networks:
+      - savvy-network
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:8081/"]
+      interval: 30s
+      timeout: 10s
+      retries: 5
+      start_period: 120s
+
+  # Scraper - Gets data from Nexus instead of Chocolatey API (Chocolatey only)
+  scraper:
+    build:
+      context: ..
+      dockerfile: docker/Dockerfile.nexus
+    container_name: savvy-package-index-scraper
+    environment:
+      - GITHUB_TOKEN=${GITHUB_TOKEN}
+      - GITHUB_OWNER=${GITHUB_OWNER:-trevorjbennett}
+      - GITHUB_REPO=${GITHUB_REPO:-savvy_systems}
+      - NEXUS_URL=http://nexus:8081/repository/chocolatey-proxy/
+    volumes:
+      - ./logs:/app/logs
+    depends_on:
+      nexus:
+        condition: service_healthy
+    restart: "no"
+    networks:
+      - savvy-network
+
+  # Unified Scraper - Gets data from both Nexus (Chocolatey) and GitHub (Winget)
+  scraper-unified:
+    build:
+      context: ..
+      dockerfile: docker/Dockerfile.unified
+    container_name: savvy-package-index-scraper-unified
+    environment:
+      - GITHUB_TOKEN=${GITHUB_TOKEN}
+      - GITHUB_OWNER=${GITHUB_OWNER:-trevorjbennett}
+      - GITHUB_REPO=${GITHUB_REPO:-savvy_systems}
+      - NEXUS_URL=http://nexus:8081/repository/chocolatey-proxy/
+    volumes:
+      - ./logs:/app/logs
+    depends_on:
+      nexus:
+        condition: service_healthy
+    restart: "no"
+    networks:
+      - savvy-network
+
+  # Scheduler - Runs unified scraper daily at 2 AM
+  scheduler:
+    image: mcuadros/ofelia:latest
+    container_name: savvy-package-index-scheduler
+    depends_on:
+      - scraper-unified
+    command: daemon --docker
+    volumes:
+      - /var/run/docker.sock:/var/run/docker.sock:ro
+    labels:
+      ofelia.enabled: "true"
+      # Run daily at 2 AM UTC
+      ofelia.job-exec.scraper-job.schedule: "0 0 2 * * *"
+      ofelia.job-exec.scraper-job.container: "savvy-package-index-scraper-unified"
+      ofelia.job-exec.scraper-job.no-overlap: "true"
+    restart: unless-stopped
+    networks:
+      - savvy-network
+
+volumes:
+  nexus-data:
+    driver: local
+
+networks:
+  savvy-network:
+    driver: bridge
